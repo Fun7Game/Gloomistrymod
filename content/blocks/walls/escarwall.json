@@ -1,0 +1,14 @@
+{
+ "name": "Escar wall", 
+ "description": "protects buildings from enemy projectiles, absorbs lasers and laser beams, reflects projectiles.",
+ "type": "Wall",
+   "absorbLasers": true,
+    "chanceDeflect": 50,
+    "health": 450,
+    "size": 1,
+    category: defense
+requirements: [
+  escar/6
+]
+"research": "kianitwall"
+}

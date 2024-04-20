@@ -1,0 +1,26 @@
+{	
+  "name": "Filter",
+  "description": "Сleans corruption water from infection.",
+  "type": "GenericCrafter",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquid": true,
+ "ambientSound": "bioLoop",
+ "ambientSoundVolume": 0.25,
+	"liquidCapacity": 25,
+	"itemCapacity": 0,
+	"consumes": {
+   "power": 0.25,
+    "liquid": "corruptionwater/0.26666666666666"
+  },	
+	"requirements": [
+        "kianit/40",
+        "tin/20",
+        "glass/15",
+        "escar/5"
+	],
+	"category": "crafting",
+	"outputLiquid": "water/0.05",
+ "research": "glassklin"
+}

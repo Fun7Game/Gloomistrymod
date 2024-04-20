@@ -1,0 +1,20 @@
+type: LiquidBridge
+name: Kianit bridge conduit
+description: Moves liquids over areas or buildings.
+liquidCapacity: 25
+hasPower: false
+range: 4
+requirements: [
+  kianit/6
+  glass/2
+]
+category: liquid
+research: {
+    parent: kianitliquidrouter
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "thelandingsite"
+        }
+    ]
+},

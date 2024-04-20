@@ -1,0 +1,22 @@
+{
+  "type": "SolarGenerator",
+  "name": "Flint panel",
+  "description": "Provides a small amount of power from the sun.",
+  "health": 40,
+  "size": 1,
+  "hasPower": true,
+  "hasLiquids": false,
+  "powerProduction": 0.1501,
+  "requirements": [
+    {
+      "item": "tin",
+      "amount": 15
+    },
+    {
+      "item": "flint",
+      "amount": 12
+    },
+  ],
+  "category": "power",
+  "research": "core-ottite"
+}

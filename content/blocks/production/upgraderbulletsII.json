@@ -1,0 +1,74 @@
+{
+"name": "Improver bullets II",
+"description": "Upgraded Bullet II with some souls.",
+"type": "GenericCrafter",
+"hasItems": true,
+"hasLiquid": false,
+"health": 560,
+"hasPower": true,
+"itemCapacity": 20,
+"liquidCapacity": 0,
+ "ambientSound": "cutter",
+ "ambientSoundVolume": 0.5,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawArcSmelt"
+      }
+    ]
+  },
+  "fogRadius": 3,
+"size": 3,
+"craftTime": 120,
+"updateEffect": "none",
+"craftEffect": {
+              type: ParticleEffect
+              particles: 8
+              lifetime: 32
+              length: 26
+              sizeFrom: 5
+              sizeTo: 1
+              colorFrom: A39A2CFF
+              colorTo: 847D2Cff
+              interp: pow2Out
+              spin: 4
+              sizeInterp: pow2In
+              region: gloomustry-star
+},
+	"consumes": {
+  "power": 6,
+			"items": [
+               "bullet-II/1",
+               "soulofvictory/1",
+               "soulofcriminal/1",
+     ]
+	},
+	"requirements": [
+        "kianit/200",
+        "tin/175",
+        "escar/100",
+        "amethyst/95",
+        "alganite/45",
+        "soulofvictory/15",
+        "soulofexcitement/15"
+	],
+	"category": "crafting",
+	"outputItem": "bullet-III/1",
+"research": {
+"parent": "upgraderbulletsI"
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "north"
+        }
+    ]
+}
+}

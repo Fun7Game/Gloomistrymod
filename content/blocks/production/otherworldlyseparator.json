@@ -1,0 +1,94 @@
+{
+  "type": "Separator",
+  "name": "Otherworldly separator",
+  "description": "It charges ordinary souls with some otherworldly powers, giving out one of the four souls in response. It requires oxygen to work.",
+  "size": 3,
+  "health": 560,
+  "hasPower": true,
+  "solid": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "liquidCapacity": 45,
+  "itemCapacity": 20,
+  "craftTime": 120,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+{
+     "type": "DrawDefault" 
+},
+{
+    "type": "DrawGlowRegion",
+    "suffix": "-top1", 
+    "glowScale": 6,
+    "color": "DB6C1DFF"
+},
+{
+    "type": "DrawGlowRegion",
+    "suffix": "-top2", 
+    "glowScale": 13,
+    "color": "693D3DFF"
+},
+{
+    "type": "DrawGlowRegion",
+    "suffix": "-top3", 
+    "glowScale": 13,
+    "color": "52359AFF"
+},
+{
+    "type": "DrawGlowRegion",
+    "suffix": "-top4", 
+    "glowScale": 13,
+    "color": "DCD571FF"
+},
+{
+    "type": "DrawGlowRegion",
+    "suffix": "-top5", 
+    "glowScale": 13,
+    "color": "5DB864FF"
+}
+]
+},
+"consumes": {
+"power": 5.5,
+"liquid": {
+"liquid": "oxygen",
+"amount": 0.2
+},
+"items": {
+"items": [
+{
+"item": "ordinarysoul",
+"amount": 1
+}
+]
+}
+},
+  "requirements": [
+    kianit/175
+    tin/150
+    escar/95
+    amethyst/75
+    alganite/45
+  ],
+  "results": [
+    {
+      "item": "soulofvictory",
+      "amount": 6
+    },
+    {
+      "item": "soulofdefeat",
+      "amount": 6
+    },
+    {
+      "item": "soulofexcitement",
+      "amount": 6
+    },
+    {
+      "item": "soulofcriminal",
+      "amount": 6
+    }
+  ],
+  "category": "crafting",
+  "research": "otherworldlyextractor"
+}

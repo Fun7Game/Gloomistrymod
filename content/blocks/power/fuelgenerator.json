@@ -1,0 +1,51 @@
+type: ConsumeGenerator
+name: Fuel generator
+description: It produces a large amount of energy from the ultragenion, requires water as a stabilizer.
+size: 3
+health: 850 
+hasLiquids: true
+hasItems: false
+liquidCapacity: 35
+itemCapacity: 0
+"drawer": {
+  "type": "DrawMulti",
+        "drawers": [
+        {
+       "type": "DrawRegion",
+       "suffix": "-bottom"
+	   },
+        {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "ultragenion",
+        "suffix": "-liquid"
+        },
+        {
+          "type": "DrawDefault"
+       },
+        ]
+      }
+consumes: {
+    "liquids": [
+    ultragenion/0.1
+    water/0.2
+    ]
+}
+powerProduction: 25.833335
+category: power
+requirements: [
+  kianit/200
+  tin/200
+  flint/125
+  escar/100
+  soulofvictory/12
+  soulofdefeat/12
+]
+research: {
+  parent: peatgenerator
+     objectives: [
+          {
+              type: "SectorComplete",
+              preset: "enemybaseziraund"
+          }
+      ]
+  }

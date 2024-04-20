@@ -1,0 +1,75 @@
+{
+  "type": "PowerTurret",
+  "name": "PG-4",
+  "description": "Shoots piercing lasers at long range. [yellow]/IINNTR/ good for destroying a swarm of weak units due to pierce.",
+  "health": 775,
+  "outlineRadius": 0,
+  "reload": 135,
+  "shootSound": "gloomustrymodlasershoot",
+  "range": 480,
+  "size": 2,
+"consumes": { 
+  "power": 4.666666,
+    "coolant": { 
+       "amount": 0.2
+    } 
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "firstShotDelay": 40,
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 7.5
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+ "shootType": {
+ "speed": 18,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "frontColor": 400707FF,
+      "backColor": 400707FF,
+      "width": 6,
+      "damage": 95,
+      "lifetime": 30,
+      "height": 24,
+      "pierce": true,
+      "buildingDamageMultiplier": 0.25
+}
+  "requirements": [
+    {
+      "item": "kianit",
+      "amount": 95
+    },
+    {
+      "item": "tin",
+      "amount": 75
+    },
+    {
+      "item": "escar",
+      "amount": 50
+    },
+    {
+      "item": "flint",
+      "amount": 40
+    }
+  ],
+  coolantMultiplier: 3.125,
+ "category": "turret",
+ research: {
+    parent: splaing
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "thelandingsite"
+        }
+    ]
+},
+  "researchCost": [
+  kianit/1200
+  tin/700
+  escar/600
+  flint/300
+]
+}

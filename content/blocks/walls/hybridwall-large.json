@@ -1,0 +1,21 @@
+{
+ "name": "Hybrid wall large", 
+ "description": "protects buildings from enemy projectiles, absorbs lasers and laser beams. Has a shield. Best wall in the mod.",
+ "type": "shieldWall",
+   "buildCostMultiplier": 4.2,
+   "absorbLasers": true,
+    "health": 8300,
+  "hasPower": true
+  "conductivePower": true
+  "consumes": {
+  "power": 0.2
+    }
+    "size": 2,
+    "shieldHealth": 800,
+    category: defense
+requirements: [
+  upgradedescar/24
+  delvangium/24
+]
+"research": "hybridwall"
+}

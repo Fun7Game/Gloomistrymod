@@ -1,0 +1,28 @@
+{
+  "type": "PowerNode",
+  "name": "Large flint node",
+  "description": "Transfers energy to other flint nodes or blocks.",
+  "size": 2,
+  "health": 160,
+  "laserRange": 20,
+  "laserColor1": "439092FF",
+  "laserColor2": "2E5B5CFF",
+  "maxNodes": 15,
+  "hasPower": true,
+  "placeableLiquid": "false",
+  "category": "power",
+  "requirements": [
+    { "item": "kianit", "amount": 20},
+    { "item": "tin", "amount": 16},
+    { "item": "flint", "amount": 10}
+  ],
+"research": {
+parent: flintnode
+   objectives: [
+        {
+            type: "SectorComplete",
+            preset: "gingerfield"
+        }
+    ]
+}
+}

@@ -1,0 +1,19 @@
+{
+  "type": "PowerNode",
+  "name": "Flint node",
+  "description": "Transfers energy to other flint nodes or blocks.",
+  "size": 1,
+  "health": 40,
+  "laserRange": 8,
+  "laserColor1": "439092FF",
+  "laserColor2": "2E5B5CFF",
+  "maxNodes": 10,
+  "hasPower": true,
+  "placeableLiquid": "false",
+  "category": "power",
+  "requirements": [
+    { "item": "kianit", "amount": 5},
+    { "item": "flint", "amount": 2}
+  ],
+"research": "flintpanel"
+}

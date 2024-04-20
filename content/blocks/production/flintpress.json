@@ -1,0 +1,45 @@
+{	
+  "name": "Flint press",
+  "description": "It produces flint from peat, does not require energy.",
+  "type": "GenericCrafter",
+	"size": 2,
+	"hasPower": false,
+	"hasItems": true,
+	"hasLiquid": false,
+	"liquidCapacity": 0,
+	"itemCapacity": 10,
+	"craftTime": 90,
+  "craftEffect": {
+              type: ParticleEffect
+              particles: 3
+              lifetime: 25
+              length: 10
+              sizeFrom: 4
+              sizeTo: 0
+              colorFrom: 3CA370FF
+              colorTo: 3D6E70FF
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: gloomustry-star
+}
+  "updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+               "peat/2",
+			]
+	},
+	},
+	"requirements": [
+        "kianit/65",
+        "tin/40"
+	],
+	"category": "crafting",
+	"outputItem": "flint/1",
+ "research": "manufacturerbulletsI"
+ "researchCost": [
+kianit/750
+tin/350
+]
+}

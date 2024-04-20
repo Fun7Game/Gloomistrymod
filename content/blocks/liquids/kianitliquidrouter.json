@@ -1,0 +1,13 @@
+name: Kianit liquid routet
+description: Distributes liquids evenly in three incoming directions.
+type: LiquidRouter
+health: 40
+liquidCapacity: 20
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  kianit/4
+  glass/2
+]
+research: kianitliquidjunction

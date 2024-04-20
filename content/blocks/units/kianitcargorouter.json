@@ -1,0 +1,13 @@
+name: Kianit cargo router
+description: Divides incoming units and blocks into 3 output directions.
+type: PayloadRouter
+size: 3
+moveTime: 50
+moveForce: 120
+payloadLimit: 3
+category: units
+requirements: [
+  kianit/25
+  tin/20
+]
+research: kianitcargoconveyor

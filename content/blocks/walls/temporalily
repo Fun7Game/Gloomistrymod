@@ -1,0 +1,12 @@
+{
+ "localizedName": "big cock", 
+ "description": "специально для тебя, амплде",
+ "type": "Wall",
+    "health": 1,
+    "size": 2,
+    category: defense
+requirements: [
+  amethyst/6666666
+]
+"research": ""
+}

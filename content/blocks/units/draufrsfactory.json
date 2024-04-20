@@ -1,0 +1,34 @@
+{
+"name": "Draufrs factory",
+"description": "Produces support units -Draufr-",
+"type": "UnitFactory",
+"size": 3,
+"consumes": {
+"power": 3.5
+},
+"plans": [
+{
+    "unit": "draufr-t1",
+    	"requirements": [
+		{"item": "escar", "amount": 20},
+		{"item": "alganite", "amount": 12},
+     ]
+  "time": 1800
+  }
+  ],
+   "requirements": [
+	{"item": "kianit", "amount": 150},
+	{"item": "tin", "amount": 125},
+	{"item": "escar", "amount": 85}
+],
+"category": "units",
+"research": {
+parent: TechTree-UnitsCategory
+ objectives: [
+        {
+            type: "SectorComplete",
+            preset: "corruptioncliffs"
+        }
+    ]
+}
+}

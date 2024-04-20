@@ -1,0 +1,56 @@
+{
+"name": "Hallow liquid mixer",
+"type": "GenericCrafter",
+  "description": "Mixes water and amethysts into a hallow liquid.",
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 120,
+  "craftEffect": "none",
+  "drawer": {
+  "type": "DrawMulti",
+        "drawers": [
+        {
+       "type": "DrawRegion",
+       "suffix": "-bottom"
+	   },
+        {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "hallowliquid",
+        "suffix": "-liquid"
+        },
+        {	
+        "type": "DrawDefault"
+	  }
+    ]
+    },
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 25,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 2,
+    "items": [
+      "amethyst/2"
+    ],
+    "liquids": [
+    "water/0.20"
+    ]
+  },
+  "requirements": [
+    "kianit/50",
+    "tin/40",
+    "escar/25",
+    "amethyst/10"
+  ],
+  "category": "crafting",
+  "outputLiquid": "hallowliquid/0.20",
+  "research": {
+parent: glassklin
+ objectives: [
+        {
+            type: "OnSector",
+            preset: "corruptioncliffs"
+        }
+    ]
+}
+}

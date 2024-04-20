@@ -1,0 +1,24 @@
+{
+	"type": "battery",
+	"name": "Flint battery",
+  "description": "Accumulates energy during excess, removes energy during times of deficiency.",
+	"size": 2,
+  "fullLightColor": "439092FF",
+	"emptyLightColor": "326364FF",
+	"category": "power",
+	"requirements": [
+		{"item": "kianit", "amount": 25},
+		{"item": "tin", "amount": 25},
+		{"item": "flint", "amount": 15}
+	],
+	"consumes": { "powerBuffered": 2750 },
+	"research": {
+ parent: flintpanel
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "pacification"
+        }
+    ]
+}
+}
