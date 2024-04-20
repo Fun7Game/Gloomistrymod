@@ -1,0 +1,14 @@
+type: Router 
+name: Kianit router
+description: Distributes items evenly in 3 directions.
+details: router router
+health: 40
+itemCapacity: 5
+requirements: [
+  kianit/4
+] 
+category: distribution
+research: kianitjunction
+researchCost: [
+kianit/50
+]   

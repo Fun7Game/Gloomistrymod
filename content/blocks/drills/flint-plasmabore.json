@@ -1,0 +1,31 @@
+  "type": "BeamDrill",
+  "name": "Flint plasma-bore",
+  "description": "It extracts ore from the wall, requiring a small amount of energy.",
+  "size": 2,
+  "optionalBoostIntensity": 2,
+  "boostHeatColor": 63EA4EFF,
+  "laserColor": 439092FF,
+  "heatColor": 439092FF,
+  "glowColor": 439092FF,
+  "sparkColor": 439092FF,
+  "heatPulse": 7.5
+  "requirements": [
+    "kianit/25",
+    "tin/20",
+    "flint/10"
+  ],
+  "tier": 3,
+  "range": 5,
+  "drillTime": 120,
+  "fogRadius": 2,
+  "consumes": {
+    "power": 0.33333335,
+    "liquid": {
+      "liquid": "oxygen",
+      "amount": 0.033333,
+      "optional": true,
+      "booster": true
+    }
+  }
+category: production
+research: kianitdrill

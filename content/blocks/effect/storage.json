@@ -1,0 +1,17 @@
+{
+"name": "Storage",
+"description": "Stores a large number of resources. does not increase the capacity of the core.",
+"type": "StorageBlock",
+"size": 2,
+"health": 280,
+"coreMerge": false,
+"itemCapacity": 450,
+"research": "itemunload",
+"category": "effect",
+"requirements": [
+  "kianit/100",
+  "tin/100",
+  "escar/35",
+  "alganite/20"
+]
+}

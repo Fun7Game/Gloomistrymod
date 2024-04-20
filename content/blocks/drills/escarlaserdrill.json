@@ -1,0 +1,49 @@
+{
+  "name": "Escar laser drill",
+  "description": "It extracts resources faster than a kianit drill, but requires energy. It is capable of extracting amethyst.",
+  "type": "Drill",
+  "size": 3,
+  "tier": 4,
+  "hasPower": true,
+  "liquidBoostIntensity": 1.45,
+  "itemCapacity": 20,
+  "drillTime": 120,
+  "drawMineItem": true,
+  "consumes": {
+    "power": 1.75,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.1,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    { 
+      "item": "kianit"
+      "amount": 75
+    }
+    { 
+      "item": "tin"
+      "amount": 75
+    }
+    { 
+      "item": "escar"
+      "amount": 40
+    }
+    { 
+      "item": "flint"
+      "amount": 30
+    }
+  ],
+  "category": "production",
+  "research": {
+parent: kianitdrill
+   objectives: [
+        {
+            type: "OnSector",
+            preset: "gingerfield"
+        }
+    ]
+}
+}

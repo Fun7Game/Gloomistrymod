@@ -1,0 +1,24 @@
+"name": "Core: «Pirceptite»",
+  "description": "The third tier of the core. It is very armored and stores quite a lot of resources in itself.",
+ "type": "CoreBlock",
+	"health": 19500,
+	"size": 6,
+	"absorbLasers": true,
+  "armor": 10,
+	"itemCapacity": 9000,
+  "thrusterLength": 11.5,
+	"unitCapModifier": 20,
+    "unitType": "requirnon",
+requirements: [
+  kianit/4500
+  tin/4500
+  escar/2750
+  amethyst/1250
+  soulofvictory/425
+  soulofdefeat/425
+  upgradedescar/750
+  delvangium/325
+]
+  "category": "effect",
+   research: core-quantite
+   researchCostMultiplier: 0.5

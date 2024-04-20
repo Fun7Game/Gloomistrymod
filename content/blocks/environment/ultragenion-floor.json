@@ -1,0 +1,16 @@
+{
+"name": "Ultragenion",
+"type": "floor",
+"speedMultiplier": 0.2,
+"drownTime": 900
+"effect": "inultragenion!",
+"variants": 0,
+"status": "inultragenion!",
+"statusDuration": 480,
+"cacheLayer": "water",
+"color": "6A3C48FF",
+"albedo": 0.50,
+"isLiquid": true,
+"liquidDrop": "ultragenion",
+"liquidMultiplier": 0.25
+}

@@ -1,0 +1,6 @@
+{
+"name": "Floor damaged",
+"type": "floor",
+"variants": 3
+"wall": "overgrownmetal"
+}

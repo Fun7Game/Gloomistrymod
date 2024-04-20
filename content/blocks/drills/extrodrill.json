@@ -1,0 +1,65 @@
+{
+  "name": "Extro drill",
+  "description": "The best drill in mod. It is capable of extracting delvangium. It requires oxygen to work.",
+  "type": "Drill",
+  "health": 915,
+  "size": 4,
+  "updateEffectChance": 0.1,
+  "tier": 6,
+  "itemCapacity": 20,
+  "drillTime": 30,
+  "drawRim": true,
+  "rotateSpeed": 14,
+  "liquidBoostIntensity": 1,
+  "drawMineItem": true,
+  "consumes": {
+  "power": 6
+    "liquid": {
+      "liquid": "oxygen",
+      "amount": 0.2,
+      "optional": false,
+      "booster": false
+    }
+  },
+"updateEffect": 
+  {
+      "type": "ParticleEffect",
+      "particles": 3,
+      "line": true,
+      "sizeFrom": 5,
+      "sizeTo": 10,
+      "lifetime": 60,
+      "interp": "circleOut",
+      "sizeInterp": "pow4In",
+      "colorFrom": "8A813EFF",
+      "colorTo": "CFC428FF"
+},
+  "requirements": [
+    { 
+      "item": "kianit",
+      "amount": 150
+    }
+    {
+      "item": "tin",
+      "amount": 130
+    }
+    { 
+      "item": "escar",
+      "amount": 100
+    }
+    {
+      "item": "amethyst",
+      "amount": 75
+    }
+    {
+      "item": "upgradedescar",
+      "amount": 40
+    }
+    { 
+      "item": "soulofeverything",
+      "amount": 15
+    }
+  ],
+  "category": "production",
+  "research": "escarlaserdrill"
+}

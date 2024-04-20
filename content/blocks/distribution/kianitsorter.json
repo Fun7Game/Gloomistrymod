@@ -1,0 +1,22 @@
+type: Sorter
+name: Kianit sorter
+description: If the item matches the selection, it goes forward, if not, then on the sides.
+health: 40
+requirements: [
+  kianit/3
+  tin/1
+] 
+category: distribution
+research: {
+    parent: kianitrouter
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "quietlane"
+        }
+    ]
+},
+researchCost: [
+kianit/100
+tin/25
+]

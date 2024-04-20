@@ -1,0 +1,35 @@
+{
+  "name": "Kianit drill",
+  "description": "Constantly extracts items when placed on one of the ores.",
+  "type": "Drill",
+  "size": 2,
+  "tier": 2,
+  "itemCapacity": 10,
+  "liquidBoostIntensity": 1.45,
+  "drillTime": 300,
+  "drawMineItem": true,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    { 
+      "item": "kianit"
+      "amount": 15
+    }
+    { 
+      "item": "tin"
+      "amount": 4
+    }
+  ],
+  "category": "production",
+  "research": "core-ottite"
+  "researchCost": [
+   kianit/50
+   tin/15
+ ]
+}

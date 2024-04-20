@@ -1,0 +1,22 @@
+type: OverflowGate
+name: Kianit overflow gate
+description: Displays items on the sides only if the front path is blocked.
+health: 40
+requirements: [
+  kianit/5
+  tin/2
+] 
+category: distribution
+research: {
+    parent: kianitrouter
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "quietlane"
+        }
+    ]
+},
+researchCost: [
+kianit/100
+tin/25
+]

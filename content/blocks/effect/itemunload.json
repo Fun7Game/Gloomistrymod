@@ -1,0 +1,13 @@
+name: Item unload
+description: Unloads items from selected blocks.
+type: Unloader
+health: 90
+speed: 3
+itemCapacity: 10
+requirements: [
+  kianit/12
+  escar/4
+  alganite/6
+] 
+category: effect
+research: kianitbridge

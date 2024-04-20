@@ -1,0 +1,6 @@
+{
+"name": "Cinite wall",
+"type": "staticWall",
+"variants": 2
+"itemDrop": "cinite"
+}

@@ -1,0 +1,6 @@
+{
+"name": "Permafrostly earth",
+"type": "floor",
+"variants": 4,
+"wall": "permafrost"
+}
