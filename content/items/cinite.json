@@ -1,0 +1,15 @@
+type: item
+name: Cinite
+description: It is used for the production of escar and alganite.
+  "cost": 0.8,
+  "color": "6173C9FF",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0.4,
+  "charge": 0,
+  "hardness": 3,
+  "research": "kianit"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

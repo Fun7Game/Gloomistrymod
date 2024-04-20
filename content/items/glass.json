@@ -1,0 +1,15 @@
+type: item
+name: Glass
+description: it is used in almost everything related to liquid.
+  "cost": 0.8,
+  "color": "DDDDDD",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "hardness": 2,
+  "research": "kianit"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

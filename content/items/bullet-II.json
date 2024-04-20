@@ -1,0 +1,15 @@
+type: item
+name: Bullet II
+description: It is used as ammunition for some turrets. Tier II
+  "cost": 1.5,
+  "color": "512DA8",
+  "flammability": 0,
+  "explosiveness": 0.3,
+  "radioactivity": 0,
+  "charge": 0,
+  "hardness": 3,
+  "research": "bullet-I"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

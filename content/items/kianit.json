@@ -1,0 +1,16 @@
+type: item
+name: Kianit
+description: The standard and most widespread material on the Tensarium.
+details: Although kyanite is a semi-precious stone in life, like amethyst, and not a commonly used crafting item, but the game is not life, right?
+  "cost": 0.5,
+  "color": "272736FF",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "hardness": 1
+  "research": "core-ottite"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

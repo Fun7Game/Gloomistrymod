@@ -1,0 +1,17 @@
+type: item
+name: Soul of victory
+description: One of the four types of souls. This soul dominates after passing through all the waves.
+  "cost": 2,
+  "color": "14e715",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 2,
+  "frames": 4,
+  "frameTime": 8,
+  "hardness": 4,
+  "research": "ordinarysoul"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

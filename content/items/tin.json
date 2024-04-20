@@ -1,0 +1,15 @@
+type: item
+name: Tin
+description: The second extended segment on the tensarium.
+  "cost": 0.6,
+  "color": "979580FF",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "hardness": 1,
+  "research": "kianit"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]
