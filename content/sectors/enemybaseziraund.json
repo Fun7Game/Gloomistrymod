@@ -1,0 +1,19 @@
+planet: tensarium
+sector: 89
+showSectorLandInfo: true
+alwaysUnlocked: false
+difficulty: 6,
+overrideLaunchDefaults: true
+addStartingItems: true
+enemyBase: true
+allowLaunchLoadout: false
+loadout: "core-quantite"
+research: {
+    parent: north
+    objectives: [core-quantite,
+    {
+    type: "SectorComplete",
+    preset: "north"
+    }
+    ]
+    }

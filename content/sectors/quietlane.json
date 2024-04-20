@@ -1,0 +1,11 @@
+planet: tensarium
+sector: 6
+showSectorLandInfo: true
+alwaysUnlocked: true
+captureWave: 10
+difficulty: 1,
+overrideLaunchDefaults: true
+addStartingItems: true
+allowLaunchLoadout: false
+loadout: core-ottite
+research: core-ottite

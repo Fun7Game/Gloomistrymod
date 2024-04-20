@@ -1,0 +1,13 @@
+{
+"name": "Corruption water",
+"description": "Infected water. It is used for energy extraction, conversion into ordinary water using a filter, divides into mineral components.",
+"temperature": 0.3,
+"flammability": 0,
+"viscosity": 0.5,
+"lightColor": "3D0C82FF",
+"heatCapacity": 0,
+"explosiveness": 0.1,
+"effect": "status-corruptionwater",
+"color": "3D0C82FF",
+"research": "glass"
+}

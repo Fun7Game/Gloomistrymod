@@ -1,0 +1,19 @@
+planet: tensarium
+sector: 80
+showSectorLandInfo: true
+alwaysUnlocked: false
+difficulty: 2,
+overrideLaunchDefaults: true
+addStartingItems: true
+enemyBase: true
+allowLaunchLoadout: false
+loadout: core-ottite
+research: {
+parent: pacification
+objectives: [wastesgenerator, flint-plasmabore,
+{
+type: "SectorComplete",
+preset: "pacification"
+}
+]
+}

@@ -1,0 +1,17 @@
+planet: tensarium
+sector: 19
+alwaysUnlocked: false
+captureWave: 48
+difficulty: 5,
+overrideLaunchDefaults: true
+addStartingItems: true
+loadout: "core-ottite"
+research: {
+parent: corruptioncliffs
+objectives: [
+{
+type: "SectorComplete",
+preset: "corruptioncliffs"
+}
+]
+}

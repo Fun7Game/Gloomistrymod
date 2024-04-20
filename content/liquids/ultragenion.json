@@ -1,0 +1,13 @@
+{
+"name": "Ultragenion",
+"description": "A combustible liquid used in the creation of units 4 and 5 tiers, as well as in some energy generators.",
+"details": "Despite its high temperature, this liquid is used as fuel for large refabricators, and as an efficiency booster for compact healers. The epilios did not think that by involving water, peat and souls, they would be able to get it. However, it is not fully known why the ultragenion is sometimes scattered across sectors just like that...",
+"temperature": 2.5,
+"flammability": 1,
+"viscosity": 0.65,
+"lightColor": "A52A2A",
+"heatCapacity": 0.38,
+"explosiveness": 0.6,
+"color": "A52A2A",
+"research": "corruptionwater"
+}
