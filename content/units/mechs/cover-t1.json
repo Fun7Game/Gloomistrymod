@@ -1,0 +1,53 @@
+"name": "Cover",
+"description": "Quickly shoots standard bullets at short range. Nothing unusual.",
+"type": "mech",
+	"speed": 0.6,
+	"hitSize": 8,
+	"health": 250,
+	"faceTarget": true,
+	"armor": 0,
+  "itemCapacity": 20,
+  "drownTimeMultiplier": 1,
+	"range": 125,
+	"rotateSpeed": 5,
+"mechStepShake": 0,
+"mechFrontSway": 0.1,
+"mechSideSway": 0.3,
+"mechStepParticles": true,
+	"allowLegStep": true,
+	"hovering": false,
+targetAir: true
+weapons: [
+{
+name: cover-t1-weapon
+x: 5
+y: 2.25
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 2
+shotDelay: 5
+}
+top: false
+rotate: false
+shootSound: shoot
+ejectEffect: casing1,
+reload: 30
+recoil: 0.75
+bullet: {
+    type: BasicBulletType,
+    speed: 4
+    lifetime: 28
+    damage: 10
+    width: 8
+    height: 8
+    frontColor: 3D6E70FF
+    backColor: 3D6E70FF
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collidesTiles: true
+}
+}
+]
+research: coversfactory
+researchCostMultiplier: 25.2

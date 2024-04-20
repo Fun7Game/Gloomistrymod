@@ -1,0 +1,47 @@
+ "name": "Estrackt",
+ "description": "Protects the core quantite from enemies. Shoots laser arcs."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 2.75,
+ "accel": 0.1,
+    "drag": 0.021,
+    "outlineRadius": 1,
+    "flying": true,
+    "health": 350,
+    "hitSize": 11,
+    "armor": 2,
+    "itemCapacity": 50,
+    "engineOffset": 6,
+    "engineColor": 38414DFF,
+    "faceTarget": false,
+    controller: BuilderAI
+    mineTier: 1
+    mineSpeed: 6
+    buildSpeed: 1.25
+    buildBeamOffset: 7
+    isEnemy: false
+weapons: [
+{
+   "name": "estrackt-weapon",
+        "reload": 19,
+        "recoil": 1,
+        "mirror": false,
+        "x": 0,
+        "y": 2,
+        "shootSound": "spark",
+        "rotate": true,
+        "rotateSpeed": 6,
+        "shoot": {
+ "type": "ShootPattern",
+ "spread": 0
+}
+        "bullet": {
+           "type": "LightningBulletType",
+          "lightningLength": 25,
+          "lightningColor": 323E4FFF,
+          "damage": 17,
+          "buildingDamageMultiplier": 0,
+          "pierceCap": 2
+}
+}
+]

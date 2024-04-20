@@ -1,0 +1,51 @@
+ "name": "Quint",
+ "description": "Shoots pierced lasers at a short distance."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 4.1,
+ "accel": 0.1,
+ "outlineRadius": 1,
+ "outlineColor": 272736FF,
+    "drag": 0.012,
+    "range": 175,
+    "flying": true,
+    "health": 100,
+    "hitSize": 7,
+    "armor": 0,
+    "itemCapacity": 15,
+    "engineOffset": 5,
+    "engineSize": 2,
+    "engineColor": 3C2121FF,
+    "targetFlags": ["factory"],
+    "faceTarget": true
+weapons: [
+{
+    name: quint-weapon
+    alternate: false
+    x: 0
+    y: 0
+    shootY: 3.5
+    layerOffset: 0
+    reload: 90
+    recoil: 0
+    inaccuracy: 0
+    shootSound: gloomustrymodlasershoot
+    mirror: false
+    top: false
+bullet: {
+"speed": 13,
+    "hitSize": 6,
+    "type": "BasicBulletType",
+    "frontColor": 400707FF,
+    "backColor": 400707FF,
+    "width": 4,
+    "damage": 20,
+    "lifetime": 13,
+    "height": 16,
+    "pierce": true,
+    "pierceBuilding": false
+}
+}
+]
+research: quintsfactory
+researchCostMultiplier: 25.2

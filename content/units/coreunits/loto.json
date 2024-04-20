@@ -1,0 +1,46 @@
+ "name": "Loto",
+ "description": "Protects the core ottite from enemies. Shoots fast laser bullets."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 3.5,
+ "accel": 0.1,
+    "drag": 0.014,
+    "outlineRadius": 1,
+    "flying": true,
+    "health": 150,
+    "hitSize": 8,
+    "armor": 0,
+    "itemCapacity": 30,
+    "engineOffset": 6,
+    "engineColor": 38414DFF,
+    "faceTarget": false,
+    controller: BuilderAI
+    mineTier: 1
+    mineSpeed: 4
+    buildSpeed: 0.75
+    buildBeamOffset: 3.5
+    isEnemy: false
+weapons: [
+{
+name: loto-weapon
+   "x": 0,
+      "y": 0,
+      "reload": 10,
+      "recoil": 1,
+      "rotate": true,
+      "rotateSpeed": 8,
+      "mirror": false,
+      "alternate": false
+      "shootSound": "lasershoot",
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "speed": 4,
+        "damage": 5,
+        "buildingDamageMultiplier": 0.01,
+        "length": 12,
+        "collidesTeam": false
+        frontColor: 2E5B5CFF
+        backColor: 326364FF
+      }
+    },
+]

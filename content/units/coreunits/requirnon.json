@@ -1,0 +1,93 @@
+ "name": "Requirnon",
+ "description": "Protects the core pirceptite from enemies. Shoots alternating lasers at enemies. It has a shield.",
+ "type": "flying",
+ "lowAltitude": true,
+ "speed": 1.85,
+ "accel": 0.1,
+    "drag": 0.03,
+    "outlineRadius": 1,
+    "flying": true,
+    "health": 725,
+    "hitSize": 16,
+    "armor": 5,
+    "itemCapacity": 70,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "engineColor": 38414DFF,
+    "faceTarget": false,
+    controller: BuilderAI
+    mineTier: 2
+    mineSpeed: 8
+    buildSpeed: 1.75
+    rotateSpeed: 3
+    buildBeamOffset: 9
+    isEnemy: false
+weapons: [
+{
+   "name": "requirnon-weapon",
+        "reload": 180,
+        "recoil": 1,
+        "mirror": false,
+        "shootY": 5,
+        "chargeSound": "lasercharge2",
+        "x": 0,
+        "y": -2.5,
+        "shootSound": "laser",
+        "rotate": true,
+        "rotateSpeed": 4.5,
+         "shoot": {
+    "type": "ShootAlternate",
+    "firstShotDelay": 30,
+    "shots": 5,
+    "spread": 0,
+    "shotDelay": 12
+  },
+        "bullet": {
+           "type": "LaserBulletType",
+        "damage": 85,
+        "buildingDamageMultiplier": 0,
+        "healPercent": 0,
+        "length": 180,
+        "collidesTeam": true,
+        "collidesTiles": true,
+        "collidesAir": true,
+        "colors": ["323E4FFF", "5D6A7CFF", "FFFFFF"],
+"chargeEffect": {
+"type": "MultiEffect"
+"effects": [
+{
+"type": "ParticleEffect",
+"particles": 1,
+"sizeFrom": 7,
+"sizeTo": 1,
+"length": 0,
+"lifetime": 45,
+"colorFrom": "323E4FFF",
+"colorTo": "323E4FFF",
+"cone": 360
+}
+{
+"type": "ParticleEffect",
+"particles": 1,
+"sizeFrom": 7,
+"sizeTo": 1,
+"length": 0,
+"lifetime": 45,
+"colorFrom": "5D6A7CFF",
+"colorTo": "5D6A7CFF",
+"cone": 360
+}
+]
+}
+}
+}
+]
+"abilities": [
+{
+"type": "mindustry.entities.abilities.ForceFieldAbility",
+"radius": 30,
+"regen": 1,
+"max": 300,
+"cooldown": 600
+}
+]

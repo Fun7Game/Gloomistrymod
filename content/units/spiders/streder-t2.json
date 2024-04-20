@@ -1,0 +1,80 @@
+ "name": "Streder",
+ "description": "Shoots three nails through the blocks, farther and faster.",
+ "type": "legs",
+ "outlineRadius": 0,
+	"speed": 0.7,
+	"hitSize": 11,
+	"health": 625,
+	"faceTarget": true,
+ "drownTimeMultiplier": 1.3,
+	"armor": 2,
+	"range": 130,
+ "itemCapacity": 40,
+	"targetAir": true,
+	"rotateSpeed": 5,
+        "legMoveSpace": 1,
+            "legMaxLength": 1.7,
+            "legMinLength": 0.75,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.5,
+            "legPhysicsLayer": true,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 0.5,
+	"legBaseOffset": 0,
+	"legLength": 12, 
+	"hovering": false
+"weapons": [
+		{
+    "name": "streder-t2-weapon",
+    "reload": 58,
+    "mirror": false,
+    "x": 0,
+    "y": 0,
+    "shootY": 5,
+    "recoil": 0,
+    "rotate": false,
+"shoot": {
+"type": "shootSpread",
+ "shots": 3,
+    "shotDelay": 0,
+    "shootCone": 32
+}
+    shootSound: gloomustrymodmagicshootbig
+    bullet: {
+    type: BasicBulletType
+      speed: 3.75
+      lifetime: 33
+      damage: 28
+      sprite: gloomustry-pinbulletlarge
+      weaveMag: 1
+      weaveScale: 1.8
+      frontColor: 9E9623FF
+      backColor: 817A17FF
+      splashDamage: 8
+      splashDamageRadius: 17
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+"shootEffect": {
+              type: ParticleEffect
+              particles: 2
+              lifetime: 20
+              length: 20
+              sizeFrom: 3
+              sizeTo: 1
+              colorFrom: 817A17FF
+              colorTo: 9E9623FF
+              interp: pow3Out
+              spin: 2
+              sizeInterp: pow2In
+              region: gloomustry-star
+},
+ }
+ }
+]
+research: wayder-t1
+researchCostMultiplier: 15

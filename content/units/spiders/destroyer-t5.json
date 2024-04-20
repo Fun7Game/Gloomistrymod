@@ -1,0 +1,264 @@
+"name": "[#807834FF]Destroyer",
+ "description": "[#807834FF]The greatest of all magnitudes! []He shoots powerful lasers twice at long range, like a corvus, and also acquired the same guns from his younger brother. It can reflect some enemy projectiles. [#807834FF]A giant spider, the fear of all arachnophobes.[]",
+ "type": "legs",
+ "outlineRadius": 0,
+	"speed": 0.345,
+	"hitSize": 41,
+	"health": 28750,
+	"faceTarget": true,
+ "itemCapacity": 170,
+ "drownTimeMultiplier": 3.2,
+	"armor": 16,
+	"range": 325,
+  "maxRange": 600,
+	"targetAir": true,
+	"rotateSpeed": 1.55,
+  "legSplashDamage": 255,
+  "legSplashRange": 35,
+        "legMoveSpace": 1,
+            "legMaxLength": 5,
+            "legMinLength": 2,
+            "legLengthScl": 2.2,
+            "legForwardScl": 0.4,
+            "legPhysicsLayer": true,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "stepShake": 3.1,
+        "lockLegBase": false,
+        "rippleScale": 2.5,
+	"legBaseOffset": 0,
+	"legLength": 53, 
+	"hovering": false,
+immunities: [
+blasted
+freezing
+status-corruptionwater
+melting
+burning
+]
+"weapons": [
+  {
+    "name": "destroyer-t5-weapon",
+    "mirror": false,
+    "top": false,
+    "x": 0,
+    "y": 2,
+    "shootStatusDuration": 220,
+    "shoot": {
+      "type": "ShootAlternate",
+      "inaccuracy": 0,
+      "shots": 2,
+      "shotDelay": 10,
+      "firstShotDelay": 180
+    },
+    parentizeEffects: true
+    "reload": 900,
+    "shake": 12,
+    "recoil": 0,
+    "shootStatus": "status-vegetable",
+    "shootSound": "laserblast",
+    "chargeSound": "lasercharge",
+    "rotate": false,
+    "cooldownTime": 900,
+    "bullet": {
+        "type": "LaserBulletType",
+        "length": 615,
+        "lifetime": 70,
+        "width": 30,
+        "damage": 2620,
+        "colors": ["D4C92FFF", "E3DC80FF", "FFFFFFFF"],
+        "chargeEffect": {
+          "type": "multiEffect",
+          "effects": [
+          {
+          "type": "WaveEffect",
+          "colorFrom": "B9B039FF",
+          "colorTo": "B9B039FF",
+          "sizeFrom": 175,
+          "sizeTo": 0,
+          "lifetime": 180
+          },
+          {
+            "type": "WaveEffect",
+            "colorFrom": "B9B039FF",
+            "colorTo": "B9B039FF",
+            "sizeFrom": 100,
+            "sizeTo": 0,
+            "lifetime": 180
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 12,
+            "lifetime": 180,
+            "baseLength": 85,
+            "length": -85,
+            "lightColor": "B9B039FF",
+            "sizeFrom": 12,
+            "sizeTo": 1,
+            "spin": 2,
+            "colorFrom": "B9B039FF",
+            "colorTo": "B9B039FF",
+            "region": "gloomustry-star"
+          }
+          ]
+          }
+          }
+          }
+{
+name: ripper-t4-weapon2
+x: 10.75
+y: -9.25
+shootY: 10.5,
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 5
+}
+top: false
+rotate: true
+rotateSpeed: 2.95
+shootSound: railgun
+reload: 14
+recoil: 0.5
+bullet: {
+    type: BasicBulletType
+    speed: 14
+    hitSize: 16
+    status: aggravated
+    statusDuration: 60
+    lifetime: 24
+    damage: 170
+    width: 20
+    height: 32
+    splashDamage: 42
+    splashDamageRadius: 18
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 4
+    hitShake: 1
+    frontColor: C5BD51FF
+    backColor: A29A2FFF
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collidesTiles: true
+    trailColor: C5BD51FF
+    trailLength: 2.75
+    trailWidth: 3.5
+    absorbable: false
+    lightColor: C5BD51FF
+    fragBullets: 4
+    fragLifeMin: 0.4
+    fragRandomSpread: 20
+    fragBullet: {
+      type: BasicBulletType
+      velocityRnd: 0.5
+      speed: 5
+      lifetime: 18
+      damage: 35
+      width: 11
+      height: 14
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      frontColor: C5BD51FF
+      backColor: A29A2FFF
+      collidesTiles: true
+}
+}
+}
+{
+  "name": "ripper-t4-weapon3",
+  "type": "PointDefenseWeapon",
+  "controllable": false,
+  "autoTarget": true,
+  "targetInterval": 4,
+  "top": false,
+  "mirror": true,
+  "targetSwitchInterval": 4,
+  "x": 18,
+  "y": -9.75,
+  "rotate": true,
+  "shootY": 2,
+  "reload": 13,
+  "recoil": 1,
+  "shootSound": "gloomistrydefshoot",
+  "bullet": {
+    "hitEffect": "pointHit",
+    "smokeEffect": "pointHit",
+    "maxRange": 185,
+    "damage": 40
+}
+}
+{
+  "name": "ripper-t4-weapon3",
+  "type": "PointDefenseWeapon",
+  "controllable": false,
+  "autoTarget": true,
+  "targetInterval": 4,
+  "top": false,
+  "mirror": true,
+  "targetSwitchInterval": 4,
+  "x": 24,
+  "y": -7,
+  "rotate": true,
+  "shootY": 2,
+  "reload": 13,
+  "recoil": 1,
+  "shootSound": "gloomistrydefshoot",
+  "bullet": {
+    "hitEffect": "pointHit",
+    "smokeEffect": "pointHit",
+    "maxRange": 185,
+    "damage": 40
+}
+}
+]
+"parts": [
+{
+  "type": "shapePart",
+  "y": 1.2,
+  "x": 0,
+  "hollow": true,
+  "circle": false,
+  "layer": 110,
+  "mirror": false,
+  "color": "D4C92FFF",
+  "stroke": 0.3,
+  "strokeTo": 0.5,
+  "radiusTo": 1.7,
+  "radius": 1.2
+},
+{
+  "type": "shapePart",
+  "y": 6,
+  "x": 3,
+  "hollow": true,
+  "circle": true,
+  "layer": 110,
+  "mirror": true,
+  "color": "D4C92FFF",
+  "stroke": 0.5,
+  "strokeTo": 0.7,
+  "radiusTo": 1.4,
+  "radius": 0.9
+},
+{
+  "type": "shapePart",
+  "y": 4,
+  "x": 4.1,
+  "hollow": true,
+  "circle": true,
+  "layer": 110,
+  "mirror": true,
+  "color": "D4C92FFF",
+  "stroke": 0.5,
+  "strokeTo": 0.7,
+  "radiusTo": 1.4,
+  "radius": 0.9
+}
+]
+research: ripper-t4
+researchCostMultiplier: 15

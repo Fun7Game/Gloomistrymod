@@ -1,0 +1,51 @@
+ "name": "Protype",
+ "description": "It also shoots pierced lasers, but faster and at a greater distance."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 3,
+ "accel": 0.1,
+ "outlineRadius": 1,
+ "outlineColor": 272736FF,
+    "drag": 0.022,
+    "range": 200,
+    "flying": true,
+    "health": 400,
+    "hitSize": 12,
+    "armor": 1,
+    "itemCapacity": 40,
+    "engineOffset": 8,
+    "engineSize": 3,
+    "engineColor": 3C2121FF,
+    "targetFlags": ["generator"],
+    "faceTarget": true
+weapons: [
+{
+    name: protype-weapon
+    alternate: false
+    x: 0
+    y: 0
+    shootY: 5
+    layerOffset: 0
+    reload: 60
+    recoil: 0
+    inaccuracy: 0
+    shootSound: gloomustrymodlasershoot
+    mirror: false
+    top: false
+bullet: {
+"speed": 14,
+    "hitSize": 8,
+    "type": "BasicBulletType",
+    "frontColor": 400707FF,
+    "backColor": 400707FF,
+    "width": 5,
+    "damage": 25,
+    "lifetime": 16,
+    "height": 20,
+    "pierce": true,
+    "pierceBuilding": false
+}
+}
+]
+research: quint-t1
+researchCostMultiplier: 15

@@ -1,0 +1,65 @@
+ "name": "Wayder",
+ "description": "shoots nails passing through blocks at a very short distance.",
+ "type": "legs",
+ "outlineRadius": 0,
+	"speed": 1.1,
+	"hitSize": 6,
+	"health": 180,
+	"faceTarget": true,
+ "drownTimeMultiplier": 1,
+	"armor": 0,
+	"range": 85,
+	"targetAir": true,
+  "itemCapacity": 10,
+	"rotateSpeed": 7.5,
+        "legMoveSpace": 1,
+            "legMaxLength": 0.9,
+            "legMinLength": 0.20,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.5,
+            "legPhysicsLayer": true,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 0,
+	"legBaseOffset": 0,
+	"legLength": 8, 
+	"hovering": false
+"weapons": [
+		{
+    "name": "wayder-t1-weapon",
+    "reload": 64,
+    "mirror": false,
+    "x": 0,
+    "y": 0,
+    "shootY": 3.75,
+    "recoil": 0,
+    "rotate": false,
+"shoot": {
+"type": "shootPattern",
+ "shots": 1,
+    "shotDelay": 4,
+}
+    shootSound: gloomustrymodmagicshoot
+    bullet: {
+    type: BasicBulletType
+      speed: 3
+      lifetime: 25
+      damage: 15
+      sprite: gloomustry-pinbullet
+      weaveMag: 1
+      weaveScale: 1.8
+      frontColor: 9E9623FF
+      backColor: 817A17FF
+      splashDamage: 5
+      splashDamageRadius: 14
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+ }
+ }
+]
+research: waydersfactory
+researchCostMultiplier: 25.2

@@ -1,0 +1,106 @@
+"name": "Berserker",
+"description": "Fires a volley of three large bullets at an even greater distance. Acquired a far-shooting artillery attached to the back of the unit.",
+"type": "mech",
+	"speed": 0.375,
+	"hitSize": 16,
+  "outlineRadius": 0,
+	"health": 3550,
+	"faceTarget": true,
+ "outlineRadius": 2,
+ "drownTimeMultiplier": 1.6,
+	"armor": 8,
+  "itemCapacity": 70,
+	"range": 205,
+  "maxRange": 205,
+	"rotateSpeed": 2.5,
+"mechStepShake": 0.4,
+"mechFrontSway": 0.15,
+"mechSideSway": 0.45,
+"mechStepParticles": true,
+	"allowLegStep": true,
+  "singleTarget": true,
+	"hovering": false,
+targetAir: true
+immunities: [
+blasted
+]
+weapons: [
+{
+name: berserker-t3-weapon
+x: 15
+y: 1.5
+shootY: 9.5,
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 3
+shotDelay: 3
+}
+top: false
+rotate: false
+ejectEffect: casing2
+shootSound: bang
+targetAir: false
+reload: 60
+recoil: 0.25
+bullet: {
+    type: BasicBulletType
+    speed: 5.5
+    lifetime: 35
+    damage: 30
+    width: 12
+    height: 12
+    frontColor: 3D6E70FF
+    backColor: 3D6E70FF
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collidesTiles: true
+    hitEffect: pointHit
+}
+}
+{
+name: berserker-t3-weapon2
+x: 0
+y: -8
+shootY: 3
+mirror: false
+shoot: {
+type: ShootPattern
+inaccuracy: 2
+shots: 1
+shotDelay: 2
+}
+top: false
+rotate: true
+rotateSpeed: 4
+shootSound: artillery
+reload: 115
+recoil: 0.5
+bullet: {
+type: ArtilleryBulletType
+width: 14
+height: 14
+hitShake: 1
+splashDamage: 105
+splashDamageRadius: 25
+speed: 2.6
+lifetime: 112
+frontColor: 3D0C82FF
+backColor: 471A86FF
+hitSound: explosion
+damage: 25
+knockback: 1
+collides: true
+collidesTiles: true
+explodeRange: 1
+status: none
+      "lightning": 2,
+      "lightningLength": 6,
+      "lightningLengthRand": 2,
+      "lightningDamage": 22,
+      "lightningColor": "6E1E75FF",
+}
+}
+]
+research: undertaker-t2
+researchCostMultiplier: 15

@@ -1,0 +1,72 @@
+ "name": "Slanderer",
+ "description": "It shoots even faster and even further, that's a surprise."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 2.2,
+ "accel": 0.1,
+ "outlineRadius": 1,
+ "outlineColor": 272736FF,
+    "rotateSpeed": 3.75,
+    "drag": 0.03,
+    "range": 280,
+    "flying": true,
+    "health": 1450,
+    "hitSize": 17,
+    "armor": 3,
+    "itemCapacity": 75,
+    "engineOffset": 11,
+    "engineSize": 4,
+    "engineColor": 3C2121FF,
+    "targetFlags": ["generator", "factory"],
+    "faceTarget": true,
+immunities: [
+blasted
+]
+"engines": [
+{
+x: 7.5
+y: -13
+radius: 2
+}
+{
+x: -7.5
+y: -13
+radius: 2
+}
+]
+weapons: [
+{
+    name: slanderer-weapon
+    alternate: false
+    x: 0
+    y: 0
+    shootY: 12.5
+    layerOffset: 0
+    reload: 52
+    recoil: 0
+    inaccuracy: 0
+    shootSound: gloomustrymodlasershoot
+    mirror: false
+    top: false
+shoot: {
+type: ShootPattern
+shots: 2
+shotDelay: 8
+}
+bullet: {
+"speed": 16,
+    "hitSize": 10,
+    "type": "BasicBulletType",
+    "frontColor": 400707FF,
+    "backColor": 400707FF,
+    "width": 6,
+    "damage": 42,
+    "lifetime": 19,
+    "height": 24,
+    "pierce": true,
+    "pierceBuilding": false
+}
+}
+]
+research: protype-t2
+researchCostMultiplier: 15

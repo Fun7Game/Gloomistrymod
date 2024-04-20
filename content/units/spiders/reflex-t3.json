@@ -1,0 +1,85 @@
+"name": "Reflex",
+ "description": "Shoots four nails at medium range, less fast, but with more damage.",
+ "type": "legs",
+ "outlineRadius": 0,
+	"speed": 0.56,
+	"hitSize": 16,
+	"health": 2600,
+	"faceTarget": true,
+ "itemCapacity": 75,
+ "drownTimeMultiplier": 1.8,
+	"armor": 5,
+	"range": 168,
+	"targetAir": true,
+	"rotateSpeed": 3.5,
+        "legMoveSpace": 1,
+            "legMaxLength": 2.3,
+            "legMinLength": 1.30,
+            "legLengthScl": 2,
+            "legForwardScl": 0.4,
+            "legPhysicsLayer": true,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "stepShake": 0.4,
+        "lockLegBase": true,
+        "rippleScale": 1,
+	"legBaseOffset": 0,
+	"legLength": 17, 
+	"hovering": false,
+immunities: [
+blasted
+]
+"weapons": [
+		{
+    "name": "reflex-t3-weapon",
+    "reload": 75,
+    "mirror": false,
+    "x": 0,
+    "y": 0,
+    "shootY": 6,
+    "recoil": 0,
+    "rotate": false,
+"shoot": {
+"type": "shootSpread",
+ "shots": 4,
+    "shotDelay": 0,
+    "shootCone": 0,
+    "spread": 2
+}
+    shootSound: gloomustrymodmagicshootbig
+    bullet: {
+    type: BasicBulletType
+      speed: 5
+      lifetime: 33
+      damage: 40
+      sprite: gloomustry-pinbulletlarge
+      weaveMag: 1
+      weaveScale: 1.8
+      frontColor: 9E9623FF
+      backColor: 817A17FF
+      splashDamage: 13
+      splashDamageRadius: 20
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 4
+"shootEffect": {
+              type: ParticleEffect
+              particles: 3
+              lifetime: 38
+              length: 25
+              sizeFrom: 4
+              sizeTo: 1
+              colorFrom: 817A17FF
+              colorTo: 9E9623FF
+              interp: pow3Out
+              spin: 6
+              sizeInterp: pow2In
+              region: gloomustry-star
+},
+ }
+ }
+]
+research: streder-t2
+researchCostMultiplier: 15

@@ -1,0 +1,159 @@
+"name": "Ripper",
+ "description": "He no longer shoots nails, but now he shoots powerful piercing projectiles at medium range, as well as three charges at short range. It can reflect some enemy bullets.",
+ "type": "legs",
+ "outlineRadius": 0,
+	"speed": 0.455,
+	"hitSize": 32,
+	"health": 10650,
+	"faceTarget": true,
+ "itemCapacity": 135,
+ "drownTimeMultiplier": 2.6,
+	"armor": 10,
+	"range": 92,
+  "maxRange": 295,
+	"targetAir": true,
+	"rotateSpeed": 2,
+  "legSplashDamage": 140,
+  "legSplashRange": 25,
+        "legMoveSpace": 1,
+            "legMaxLength": 3.4,
+            "legMinLength": 1.67,
+            "legLengthScl": 2,
+            "legForwardScl": 0.4,
+            "legPhysicsLayer": true,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "stepShake": 1.5,
+        "lockLegBase": false,
+        "rippleScale": 1.5,
+	"legBaseOffset": 0,
+	"legLength": 30, 
+	"hovering": false,
+immunities: [
+blasted
+freezing
+status-corruptionwater
+]
+"weapons": [
+		{
+    "name": "ripper-t4-weapon",
+    "reload": 60,
+    "mirror": false,
+    "x": 0,
+    "y": 0,
+    "shootY": 11,
+    "recoil": 0,
+    "rotate": false,
+"shoot": {
+"type": "shootSpread",
+ "shots": 3,
+    "shotDelay": 0,
+    "shootCone": 0,
+    "spread": 6
+}
+    shootSound: shotgun
+    bullet: {
+      "type": "shrapnelBulletType",
+      "lifetime": 19,
+      "damage": 135,
+      "hitLarge": true,
+      "fromColor": "D4C92FFF",
+      "toColor": "DEDAA2FF",
+      "length": 70,
+      "width": 14,
+      "hitEffect": "blastExplosion",
+      "shootEffect": "blastExplosion",
+      "pierce": true,
+      "pierceBuilding": true,
+      "smokeEffect": "hitBulletBig"
+ }
+}
+{
+name: ripper-t4-weapon2
+x: 0
+y: -8.5
+shootY: 10.5,
+mirror: false
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 5
+}
+top: false
+rotate: true
+rotateSpeed: 2.75
+shootSound: railgun
+reload: 34
+recoil: 0.5
+bullet: {
+    type: BasicBulletType
+    speed: 12.5
+    hitSize: 16
+    lifetime: 25
+    damage: 155
+    width: 18
+    height: 30
+    splashDamage: 35
+    splashDamageRadius: 16
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    hitShake: 1
+    frontColor: C5BD51FF
+    backColor: A29A2FFF
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collidesTiles: true
+    trailColor: C5BD51FF
+    trailLength: 2.5
+    trailWidth: 3
+    absorbable: false
+    lightColor: C5BD51FF
+    fragBullets: 3
+    fragLifeMin: 0.4
+    fragRandomSpread: 28
+    fragBullet: {
+      type: BasicBulletType
+      velocityRnd: 0.5
+      speed: 5
+      lifetime: 18
+      damage: 28
+      width: 9
+      height: 13
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      frontColor: C5BD51FF
+      backColor: A29A2FFF
+      collidesTiles: true
+}
+}
+}
+{
+  "name": "ripper-t4-weapon3",
+  "type": "PointDefenseWeapon",
+  "controllable": false,
+  "autoTarget": true,
+  "targetInterval": 4,
+  "top": false,
+  "mirror": true,
+  "targetSwitchInterval": 4,
+  "x": 14.25,
+  "y": -11.25,
+  "rotate": true,
+  "shootY": 2,
+  "reload": 30,
+  "recoil": 1,
+  "shootSound": "gloomistrydefshoot",
+  "bullet": {
+    "hitEffect": "pointHit",
+    "smokeEffect": "pointHit",
+    "maxRange": 110,
+    "damage": 35
+}
+}
+]
+research: reflex-t3
+researchCostMultiplier: 15

@@ -1,0 +1,13 @@
+name: Skibidi toilet
+description: skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi
+type: tank
+hitSize: 12
+flying: false
+omniMovement: false
+health: 350
+armor: 4
+speed: 0.75
+rotateSpeed: 4
+itemCapacity: 0
+treadPullOffset: 4
+loopSound: skibiditoiletskibidiskibiditoilet

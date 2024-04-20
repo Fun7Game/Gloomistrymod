@@ -1,0 +1,7 @@
+{
+"name": "Infected",
+"description": "deals a bit of infection damage.",
+"permanent": false,
+"damage": 0.2,
+"speedMultiplier": 0.6
+}

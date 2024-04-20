@@ -1,0 +1,26 @@
+ "name": "Draufr",
+ "description": "It digs up resources and transfers them to the core."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 2.7,
+ "accel": 0.1,
+    "drag": 0.012,
+    "outlineRadius": 1,
+    "flying": true,
+    "health": 125,
+    "hitSize": 8,
+    "armor": 0,
+    "itemCapacity": 25,
+    "engineOffset": 5,
+    "engineColor": A11A1AFF,
+    "faceTarget": false
+    mineTier: 1
+    mineSpeed: 3
+    mineRange: 58
+mineItems: [
+  kianit
+  tin
+]
+    isEnemy: false
+    "research": "draufrsfactory"
+    "researchCostMultiplier": 25.2

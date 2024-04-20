@@ -1,0 +1,47 @@
+"name": "rofl",
+"description": "Turn around...",
+"type": "mech",
+	"speed": 30,
+	"hitSize": 80,
+	"health": 49392928728233993,
+	"faceTarget": true,
+	"armor": 666,
+  "itemCapacity": 228,
+	"range": 1292828,
+	"rotateSpeed": 3939399292929292929938373774746571010,
+"mechStepShake": 300,
+"mechFrontSway": 0.1,
+"mechSideSway": 0.3,
+"mechStepParticles": true,
+	"allowLegStep": true,
+	"hovering": false,
+targetAir: true
+weapons: [
+{
+name: rofl-weapon
+x: 0
+y: 0
+shootY: 0,
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 10
+shotDelay: 0
+}
+top: false
+rotate: true
+inaccuracy: 10
+rotateSpeed: 28822829199
+"shootSound": "laserblast",
+reload: 0.5
+recoil: 10
+bullet: {
+    "type": "LaserBulletType",
+                "length": 2992,
+                "lifetime": 40,
+                "width": 60,
+                "damage": 6666,
+                recoil: 0
+}
+}
+]

@@ -1,0 +1,22 @@
+{
+"name": "[red]In ultragenion!",
+"description": "[red]A dangerous effect from ultragenion, which deals great damage, instantly killing weak units.",
+"permanent": false,
+"effect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 2,
+"lifetime": 480,
+"length": 10,
+"lightColor": "A52A2A",
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "A52A2A",
+"colorTo": "A52A2A"
+},
+"damage": 4.9,
+"reloadMultiplier": 0.20,
+"speedMultiplier": 0.70,
+"healthMultiplier": 0.80
+}

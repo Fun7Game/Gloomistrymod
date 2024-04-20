@@ -1,0 +1,148 @@
+ "name": "Incarnation",
+ "description": "It fires two laser beams at short range, as well as alternating laser bullets at long range."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 0.62,
+ "accel": 0.12,
+ "outlineRadius": 1,
+ "outlineColor": 272736FF,
+    "rotateSpeed": 1.45,
+    "drag": 0.035,
+    "range": 90,
+    "maxRange": 420,
+    "flying": true,
+    "health": 8000,
+    "hitSize": 48,
+    "armor": 8,
+    "itemCapacity": 175,
+    "engineOffset": 24,
+    "engineSize": 6,
+    "engineColor": 3C2121FF,
+    "targetFlags": ["reactor"],
+    "faceTarget": true,
+immunities: [
+blasted
+freezing
+status-corruptionwater
+]
+"engines": [
+{
+x: 8
+y: -27.7
+radius: 4
+}
+{
+x: -8
+y: -27.7
+radius: 4
+}
+]
+weapons: [
+{
+    name: incarnation-weapon
+    alternate: false
+    x: 0
+    y: 38
+    shootY: 0
+    layerOffset: 0
+    rotate: true
+    rotateSpped: 100
+    reload: 112
+    recoil: 0
+    inaccuracy: 0
+    shootSound: gloomustrymodlasershootbig
+    mirror: false
+    top: false
+shoot: {
+type: ShootPattern
+shots: 3
+shotDelay: 12
+}
+bullet: {
+"speed": 20,
+    "hitSize": 16,
+    "type": "BasicBulletType",
+    "frontColor": 400707FF,
+    "backColor": 400707FF,
+    "width": 14,
+    "damage": 175,
+    "lifetime": 22,
+    "height": 46,
+    "pierce": true,
+    "pierceBuilding": false,
+}
+}
+{
+    name: incarnation-t4-weapon2
+    alternate: false
+    x: 19
+    y: -8
+    shootY: 9
+    layerOffset: 0
+    shots: 1
+    rotate: true 
+    rotateSpeed: 3.5
+    cooldownTime: 240
+    reload: 240
+    continuous: true
+    recoil: 1
+    inaccuracy: 0
+    shootSound: beam
+    mirror: false
+    top: true
+"bullet": { 
+    "type": "ContinuousLaserBulletType",
+    "damage": 27.5,
+    "width": 2.5,
+    "length": 90,
+    "drawSize": 470,
+    "lifetime": 210,
+    "despawnEffect": "smokeCloud",
+    "smokeEffect": "smokeCloud",
+    "largeHit": true,
+    "colors":["3E2323FF", "4C3636FF", "614848FF", "614848FF"],
+}
+}
+{
+    name: incarnation-t4-weapon3
+    alternate: false
+    x: -19
+    y: -8
+    shootY: 9
+    layerOffset: 0
+    rotate: true 
+    rotateSpeed: 3.5
+    cooldownTime: 240
+    reload: 240
+    shots: 1
+    continuous: true
+    recoil: 1
+    inaccuracy: 0
+    shootSound: beam
+    mirror: false
+    top: true
+"bullet": { 
+    "type": "ContinuousLaserBulletType",
+    "damage": 27.5,
+    "width": 2.5,
+    "length": 90,
+    "drawSize": 470,
+    "lifetime": 210,
+    "despawnEffect": "smokeCloud",
+    "smokeEffect": "smokeCloud",
+    "largeHit": true,
+    "colors":["3E2323FF", "4C3636FF", "614848FF", "614848FF"],
+}
+}
+]
+research: slanderer-t3
+researchCostMultiplier: 15
+"abilities": [
+    {
+    "type": "mindustry.entities.abilities.ForceFieldAbility",
+    "radius": 56,
+    "regen": 1.9,
+    "max": 1250,
+    "cooldown": 900
+    }
+]
