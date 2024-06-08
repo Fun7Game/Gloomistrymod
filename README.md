@@ -12,4 +12,12 @@ Mod created time: January 14 2024 - April 19 2024
 
 Mod updates will be coming out soon in which I will change sprites and add a small amount of new content.
 
-The update history will appear here later.
+9 Июня 2024. Обновление 0.1
+Нововедения:
+-Новый юнит Реквезор(т5 летучка)
+-добавлено 2 новых сектора кампании
+-изменены спрайты цинита на стенах
+-добавлена одна фан-карта
+-изменена немного PG-4 а также турель гаусса
+-исправлены некоторые орфографические ошибки и т9 в названиях контента
+-уменьшена потребляемая энергия у некоторых заводов
