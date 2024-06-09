@@ -40,7 +40,7 @@
    ],
    },
 	"consumes": {
-  "power": 4,
+  "power": 3.5,
 			"items": [
                "cinite/3",
                "peat/2",
