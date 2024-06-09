@@ -31,11 +31,11 @@
       "frontColor": 400707FF,
       "backColor": 400707FF,
       "width": 6,
-      "damage": 95,
+      "damage": 92,
       "lifetime": 30,
       "height": 24,
       "pierce": true,
-      "buildingDamageMultiplier": 0.25
+      "buildingDamageMultiplier": 0.15
 }
   "requirements": [
     {
