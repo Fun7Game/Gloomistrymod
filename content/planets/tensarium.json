@@ -81,7 +81,7 @@ iconColor: 439092FF
 hasAtmosphere: true
 allowWaveSimulation: false
 allowLaunchToNumbered: false
-clearSectorOnLose: false
+clearSectorOnLose: true
 allowWaves: true
 defaultCore: "core-ottite"
 parent: sun
