@@ -37,7 +37,7 @@
       "lifetime": 45,
       "height": 48,
       "pierce": true,
-      "buildingDamageMultiplier": 0.25
+      "buildingDamageMultiplier": 0.15
 },
 drawer: {
   type: DrawTurret
@@ -71,12 +71,12 @@ drawer: {
   ],
   coolantMultiplier: 1,
  "category": "turret",
- research: {
+research: {
     parent: PG-4
     objectives: [
         {
-            type: "OnSector",
-            preset: "thelandingsite"
+            type: "SectorComplete",
+            preset: "enemybasesupportase"
 }
 ]
 },
