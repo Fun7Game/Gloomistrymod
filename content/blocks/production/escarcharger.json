@@ -32,7 +32,7 @@
 ],
 },
 	"consumes": {
-  "power": 6,
+  "power": 5,
 			"items": [
                "escar/2",
                "soulofexcitement/1",
@@ -53,8 +53,8 @@
 "parent": "escarsmelter"
     objectives: [
         {
-            type: "SectorComplete",
-            preset: "pacification"
+            type: "OnSector",
+            preset: "enemybasesupportase"
 }
 ]
 }
