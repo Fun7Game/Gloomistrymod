@@ -1,0 +1,17 @@
+planet: tensarium
+sector: 9
+alwaysUnlocked: false
+captureWave: 34
+difficulty: 5,
+overrideLaunchDefaults: true
+addStartingItems: true
+loadout: "core-quantite"
+research: {
+parent: enemybaseziraund
+objectives: [
+{
+type: "SectorComplete",
+preset: "enemybaseziraund"
+}
+]
+}

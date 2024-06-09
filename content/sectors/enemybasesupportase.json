@@ -1,0 +1,19 @@
+planet: tensarium
+sector: 39
+showSectorLandInfo: true
+alwaysUnlocked: false
+difficulty: 4,
+overrideLaunchDefaults: true
+addStartingItems: true
+enemyBase: true
+allowLaunchLoadout: false
+loadout: "core-quantite"
+research: {
+    parent: anunfinishedlaunchertemple
+    objectives: [core-quantite,
+    {
+    type: "SectorComplete",
+    preset: "anunfinishedlaunchertemple"
+    }
+    ]
+    }
