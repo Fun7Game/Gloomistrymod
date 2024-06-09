@@ -22,6 +22,7 @@ consumes: {
 }
 upgrades: [
   [atmoz-t4, paphoz-t5]
+  [incarnation-t4, requesor-t5]
   [ripper-t4, destroyer-t5]
 ]
 requirements: [
