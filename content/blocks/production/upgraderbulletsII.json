@@ -66,8 +66,8 @@
 "parent": "upgraderbulletsI"
     objectives: [
         {
-            type: "OnSector",
-            preset: "north"
+            type: "SectorComplete",
+            preset: "enemybasesupportase"
         }
     ]
 }
