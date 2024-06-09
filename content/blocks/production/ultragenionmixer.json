@@ -30,7 +30,7 @@
   "itemCapacity": 20,
   "updateEffect": "none",
   "consumes": {
-  "power": 4.5,
+  "power": 4,
     "items": [
       "peat/2",
       "soulofvictory/1",
