@@ -2,7 +2,7 @@
  "description": "It shoots even faster and even further, that's a surprise."
  "type": "flying", 
  "lowAltitude": true,
- "speed": 2.2,
+ "speed": 1.98,
  "accel": 0.1,
  "outlineRadius": 1,
  "outlineColor": 272736FF,
