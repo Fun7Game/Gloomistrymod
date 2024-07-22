@@ -2,7 +2,7 @@
  "description": "It also shoots pierced lasers, but faster and at a greater distance."
  "type": "flying", 
  "lowAltitude": true,
- "speed": 3,
+ "speed": 2.7,
  "accel": 0.1,
  "outlineRadius": 1,
  "outlineColor": 272736FF,
