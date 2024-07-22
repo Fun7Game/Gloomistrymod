@@ -1,4 +1,4 @@
- "name": "Estrackt",
+"name": "Estrackt",
  "description": "Protects the core quantite from enemies. Shoots laser arcs."
  "type": "flying", 
  "lowAltitude": true,
@@ -23,25 +23,31 @@
 weapons: [
 {
    "name": "estrackt-weapon",
-        "reload": 19,
-        "recoil": 1,
-        "mirror": false,
-        "x": 0,
-        "y": 2,
-        "shootSound": "spark",
-        "rotate": true,
-        "rotateSpeed": 6,
-        "shoot": {
- "type": "ShootPattern",
- "spread": 0
-}
-        "bullet": {
-           "type": "LightningBulletType",
-          "lightningLength": 25,
-          "lightningColor": 323E4FFF,
-          "damage": 17,
-          "buildingDamageMultiplier": 0,
-          "pierceCap": 2
+   "reload": 110,
+   "recoil": 1,
+   "mirror": false,
+   "shootY": 5,
+   "x": 0,
+   "y": 0,
+   "shootSound": "laser",
+   "rotate": true,
+   "rotateSpeed": 4.8,
+    "shoot": {
+"type": "ShootAlternate",
+"shots": 1,
+"spread": 0,
+"shotDelay": 12
+},
+   "bullet": {
+      "type": "LaserBulletType",
+   "damage": 70,
+   "buildingDamageMultiplier": 0,
+   "healPercent": 0,
+   "length": 95,
+   "collidesTeam": true,
+   "collidesTiles": true,
+   "collidesAir": true,
+   "colors": ["323E4FFF", "5D6A7CFF", "FFFFFF"],
 }
 }
 ]
