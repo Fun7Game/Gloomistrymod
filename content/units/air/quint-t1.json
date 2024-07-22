@@ -2,7 +2,7 @@
  "description": "Shoots pierced lasers at a short distance."
  "type": "flying", 
  "lowAltitude": true,
- "speed": 4.1,
+ "speed": 3.69,
  "accel": 0.1,
  "outlineRadius": 1,
  "outlineColor": 272736FF,
