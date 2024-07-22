@@ -36,7 +36,8 @@
       "lifetime": 35,
       "height": 9,
       "splashDamage": 35,
-      "splashDamageRadius": 15
+      "splashDamageRadius": 15,
+      "collidesGround": false
     },
       "bullet-II": {
       "speed": 6,
@@ -50,7 +51,8 @@
       "lifetime": 35,
       "height": 9,
       "splashDamage": 54,
-      "splashDamageRadius": 19
+      "splashDamageRadius": 19,
+      "collidesGround": false
     },
     "bullet-III": {
       "speed": 6,
@@ -71,7 +73,8 @@
       "lifetime": 35,
       "height": 9,
       "splashDamage": 71,
-      "splashDamageRadius": 24
+      "splashDamageRadius": 24,
+      "collidesGround": false
     },
   },
   "requirements": [
