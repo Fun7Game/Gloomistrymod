@@ -6,7 +6,7 @@
   "outlineRadius": 0,
   "reload": 180,
   "recoil": 1,
-  "shootSound": "gloomistrydefshoot",
+  "shootSound": "largeCannon",
   "rotateSpeed": 2.4,
   "range": 380,
   "size": 5,
