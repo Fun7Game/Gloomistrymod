@@ -21,4 +21,4 @@ requirements: [
 ]
   "category": "effect",
    research: core-quantite
-   researchCostMultiplier: 0.5
+   researchCostMultiplier: 0.25
