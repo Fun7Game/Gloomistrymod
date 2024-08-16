@@ -11,15 +11,15 @@ consumes: {
       items: [
         escar/900
         amethyst/450
-        alganite/325
-        upgradedescar/125
-        soulofvictory/175
-        soulofcriminal/175
+        alganite/250
+        upgradedescar/100
+        soulofvictory/125
+        soulofcriminal/125
       ]
     }
   liquid: {
     liquid: ultragenion
-    amount: 5.25
+    amount: 0.525
   }
 }
 upgrades: [
