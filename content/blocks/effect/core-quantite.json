@@ -27,4 +27,4 @@ requirements: [
       }
     ]
   }
-   researchCostMultiplier: 0.5
+   researchCostMultiplier: 0.25
