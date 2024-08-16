@@ -5,7 +5,7 @@
   "size": 3,
   "health": 560,
   "hasItems": true,
-  "craftTime": 300,
+  "craftTime": 360,
   "craftEffect": "none",
   "drawer": {
   "type": "DrawMulti",
@@ -32,7 +32,7 @@
   "consumes": {
   "power": 4,
     "items": [
-      "peat/2",
+      "peat/1",
       "soulofvictory/1",
       "soulofexcitement/1"
     ],
