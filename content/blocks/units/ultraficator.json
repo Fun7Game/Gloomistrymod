@@ -17,7 +17,7 @@ consumes: {
     }
   liquid: {
     liquid: ultragenion
-    amount: 1.2
+    amount: 1.05
   }
 }
 upgrades: [
