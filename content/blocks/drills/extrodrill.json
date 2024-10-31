@@ -11,7 +11,7 @@
   "drawRim": true,
   "rotateSpeed": 14,
   "liquidBoostIntensity": 1,
-  "drawMineItem": true,
+  "drawMineItem": false,
   "consumes": {
   "power": 6
     "liquid": {
