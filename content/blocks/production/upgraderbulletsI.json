@@ -44,7 +44,7 @@
               region: gloomustry-star
 },
 	"consumes": {
-  "power": 4.5,
+  "power": 3,
 			"items": [
                "bullet-I/1",
                "escar/1",
