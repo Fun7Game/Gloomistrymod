@@ -47,7 +47,7 @@
     ]
     },
 	"consumes": {
-  "power": 10,
+  "power": 8.666667,
 			"liquids": [
       oxygen/0.1
      ]
