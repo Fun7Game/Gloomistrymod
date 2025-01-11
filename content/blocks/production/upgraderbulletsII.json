@@ -44,7 +44,7 @@
               region: gloomustry-star
 },
 	"consumes": {
-  "power": 6,
+  "power": 5,
 			"items": [
                "bullet-II/1",
                "soulofvictory/1",
