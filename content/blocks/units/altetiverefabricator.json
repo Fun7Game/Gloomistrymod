@@ -6,11 +6,11 @@ size: 5
 constructTime: 3600
 liquidCapacity: 45
 consumes: {
-  power: 10
+  power: 6
     items: {
       items: [
-        escar/160
-        amethyst/80
+        escar/120
+        amethyst/60
         alganite/25
         soulofvictory/8
         soulofcriminal/8
