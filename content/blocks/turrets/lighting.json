@@ -7,7 +7,7 @@
   "reload": 120,
   "shootSound": "cannon",
   "rotateSpeed": 2.6,
-  "range": 680,
+  "range": 540,
   "recoil": 1,
   "size": 5,
 "consumes": { 
@@ -27,7 +27,7 @@
   "targetGround": true,
   "ammoTypes": {
       "bullet-II": {
-      "speed": 8.5
+      "speed": 6.9
       "ammoMultiplier": 1,
       "frontColor": 3D0C82FF,
       "backColor": 471A86FF,
@@ -40,7 +40,7 @@
       "hitSound": "bang",
       "buildingDamageMultiplier": 0.5,
       "homingRange": 220,
-      "homingPower": 0.03,
+      "homingPower": 0.02,
         "trailColor": "471A86FF",
         "damage": 305,
         "trailLength": 5.3,
@@ -67,7 +67,7 @@
     }
   },
   "bullet-III": {
-    "speed": 10.5
+    "speed": 9
     "ammoMultiplier": 2,
     "frontColor": C5BD51FF,
     "backColor": A29A2FFF,
@@ -76,12 +76,12 @@
     "damage": 420,
     "type": "BasicBulletType",
     "width": 18,
-    "lifetime": 64.76,
+    "lifetime": 63,
     "height": 20,
     "hitSound": "bang",
     "buildingDamageMultiplier": 0.5,
     "homingRange": 220,
-    "homingPower": 0.04,
+    "homingPower": 0.02,
       "trailColor": "A29A2FFF",
       "trailLength": 5.3,
       "trailWidth": 5,
