@@ -56,7 +56,7 @@ bullet: {
         frontColor: 3D6E70FF
         backColor: 385F60FF
         "damage": 350,
-        "splashDamage": 1375,
+        "splashDamage": 1200,
         "splashDamageRadius": 80,
         "height": 22,
         "width": 16,
