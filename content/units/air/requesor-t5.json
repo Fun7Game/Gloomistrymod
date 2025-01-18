@@ -11,7 +11,7 @@
     "range": 320,
     "maxRange": 720,
     "flying": true,
-    "health": 24000,
+    "health": 23000,
     "hitSize": 61,
     "armor": 14,
     "itemCapacity": 275,
