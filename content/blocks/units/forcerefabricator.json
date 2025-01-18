@@ -6,7 +6,7 @@ health: 720
 constructTime: 1500
 liquidCapacity: 30
 consumes: {
-  power: 5
+  power: 4
     items: {
       items: [
         escar/50
