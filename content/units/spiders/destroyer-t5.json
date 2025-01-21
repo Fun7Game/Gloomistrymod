@@ -47,10 +47,11 @@ burning
     "y": 2,
     "shootStatusDuration": 220,
     "shoot": {
-      "type": "ShootAlternate",
+      "type": "ShootSpread",
       "inaccuracy": 0,
-      "shots": 2,
-      "shotDelay": 10,
+      "spread": 2.5,
+      "shots": 3,
+      "shotDelay": 0,
       "firstShotDelay": 180
     },
     parentizeEffects: true
@@ -61,13 +62,13 @@ burning
     "shootSound": "laserblast",
     "chargeSound": "lasercharge",
     "rotate": false,
-    "cooldownTime": 900,
+    "cooldownTime": 780,
     "bullet": {
         "type": "LaserBulletType",
         "length": 615,
         "lifetime": 70,
         "width": 30,
-        "damage": 2620,
+        "damage": 2350,
         "colors": ["D4C92FFF", "E3DC80FF", "FFFFFFFF"],
         "chargeEffect": {
           "type": "multiEffect",
