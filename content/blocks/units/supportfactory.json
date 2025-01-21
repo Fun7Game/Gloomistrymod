@@ -1,6 +1,6 @@
 {
-"name": "Draufrs factory",
-"description": "Produces support units -Draufr-",
+"name": "Support factory",
+"description": "Produces support units 1 tier",
 "type": "UnitFactory",
 "size": 3,
 "consumes": {
