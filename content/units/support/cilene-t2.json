@@ -1,0 +1,28 @@
+ "name": "Cilene",
+ "description": "It extracts resources faster and also helps the player in construction."
+ "type": "flying", 
+ "lowAltitude": true,
+ "speed": 2.6,
+ "accel": 0.1,
+    "drag": 0.02,
+    "flying": true,
+    "health": 380,
+    "hitSize": 13,
+    "armor": 1,
+    "itemCapacity": 60,
+    "engineOffset": 7.75,
+    "engineSize": 3,
+    "faceTarget": false
+    mineTier: 2
+    mineSpeed: 5.75
+    mineRange: 85
+    buildSpeed: 0.6
+    buildRange: 175
+mineItems: [
+  kianit
+  tin
+  peat
+]
+    isEnemy: false
+    "research": "draufr-t1"
+    "researchCostMultiplier": 15
