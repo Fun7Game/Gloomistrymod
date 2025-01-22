@@ -1,0 +1,52 @@
+Type: UnitAssembler
+name: Cover assembler
+description: It builds from small mechs and metal schemes of mechs 4 and 5 tier. Requires an ultragenion to work.
+health: 2750
+size: 5
+plans: [
+  {
+  unit: atmoz-t4
+  requirements: [
+    gloomustry-cover-t1/12
+    gloomustry-metalschemeI/12
+    gloomustry-metalschemeII/2
+  ]
+  time: 6300
+  }
+  {
+  unit: paphoz-t5
+  requirements: [
+    gloomustry-undertaker-t2/10
+    gloomustry-metalschemeII/10
+    gloomustry-metalschemeIII/4
+  ]
+  time: 14400
+  }
+]
+areaSize: 17
+dronesCreated: 4
+consumes: {
+power: 10
+  liquid: {
+    liquid: ultragenion
+    amount: 0.7
+  }
+}
+category: units
+research: {
+    parent: altetiverefabricator
+    objectives: [
+         {
+              type: "SectorComplete",
+              preset: "enemybasesupportase"
+          }
+    ]
+},
+requirements: [
+  kianit/1050
+  tin/1050
+  escar/550
+  alganite/175
+  upgradedescar/125
+  delvangium/200
+]

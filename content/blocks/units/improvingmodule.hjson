@@ -1,0 +1,23 @@
+Type: UnitAssemblerModule
+name: Improving module
+description: Increases the level of the assembler and makes it possible to create units of 5 tier.
+health: 1575
+size: 5
+category: units
+research: {
+    parent: "cargomanufacturer",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "enemybasesupportase"
+        }
+    ]
+},
+requirements: [
+kianit/900
+tin/900
+escar/375
+alganite/150
+upgradedescar/125
+soulofeverything/50
+]

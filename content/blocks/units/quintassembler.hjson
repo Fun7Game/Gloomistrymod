@@ -1,0 +1,51 @@
+Type: UnitAssembler
+name: Quint assembler
+description: It builds from small air units and metal schemes of air units 4 and 5 tier. Requires an hallow liquid to work.
+health: 2750
+size: 5
+plans: [
+  {
+  unit: incarnation-t4
+  requirements: [
+    gloomustry-quint-t1/12
+    gloomustry-metalschemeII/6
+  ]
+  time: 6300
+  }
+  {
+  unit: requesor-t5
+  requirements: [
+    gloomustry-protype-t2/10
+    gloomustry-metalschemeIII/4
+    gloomustry-metalschemeI/20
+  ]
+  time: 14400
+  }
+]
+areaSize: 17
+dronesCreated: 4
+consumes: {
+power: 10
+  liquid: {
+    liquid: hallowliquid
+    amount: 1
+  }
+}
+category: units
+research: {
+    parent: altetiverefabricator
+    objectives: [
+         {
+              type: "SectorComplete",
+              preset: "enemybasesupportase"
+          }
+    ]
+},
+requirements: [
+  kianit/1050
+  tin/1050
+  escar/550
+  alganite/175
+  upgradedescar/125
+  delvangium/200
+]

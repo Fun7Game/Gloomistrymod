@@ -1,0 +1,30 @@
+  "type": "Constructor",
+  "name": "Cargo manufacturer",
+  "description": "Produces blocks of size 1х1 and 2х2.",
+  "health": 750,
+  "size": 3,
+  "hasItems": true,
+  "craftEffect": "none",
+  "hasPower": true,
+  "updateEffect": "none",
+  minBlockSize: 1
+  maxBlockSize: 2
+  "consumes": {
+  "power": 3.5
+  }
+  "requirements": [
+ kianit/175
+ tin/175
+ escar/100
+ alganite/35
+  ],
+  "category": "units"
+research: {
+    parent: altetiverefabricator
+    objectives: [
+         {
+              type: "SectorComplete",
+              preset: "enemybasesupportase"
+          }
+    ]
+}

@@ -1,0 +1,46 @@
+"name": "Altetive refabricator",
+"description": "[gray]Improves the introduced units from the [cyan]Gloomistry [gray]mod to 3 tier.",
+type: Reconstructor
+health: 1550
+size: 5
+constructTime: 3600
+liquidCapacity: 45
+consumes: {
+  power: 6
+    items: {
+      items: [
+        escar/120
+        amethyst/60
+        alganite/25
+        soulofvictory/8
+        soulofcriminal/8
+      ]
+    }
+  liquid: {
+    liquid: hallowliquid
+    amount: 0.6
+  }
+}
+upgrades: [
+  [undertaker-t2, berserker-t3],
+  [protype-t2, slanderer-t3],
+  [streder-t2, reflex-t3]
+]
+requirements: [
+  kianit/375
+  tin/325
+  escar/225
+  amethyst/125
+  soulofdefeat/50
+  soulofexcitement/50
+]
+category: units
+research: {
+parent: forcerefabricator
+objectives: [
+  {
+  type: "OnSector"
+  preset: "enemybaseziraund"
+  }
+]
+}
