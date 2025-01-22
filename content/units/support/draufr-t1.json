@@ -22,5 +22,5 @@ mineItems: [
   tin
 ]
     isEnemy: false
-    "research": "draufrsfactory"
+    "research": "supportfactory"
     "researchCostMultiplier": 25.2
