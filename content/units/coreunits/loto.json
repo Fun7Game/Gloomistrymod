@@ -4,7 +4,7 @@
  "lowAltitude": true,
  "speed": 3.25,
  "accel": 0.12,
-    "drag": 0.014,
+    "drag": 0.018,
     "flying": true,
     "health": 150,
     "hitSize": 8,
