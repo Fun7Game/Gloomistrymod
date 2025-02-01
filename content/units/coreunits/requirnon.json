@@ -43,7 +43,7 @@ weapons: [
            "type": "LaserBulletType",
         "damage": 85,
         "recoil": 1,
-        "buildingDamageMultiplier": 0,
+        "buildingDamageMultiplier": 0.01,
         "healPercent": 0,
         "length": 180,
         "collidesTeam": true,
