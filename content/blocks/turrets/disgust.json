@@ -1,0 +1,134 @@
+{
+  "type": "ItemTurret",
+  "name": "Disgust",
+  "description": "Shoots a small cluster of splash projectiles at medium range. [yellow]/IINNTR/ A good splash damage copes well with a lot of units.",
+  "health": 2250,
+  "reload": 150,
+  "shootSound": "shockBlast",
+  "outlineColor": "292323FF",
+  "rotateSpeed": 3.2,
+  "velocityRnd": 0.15,
+  "range": 270,
+  "size": 3,
+"consumes": { 
+    "coolant": { 
+       "amount": 0.3
+    } 
+    },
+  "shoot": {
+    "type": "ShootPattern",
+    "firstShotDelay": 90,
+    "shots": 3,
+    "spread": 0,
+    "shotDelay": 0
+    },
+  "inaccuracy": 9,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+      "bullet-II": {
+      "speed": 3.6,
+      "ammoMultiplier": 2,
+      "frontColor": 3D0C82FF,
+      "backColor": 471A86FF,
+      "hitColor": 3D0C82FF,
+      "hitSize": 12,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "lifetime": 90,
+      "height": 14,
+      "splashDamage": 105,
+      "splashDamageRadius": 45,
+      "lightning": 3,
+      "lightningLength": 9,
+      "lightningLengthRand": 3.5,
+      "lightningDamage": 14,
+      "lightningColor": "874ED7FF",
+      "hitSound": "spark",
+      "shootEffect": {
+              type: ParticleEffect
+              particles: 2
+              lifetime: 25
+              length: 12
+              sizeFrom: 4
+              sizeTo: 1
+              colorFrom: 471A86FF
+              colorTo: 471A86FF
+              interp: pow3Out
+              spin: 2
+              sizeInterp: pow2In
+              region: gloomustry-star
+    },
+    },
+    "bullet-III": {
+      "speed": 3.6,
+      "ammoMultiplier": 3,
+      "frontColor": C5BD51FF,
+      "backColor": A29A2FFF,
+      "hitColor": C5BD51FF,
+      "hitSize": 12,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "lifetime": 90,
+      "height": 14,
+      "splashDamage": 170,
+      "splashDamageRadius": 52,
+      "lightning": 4,
+      "lightningLength": 12,
+      "lightningLengthRand": 4,
+      "lightningDamage": 26,
+      "lightningColor": "F2EB91FF",
+      "hitSound": "spark"
+      "shootEffect": {
+              type: ParticleEffect
+              particles: 2
+              lifetime: 25
+              length: 12
+              sizeFrom: 4
+              sizeTo: 1
+              colorFrom: A29A2FFF
+              colorTo: A29A2FFF
+              interp: pow3Out
+              spin: 2
+              sizeInterp: pow2In
+              region: gloomustry-star
+  },
+  },
+  },
+"drawer": {
+      "type": "DrawTurret",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "mirror": false,
+          "suffix": "-part1",
+          "progress": "warmup",
+          "under": true,
+          "moveX": -6,
+          "moveY": 1.5,
+          "moveRot": 35
+        },
+        {
+          "type": "RegionPart",
+          "mirror": false,
+          "suffix": "-part2",
+          "progress": "warmup",
+          "under": true,
+          "moveX": 6,
+          "moveY": 1.5,
+          "moveRot": -35
+    }
+    ]
+    },
+  "requirements": [
+   kianit/225
+   tin/200
+   escar/125
+   amethyst/75
+   soulofdefeat/10
+   soulofexcitement/10
+  ],
+  coolantMultiplier: 2.0835,
+  "category": "turret",
+  "research": "sawing"
+}

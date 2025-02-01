@@ -1,0 +1,51 @@
+{
+  "type": "PowerTurret",
+  "name": "Darkness",
+  "description": "Shoots a large red laser. [yellow]/IINNTR/ Extremely good.",
+  "health": 5750,
+  "reload": 180,
+  "recoil": 1,
+  "shootSound": "largeCannon",
+  "outlineColor": "292323FF",
+  "rotateSpeed": 2.4,
+  "range": 380,
+  "size": 5,
+"consumes": { 
+    "power": 26,
+    "coolant": { 
+       "amount": 0.5
+    } 
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 7.5
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "shootType": {
+    "type": "LaserBulletType",
+   "damage": 1750,
+   "healPercent": 0,
+   "length": 400,
+   "collidesTeam": true,
+   "collidesTiles": true,
+   "collidesAir": true,
+   "colors": ["950D0DFF", "B63737FF", "FFFFFF"],
+}
+  "requirements": [
+    kianit/1200
+    tin/1200
+    flint/450
+    escar/350
+    alganite/175
+    upgradedescar/125
+    soulofcriminal/50
+    soulofvictory/50
+  ],
+  coolantMultiplier: 1,
+  "category": "turret",
+  "research": "diver"
+}
