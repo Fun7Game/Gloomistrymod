@@ -10,7 +10,7 @@
   "explosionRadius": 28,
   "explosionDamage": 15400,
   "hasLiquids": true,
-  "powerProduction": 155
+  "powerProduction": 150
   "warmupSpeed": 0.015,
   "itemDuration": 60,
   "drawer": {
