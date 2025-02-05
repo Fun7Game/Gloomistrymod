@@ -7,7 +7,7 @@
   "itemCapacity": 10,
   "liquidBoostIntensity": 1.45,
   "drillTime": 300,
-  "drawMineItem": false,
+  "drawMineItem": true,
   "consumes": {
     "liquid": {
       "liquid": "water",
