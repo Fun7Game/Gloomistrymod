@@ -50,7 +50,7 @@
 ]
 },
 "consumes": {
-"power": 4,
+"power": 4.5,
 "liquid": {
 "liquid": "oxygen",
 "amount": 0.2
