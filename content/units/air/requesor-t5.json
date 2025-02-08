@@ -1,0 +1,184 @@
+ "name": "[#4A2828FF]Requesor",
+ "description": "[#4A2828FF]A mighty flying ship! []Shoots a very fast and large volley of lasers at very long range and also releases exploding homing balls in all directions. Has a shield. [#4A2828FF]It looks like a whole flying base..."
+ "type": "flying", 
+ "lowAltitude": false,
+ "speed": 0.49,
+ "accel": 0.12,
+ "outlineRadius": 1,
+ "outlineColor": 272736FF,
+    "rotateSpeed": 0.98,
+    "drag": 0.035,
+    "range": 360,
+    "maxRange": 720,
+    "flying": true,
+    "health": 24000,
+    "hitSize": 61,
+    "armor": 14,
+    "itemCapacity": 275,
+    "engineOffset": 34,
+    "engineSize": 7,
+    "engineColor": 3C2121FF,
+    "faceTarget": true,
+immunities: [
+blasted
+freezing
+status-corruptionwater
+melting
+burning
+]
+"engines": [
+{
+x: 8
+y: -44
+radius: 4
+}
+{
+x: -8
+y: -44
+radius: 4
+}
+]
+weapons: [
+{
+    name: requesor-t5-weapon
+    alternate: false
+    x: 0
+    y: 43
+    shootY: 0
+    layerOffset: 0
+    rotate: true
+    rotateSpped: 100
+    reload: 240
+    recoil: 0
+    inaccuracy: 0
+    shootSound: gloomustrymodlasershootbig
+    mirror: false
+    top: false
+shoot: {
+type: ShootPattern
+shots: 16
+shotDelay: 5.62
+}
+bullet: {
+"speed": 21.470,
+    "hitSize": 18,
+    "type": "BasicBulletType",
+    "frontColor": 400707FF,
+    "backColor": 400707FF,
+    "width": 16,
+    "damage": 190,
+    "lifetime": 34,
+    "height": 48,
+    "pierce": true,
+    "pierceBuilding": false,
+}
+}
+{
+    name: requesor-t5-weapon2
+    alternate: false
+    x: 0
+    y: 0
+    shootY: 0
+    layerOffset: 0
+    rotate: true
+    rotateSpeed: 716326
+    reload: 480
+    recoil: 0
+    inaccuracy: 0
+    shootSound: missileLaunch
+    mirror: false
+    top: false
+    shoot: {
+        type: ShootPattern
+        shots: 1
+        shotDelay: 0
+}
+    "bullet": {
+        "speed": 0.855,
+        "hitSize": 16,
+        "type": "BasicBulletType",
+        "frontColor": FFF2F2FF,
+        "backColor": D69898FF,
+        "width": 27,
+        "splashDamage": 145,
+        "splashDamageRadius": 44,
+        "lifetime": 465,
+        "height": 27,
+        "hitSound": "spark",
+        "hitShake": 4,
+        "collides": false,
+        "collidesAir": false,
+        "collidesGround": false,
+        "collidesTiles": false,
+        "trailColor": "D69898FF",
+        "trailLength": 32,
+        "trailWidth": 6,
+        "absorbable": false,
+    "hitEffect": {
+    "type": "WaveEffect",
+    "colorFrom": "D69898FF",
+    "colorTo": "D69898FF",
+    "sizeFrom": 5,
+    "sizeTo": 45,
+    "lifetime": 18
+    },
+        "bulletInterval": 10.5,
+        "intervalBullets": 3,
+        "intervalBullet": {
+            "type": "LightningBulletType",
+            "damage": 89,
+            "lightningColor": "D69898FF",
+            "lightningLength": 10,
+            "lightningLengthRand": 6,
+            "hitSound": "spark",
+            "despawnSound": "spark",
+}
+"lightning": 8,
+"lightningColor": D69898FF,
+"lightningLengthRand": 6,
+"lightningLength": 22,
+"lightningDamage": 376,
+}
+}
+]
+"research": "incarnation-t4",
+"researchCostMultiplier": 15,
+"parts": [
+{
+  "type": "shapePart",
+  "y": -48.5,
+  "x": 19.85,
+  "hollow": true,
+  "circle": false,
+  "layer": 118,
+  "mirror": true,
+  "color": D69898FF,
+  "stroke": 0.3,
+  "strokeTo": 0.6,
+  "radiusTo": 2.3,
+  "radius": 1.2
+},
+{
+    "type": "shapePart",
+    "y": -48.5,
+    "x": 26.30,
+    "hollow": true,
+    "circle": false,
+    "layer": 1318,
+    "mirror": true,
+    "color": D69898FF,
+    "stroke": 0.3,
+    "strokeTo": 0.6,
+    "radiusTo": 2.3,
+    "radius": 1.2
+  },
+]
+"abilities": [
+    {
+    "type": "mindustry.entities.abilities.ForceFieldAbility",
+    "radius": 74,
+    "regen": 2.5,
+    "max": 2650,
+    "cooldown": 720
+    }
+]
