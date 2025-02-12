@@ -1,0 +1,122 @@
+"name": "Droid",
+"description": "Shoots small fireballs at enemies. It can fly, mine ore, and also to build blocks. It is able to restore the strength of allied units within range.",
+"type": "mech",
+	"speed": 0.465,
+  "lowAltitude": true,
+	"hitSize": 14,
+	"health": 1040,
+	"faceTarget": true,
+	"armor": 4,
+  "itemCapacity": 50,
+  "drownTimeMultiplier": 1.75,
+  "canBoost": true,
+  "boostMultiplier": 5.2,
+	"range": 165,
+	"rotateSpeed": 3.6,
+"mechStepShake": 0.2,
+"mechFrontSway": 0.2,
+"mechSideSway": 0.45,
+"mechStepParticles": true,
+	"allowLegStep": true,
+	"hovering": false,
+  "mineTier": 2,
+  "mineSpeed": 7.2,
+  "mineRange": 65,
+  "flying": false,
+  "buildSpeed": 0.6,
+  "buildRange": 120,
+  "engineSize": 4,
+  "engines": [
+{
+x: 7.5
+y: -6
+radius: 2
+}
+{
+x: -7.5
+y: -6
+radius: 2
+}
+]
+"mineItems": [
+kianit
+tin
+peat
+]
+targetAir: true
+weapons: [
+{
+name: droid-weapon
+x: 11
+y: -0.5
+shootY: 6
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 2
+shotDelay: 0
+spread: 0
+}
+inaccuracy: 10,
+velocityRnd: 0.1,
+top: false
+rotate: true
+rotateSpeed: 0.6
+rotationLimit: 25
+shootSound: shockBlast
+reload: 107
+recoil: 1
+bullet: {
+    type: BasicBulletType,
+    speed: 2.6
+    hitSound: spark,
+    lifetime: 70
+    damage: 45
+    width: 13
+    height: 13
+    frontColor: FFE7E7FF
+    backColor: EAA6A6FF
+    collidesTiles: true
+  "trailColor": "EAA6A6FF",
+  "trailLength": 5,
+  "trailWidth": 2.9,
+  "absorbable": false,
+  "lightColor": "FFE7E7FF",
+  "bulletInterval": 4,
+  "intervalBullets": 1,
+  "intervalBullet": {
+      "type": "LightningBulletType",
+      "damage": 7,
+      "lightningColor": "FFE7E7FF",
+      "lightningLength": 2,
+      "lightningLengthRand": 2
+},
+"lightning": 4,
+"lightningColor": "FFE7E7FF",
+"lightningLengthRand": 3,
+"lightningLength": 3,
+"lightningDamage": 18,
+"trailEffect": {
+  "type": "ParticleEffect",
+  "particles": 4,
+  "length": 10,
+  "lifetime": 120,
+  "lightColor": "FFE7E7FF",
+  "colorFrom": "EAA6A6FF",
+  "colorTo": "FFE7E7FF",
+  "sizeFrom": 10,
+  "sizeTo": 0
+  }
+}
+}
+]
+"research": "afario"
+researchCostMultiplier: 25.2
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 50
+    range: 85
+    reload: 250
+    }
+    ]

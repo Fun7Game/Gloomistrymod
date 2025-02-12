@@ -1,0 +1,86 @@
+"name": "Afario",
+"description": "Shoots small homing bullets at enemies. It can fly, mine ore, and also to build blocks. It is able to restore the strength of allied units within range.",
+"type": "mech",
+	"speed": 0.53,
+	"hitSize": 10,
+	"health": 275,
+	"faceTarget": true,
+	"armor": 1,
+  "itemCapacity": 20,
+  "drownTimeMultiplier": 1,
+  "canBoost": true,
+  "boostMultiplier": 2.4,
+	"range": 142,
+	"rotateSpeed": 4.8,
+"mechStepShake": 0,
+"mechFrontSway": 0.1,
+"mechSideSway": 0.6,
+"mechStepParticles": true,
+	"allowLegStep": true,
+	"hovering": false,
+  "mineTier": 1,
+  "mineSpeed": 4.5,
+  "mineRange": 40,
+  "flying": false,
+  "buildSpeed": 0.2,
+  "buildRange": 95,
+"mineItems": [
+kianit
+tin
+]
+targetAir: true
+weapons: [
+{
+name: afario-weapon
+x: 7.25
+y: 1
+shootY: 5
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 0
+}
+top: false
+rotate: false
+shootSound: missile
+reload: 15.2
+recoil: 0.5
+bullet: {
+    type: BasicBulletType,
+    speed: 3.84
+    lifetime: 37
+    damage: 9
+    width: 6
+    height: 6
+    frontColor: FFE7E7FF
+    backColor: EAA6A6FF
+    collidesTiles: true
+  "homingRange": 40,
+  "homingPower": 0.065,
+  "trailColor": "EAA6A6FF",
+  "trailLength": 2,
+  "trailWidth": 1.65,
+  "absorbable": false,
+  "lightColor": "FFE7E7FF",
+}
+}
+]
+"research": {
+    "parent": "supportfactory",
+    "objectives": [
+      {
+      "type": "SectorComplete",
+      "preset": "anunfinishedlaunchertemple"
+      }
+    ]
+  }
+researchCostMultiplier: 25.2
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 30
+    range: 40
+    reload: 300
+    }
+    ]
