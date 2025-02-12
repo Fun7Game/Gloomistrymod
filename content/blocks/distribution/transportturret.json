@@ -3,7 +3,8 @@
   "health": 750,
   "description": "Shoots at other transport turrets, thereby transferring the accumulated items to them. It requires energy to work.",
   "itemCapacity": 240,
-  "reload": 180
+  "reload": 180,
+  "outlineColor": "292323FF",
   "range": 575,
   "size": 3,
   "consumes": {
