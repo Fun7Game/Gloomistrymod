@@ -1,0 +1,40 @@
+  "type": "BeamDrill",
+  "name": "Large pulse plasma-bore",
+  "description": "It extracts resources faster than flint plasma-bore, but requires more energy and oxygen to work. Optionally uses an ultragenion to increase the digging speed.",
+  "size": 3,
+  "optionalBoostIntensity": 1,
+  "boostHeatColor": B3FFA2FF,
+  "heatColor": 5F9852FF,
+  "sparkColor": 5F9852FF,
+  "hasLiquid": true,
+  "itemCapacity": 30,
+  "hasPower": true,
+  "heatPulse": 1
+  "requirements": [
+    "kianit/105",
+    "tin/90",
+    "flint/75",
+    "escar/75",
+    "upgradedescar/25"
+  ],
+  "tier": 4,
+  "range": 7,
+  "drillTime": 30,
+  "fogRadius": 3,
+  "consumes": {
+    "power": 3,
+    liquids: [
+      oxygen/0.1
+      ultragenion/0.05
+    ]
+  }
+category: production
+"research": {
+    "parent": "flint-plasmabore",
+    "objectives": [
+      {
+      "type": "SectorComplete",
+      "preset": "anunfinishedlaunchertemple"
+      }
+    ]
+  }
