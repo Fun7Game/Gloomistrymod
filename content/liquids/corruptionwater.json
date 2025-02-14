@@ -9,5 +9,6 @@
 "explosiveness": 0.1,
 "effect": "status-corruptionwater",
 "color": "3D0C82FF",
-"research": "glass"
+"research": "glass",
+"coolant": false
 }
