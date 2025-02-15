@@ -3,7 +3,7 @@ description: It pumps out more liquid, but requires more energy and oxygen to wo
 type: Pump
 size: 3
 health: 540
-pumpAmount: 0.5
+pumpAmount: 0.388888889
 squareSprite: false
 liquidCapacity: 80
 category: liquid
