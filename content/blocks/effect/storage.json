@@ -5,7 +5,7 @@
 "size": 2,
 "health": 280,
 "coreMerge": false,
-"itemCapacity": 450,
+"itemCapacity": 125,
 "research": "itemunload",
 "category": "effect",
 "requirements": [
