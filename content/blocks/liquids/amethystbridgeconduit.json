@@ -1,0 +1,13 @@
+type: LiquidBridge
+name: Amethyst bridge conduit
+description: Moves liquids over areas or buildings. Further than a kianit bridge conduit.
+liquidCapacity: 45
+hasPower: false
+range: 6
+requirements: [
+  tin/10
+  amethyst/3
+  glass/6
+]
+category: liquid
+research: amethystconduit
