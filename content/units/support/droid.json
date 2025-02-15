@@ -59,10 +59,8 @@ spread: 0
 }
 inaccuracy: 10,
 velocityRnd: 0.1,
-top: false
-rotate: true
-rotateSpeed: 0.6
-rotationLimit: 25
+top: false,
+rotate: false,
 shootSound: shockBlast
 reload: 107
 recoil: 1
