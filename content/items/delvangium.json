@@ -1,7 +1,7 @@
 type: item
 name: Delvangium
 description: Extremely rare material, used in the most advanced technologies.
-  "cost": 3,
+  "cost": 2.5,
   "color": "439092FF",
   "flammability": 0,
   "explosiveness": 0,
