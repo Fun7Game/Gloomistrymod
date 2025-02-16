@@ -1,0 +1,12 @@
+{
+ "name": "Amethyst wall", 
+ "description": "protects buildings from enemy projectiles.",
+ "type": "Wall",
+    "health": 600,
+    "size": 1,
+    category: defense
+requirements: [
+  amethyst/6
+]
+"research": "kianitwall"
+}
