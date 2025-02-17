@@ -12,7 +12,7 @@
   hasLiquids: false
   healAmount: 1
   consumes: {
-    power: 1.5
+    power: 0.75
   }
   category: units
 requirements: [
