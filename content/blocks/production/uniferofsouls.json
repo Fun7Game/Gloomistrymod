@@ -102,7 +102,8 @@
         "flint/120",
         "upgradedescar/60",
         "soulofvictory/30",
-        "soulofdefeat/30"
+        "soulofdefeat/30",
+        "delvangium/45"
 	],
 	"category": "crafting",
 	"outputItem": "soulofeverything/1",
