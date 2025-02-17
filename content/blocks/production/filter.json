@@ -17,8 +17,7 @@
 	"requirements": [
         "kianit/40",
         "tin/20",
-        "glass/15",
-        "escar/5"
+        "glass/15"
 	],
 	"category": "crafting",
 	"outputLiquid": "water/0.05",
