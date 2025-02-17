@@ -4,6 +4,7 @@
  "type": "Wall",
     "health": 1450,
     "size": 1,
+  "buildCostMultiplier": 4.5,
     category: defense
 requirements: [
   delvangium/8
