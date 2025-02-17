@@ -28,13 +28,13 @@
         colorTo: EEDEFFFF
         lifetime: 90
       }
-  "requirements": [
+ "requirements": [
   kianit/175
   tin/175
   escar/100
   amethyst/85
+  alganite/45
   upgradedescar/45
-  soulofeverything/20
   ],
   "category": "production",
   "research": {
