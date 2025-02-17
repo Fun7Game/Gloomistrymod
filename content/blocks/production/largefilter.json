@@ -11,7 +11,7 @@
 	"liquidCapacity": 60,
 	"itemCapacity": 0,
 	"consumes": {
-   "power": 2
+   "power": 1.5
     "liquid": "corruptionwater/1.2"
   },	
 	"requirements": [
