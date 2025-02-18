@@ -35,6 +35,8 @@
       "lifetime": 30,
       "height": 24,
       "pierce": true,
+      "pierceBuidung": false,
+      "pierceCap": 4,
       "buildingDamageMultiplier": 0.15
 }
   "requirements": [
