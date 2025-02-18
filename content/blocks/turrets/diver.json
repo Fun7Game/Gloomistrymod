@@ -1,0 +1,75 @@
+{
+  "type": "PowerTurret",
+  "name": "Diver",
+  "description": "Shoots homing bursts at long range. [yellow]/IINNTR/ Copes with 3 tier units without any problems, but kills berserkers less quickly.",
+  "health": 2560,
+  "reload": 12,
+  "shootSound": "shootSmite",
+  "outlineColor": "292323FF",
+  "rotateSpeed": 4,
+  "range": 420,
+  "recoil": 0.2,
+  "size": 3,
+"consumes": { 
+  "power": 9.66666667,
+    "coolant": { 
+       "amount": 0.3
+  } 
+  },
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 12
+  },
+  "inaccuracy": 9,
+  "targetAir": true,
+  "targetGround": true,
+  "shootType": {
+      "speed": 12,
+      "sprite": "gloomustry-splash",
+      "hitSize": 12,
+      "type": "BasicBulletType",
+      "width": 14,
+      "damage": 75,
+      "lifetime": 35,
+      "height": 14,
+      "buildingDamageMultiplier": 0.5,
+      "homingRange": 145,
+      "homingDelay": 20,
+      "homingPower": 0.19,
+        "trailColor": "6CE877FF",
+        "trailLength": 3.8,
+        "trailWidth": 3.5,
+        "absorbable": false,
+        "lightColor": "92F49AFF",
+        "frontColor": "6CE877FF",
+        "backColor": "6CE877FF",
+ "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "lifetime": 40,
+    "length": 0,
+    "sizeFrom": 8,
+    "sizeTo": 0,
+    "spin": 6,
+    "cone": 0,
+    "interp": "pow2In",
+    "sizeInterp": "pow3Out",        
+    "colorFrom": "6CE877FF",
+    "colorTo": "6CE877FF",
+    "region": "gloomustry-star"
+}
+}
+  "requirements": [
+   kianit/225
+   tin/200
+   escar/125
+   flint/90
+   soulofvictory/10
+   soulofcriminal/10
+],
+ coolantMultiplier: 2.0835
+ category: turret
+ research: PG-4
+}
