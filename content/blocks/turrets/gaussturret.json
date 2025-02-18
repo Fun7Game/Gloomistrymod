@@ -1,0 +1,85 @@
+{
+  "type": "PowerTurret",
+  "name": "Gauss turret",
+  "description": "An improved version of PG-4. It has a colossal range and impressive damage. [yellow]/IINNTR/This turret forces you to keep enemy units as far away from you as possible...",
+  "health": 3950,
+  "rotateSpeed": 3.25,
+  "outlineColor": "292323FF",
+  "recoil": 0,
+  "reload": 180,
+  "shootSound": "gloomustrymodlasershootbig",
+  "range": 830,
+  "size": 4,
+"consumes": { 
+  "power": 23.33334,
+    "coolant": { 
+       "amount": 0.5
+    } 
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "firstShotDelay": 60,
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 7.5
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+ "shootType": {
+ "speed": 19.4,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "frontColor": "FFF0F0F",
+      "backColor": "D4A2A2FF",
+      "width": 16,
+      "damage": 460,
+      "lifetime": 43,
+      "height": 48,
+      "pierce": true,
+      "pierceBuidung": false,
+      "pierceCap": 6,
+      "buildingDamageMultiplier": 0.15
+},
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -muzzle
+      mirror: false,
+      progress: warmup
+      moveX: 0
+      under: false
+      moveY: 0
+      moves: [
+             {
+          type: PartMove
+          progress: recoil
+          y: -0.75
+}
+]
+}
+]
+}
+  "requirements": [
+   kianit/750
+   tin/675
+   escar/275
+   flint/200
+   upgradedescar/50
+   soulofcriminal/35
+   soulofdefeat/35
+  ],
+  coolantMultiplier: 1,
+ "category": "turret",
+research: {
+    parent: PG-4
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "enemybasesupportase"
+}
+]
+},
+}
