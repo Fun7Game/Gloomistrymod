@@ -57,7 +57,8 @@
       "collidesTiles": true,
       "collidesAir": true,
       "homingPower": 0.02,
-      "homingRange": 130,
+      "homingDelay": 17,
+      "homingRange": 240,
       "chargeEffect": {
         "type": "MultiEffect",
       "effects": [
