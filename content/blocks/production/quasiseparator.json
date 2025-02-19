@@ -1,0 +1,79 @@
+{
+  "type": "Separator",
+  "name": "Quasi separator",
+  "description": "Divides the corruption water into some mineral resources. It can produce alganite with a low chance.",
+  "size": 2,
+  "hasPower": true,
+  "solid": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "liquidCapacity": 20,
+  "craftTime": 60,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "corruptionwater",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-spinner",
+        "rotateSpeed": 5
+      }
+    ]
+  }
+  "consumes": {
+    "power": 2.5,
+    "liquid": {
+      "liquid": "corruptionwater",
+      "amount": 0.53333333
+    },
+  },
+  "requirements": [
+    {
+      "item": "kianit",
+      "amount": 100
+    },
+    {
+      "item": "tin",
+      "amount": 50
+    },
+    {
+      "item": "escar",
+      "amount": 40
+    },
+    {
+      "item": "amethyst",
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "kianit",
+      "amount": 15
+    },
+    {
+      "item": "tin",
+      "amount": 15
+    },
+    {
+      "item": "alganite",
+      "amount": 2
+    }
+  ],
+  "category": "crafting",
+  "research": {
+parent: flintpress
+ objectives: [
+        {
+            type: "SectorComplete",
+            preset: "corruptioncliffs"
+        }
+    ]
+}
+}

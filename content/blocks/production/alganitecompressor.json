@@ -1,0 +1,70 @@
+{
+"name": "Alganite compressor",
+"description": "Produces alganite from peat, cinite and corruption water.",
+"type": "GenericCrafter",
+"health": 360,
+"hasItems": true,
+"hasLiquid": true,
+"hasPower": true,
+"itemCapacity": 10,
+"liquidCapacity": 20,
+"size": 2,
+"craftTime": 75,
+"updateEffect": "plasticburn",
+"craftEffect": {
+              type: ParticleEffect
+              particles: 3
+              lifetime: 50
+              length: 10
+              baseLength: 2
+              sizeFrom: 5
+              sizeTo: 1
+              colorFrom: E98888FF
+              colorTo: FFCACAFF
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: gloomustry-star
+},
+"drawer": {
+"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+   },
+   {
+       "type": "DrawGlowRegion",
+       "suffix": "-top", 
+       "glowScale": 8,
+       "color": "FF0000FF"
+   },
+   ],
+   },
+	"consumes": {
+  "power": 3.5,
+			"items": [
+               "cinite/3",
+               "peat/2",
+              ]
+     "liquids": [
+               "corruptionwater/0.2666666666"
+                ]
+	},
+	"requirements": [
+        "kianit/105",
+        "tin/75",
+        "escar/45",
+        "alganite/20"
+	],
+"category": "crafting",
+"outputItem": "alganite/1",
+"research": {
+  "parent": "quasiseparator",
+  "objectives": [
+    {
+    "type": "SectorComplete",
+    "preset": "north"
+    }
+  ]
+}
+}
