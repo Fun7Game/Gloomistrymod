@@ -1,0 +1,76 @@
+{
+"name": "Escar factory",
+"description": "It produces escar much more efficiently than an escar smelter, but requires ultragenion.",
+"type": "GenericCrafter",
+"hasItems": true,
+"health": 560,
+"hasLiquid": true,
+"hasPower": true,
+"itemCapacity": 20,
+"liquidCapacity": 35,
+ "ambientSound": "smelter",
+ "ambientSoundVolume": 0.25,
+"size": 3,
+"craftTime": 120,
+"updateEffect": "none",
+"craftEffect": {
+              type: ParticleEffect
+              particles: 8
+              lifetime: 65
+              baseLength: 5
+              length: 14
+              sizeFrom: 5
+              sizeTo: 0
+              colorFrom: 8D8DE5FF
+              colorTo: D3D3FFFF
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: gloomustry-star
+},
+"drawer": {
+"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+  "type": "DrawFlame",
+  "flameRadius": 1.5,
+  "flameRadiusIn": 0.8,
+  "flameRadiusScl": 6,
+  "flameRadiusMag": 2.5,
+  "flameRadiusInMag": 2.25,
+	"flameColor": "9F9FF6FF"
+	  },
+   ],
+   },
+	"consumes": {
+  "power": 6,
+			"items": [
+               "kianit/2",
+               "cinite/6",
+     ]
+     "liquids": [
+      "ultragenion/0.1"
+       ]
+	},
+	"requirements": [
+        "kianit/175",
+        "tin/150",
+        "escar/95",
+        "flint/75",
+        "alganite/35"
+	],
+	"category": "crafting",
+	"outputItem": "escar/8",
+"research": {
+"parent": "escarsmelter"
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "north"
+ }
+]
+}
+}
