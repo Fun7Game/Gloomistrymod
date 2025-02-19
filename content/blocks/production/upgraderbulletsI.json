@@ -1,0 +1,59 @@
+{
+"name": "Improver bullets I",
+"description": "Upgraded Bullet I with escar and amethyst.",
+"type": "GenericCrafter",
+"hasItems": true,
+"hasLiquid": false,
+"health": 560,
+"hasPower": true,
+"itemCapacity": 20,
+"liquidCapacity": 0,
+ "ambientSound": "cutter",
+ "ambientSoundVolume": 0.5,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawArcSmelt"
+      }
+    ]
+  },
+  "fogRadius": 3,
+"size": 3,
+"craftTime": 90,
+"updateEffect": "none",
+"craftEffect": "none",
+	"consumes": {
+  "power": 3,
+			"items": [
+               "bullet-I/1",
+               "escar/1",
+               "amethyst/1",
+     ]
+	},
+	"requirements": [
+        "kianit/175",
+        "tin/150",
+        "escar/95",
+        "amethyst/75",
+        "alganite/40"
+	],
+	"category": "crafting",
+	"outputItem": "bullet-II/1",
+"research": {
+"parent": "manufacturerbulletsI"
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "north"
+        }
+    ]
+}
+}

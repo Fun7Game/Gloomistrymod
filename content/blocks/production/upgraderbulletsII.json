@@ -1,0 +1,62 @@
+{
+"name": "Improver bullets II",
+"description": "Upgraded Bullet II with some souls.",
+"type": "GenericCrafter",
+"hasItems": true,
+"hasLiquid": false,
+"health": 560,
+"hasPower": true,
+"itemCapacity": 20,
+"liquidCapacity": 0,
+ "ambientSound": "cutter",
+ "ambientSoundVolume": 0.5,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawArcSmelt"
+      }
+    ]
+  },
+  "fogRadius": 3,
+"size": 3,
+"craftTime": 120,
+"updateEffect": "none",
+"craftEffect": "none",
+	"consumes": {
+  "power": 5,
+			"items": [
+               "bullet-II/1",
+               "soulofvictory/1",
+               "soulofcriminal/1",
+     ]
+	},
+	"requirements": [
+        "kianit/200",
+        "tin/175",
+        "escar/100",
+        "amethyst/95",
+        "alganite/45",
+        "soulofvictory/15",
+        "soulofexcitement/15",
+        "delvangium/25"
+	],
+	"category": "crafting",
+	"outputItem": "bullet-III/1",
+"research": {
+"parent": "upgraderbulletsI"
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "enemybasesupportase"
+        }
+    ]
+}
+}
