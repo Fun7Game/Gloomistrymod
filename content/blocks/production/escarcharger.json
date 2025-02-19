@@ -24,10 +24,10 @@
   "type": "DrawFlame",
   "flameRadius": 2.5,
   "flameRadiusIn": 1.6,
-  "flameRadiusScl": 8,
+  "flameRadiusScl": 7,
   "flameRadiusMag": 1.6,
   "flameRadiusInMag": 1.2,
-	"flameColor": "A29A2FFF"
+	"flameColor": "EEE891FF"
         }
 ],
 },
