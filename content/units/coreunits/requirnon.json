@@ -16,6 +16,7 @@
     controller: BuilderAI
     mineTier: 2
     mineSpeed: 8
+ "buildRange": 275,
     buildSpeed: 1.75
     rotateSpeed: 3.25
     buildBeamOffset: 9
