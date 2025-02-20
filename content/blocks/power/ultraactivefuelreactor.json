@@ -1,0 +1,58 @@
+{
+  "name": "Ultraactive fuel reactor",
+  "description": "Generates a huge amount of energy at peak efficiency from ultragenion. Consumes ordinary souls as a stabilizer from the air. Explodes with great force when destroyed.",
+  "type": "ImpactReactor",
+  "health": 2350,
+  "itemCapacity": 20,
+  "liquidCapacity": 60,
+  "size": 4,
+  "baseExplosiveness": 6600,
+  "explosionRadius": 26,
+  "explosionDamage": 6600,
+  "hasLiquids": true,
+  "powerProduction": 150
+  "warmupSpeed": 0.015,
+  "itemDuration": 60,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawPlasma",
+        "suffix": "-plasma",
+        "plasma1": "6B5353FF",
+        "plasma2": "4C3333F"
+      },
+      {
+        "type": "DrawDefault"
+  }
+  ]
+  },
+  "consumes": {
+    "power": 10,
+    "items": [
+      "ordinarysoul/4"
+    ],
+    "liquids": [
+      "ultragenion/0.35"
+  ]
+  },
+  requirements: [
+    kianit/375
+    tin/375
+    flint/250
+    escar/165
+    upgradedescar/65
+    soulofcriminal/50
+    soulofdefeat/50
+    delvangium/100
+    ]
+  "envRequired": 0,
+  "category": "power",
+  "research": "fuelgenerator",
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.25
+}

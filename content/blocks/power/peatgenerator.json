@@ -1,0 +1,48 @@
+type: ConsumeGenerator
+name: Peat generator
+description: It produces energy from a small amount of peat.
+size: 2
+hasLiquids: false
+hasItems: true
+liquidCapacity: 0
+itemCapacity: 10
+ambientSound: smelter
+ambientSoundVolume: 0.25
+itemDuration: 150,
+baseExplosiveness: 0
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawWarmupRegion",
+        "sinMag": 2,
+        "sinScl": 16,
+        "color": "A6D8DAFF"
+      },
+      ]
+      }
+consumes: {
+    "items": [
+    peat/2
+    ]
+}
+powerProduction: 5
+category: power
+requirements: [
+  kianit/65
+  tin/75
+  flint/35
+  escar/20
+]
+research: {
+parent: wastesgenerator
+   objectives: [
+        {
+            type: "OnSector",
+            preset: "gingerfield"
+        }
+    ]
+}
