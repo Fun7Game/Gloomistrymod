@@ -9,7 +9,7 @@
   "range": 480,
   "size": 2,
 "consumes": { 
-  "power": 4.666666,
+  "power": 3.5,
     "coolant": { 
        "amount": 0.2
     } 
