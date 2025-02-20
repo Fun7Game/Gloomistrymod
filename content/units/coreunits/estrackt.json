@@ -15,6 +15,7 @@
     "faceTarget": true,
     controller: BuilderAI
     mineTier: 1
+ "buildRange": 210,
     mineSpeed: 6
     buildSpeed: 1.25
     buildBeamOffset: 7
