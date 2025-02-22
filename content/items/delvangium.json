@@ -1,0 +1,15 @@
+type: item
+name: Delvangium
+description: Extremely rare material, used in the most advanced technologies.
+  "cost": 2.5,
+  "color": "629970FF",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "hardness": 5,
+  "research": "upgradedescar"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

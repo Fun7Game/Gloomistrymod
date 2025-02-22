@@ -1,0 +1,15 @@
+type: item
+name: Upgraded escar
+description: An improved version of the escar.
+  "cost": 2.5,
+  "color": "A9A135FF",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 1,
+  "hardness": 4,
+  "research": "escar"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

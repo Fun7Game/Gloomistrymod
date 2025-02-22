@@ -1,0 +1,12 @@
+{
+"name": "Hallow liquid",
+"description": "It is used in the production of units 2 and 3 tiers, as well as for powering many turrets.",
+"temperature": 0.4,
+"flammability": 0,
+"viscosity": 0.5,
+"lightColor": "C574DBFF",
+"heatCapacity": 1.6,
+"explosiveness": 0,
+"color": "C574DBFF",
+"research": "corruptionwater"
+}

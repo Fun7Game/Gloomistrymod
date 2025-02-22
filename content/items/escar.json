@@ -1,0 +1,15 @@
+type: item
+name: Escar
+description: It is used in the creation of units, stronger turrets and more advanced products.
+  "cost": 1,
+  "color": "434393FF",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "hardness": 2,
+  "research": "cinite"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

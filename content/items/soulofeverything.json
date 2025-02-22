@@ -1,0 +1,17 @@
+type: item
+name: Soul of everything
+description: The soul, consisting of all the elements, is used in the most advanced products.
+  "cost": 3,
+  "color": "ffffff",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 10,
+  "frames": 20,
+  "frameTime": 3,
+  "hardness": 5,
+  "research": "ordinarysoul"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

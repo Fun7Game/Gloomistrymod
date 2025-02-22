@@ -1,0 +1,17 @@
+type: item
+name: Ordinary soul
+description: Ordinary soul, all other souls are made from it.
+  "cost": 1.5,
+  "color": "989AA4FF",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 1.5,
+  "frames": 4,
+  "frameTime": 8,
+  "hardness": 3,
+  "research": "escar"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]
