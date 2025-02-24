@@ -1,0 +1,12 @@
+{
+"name": "Corruption water",
+"type": "floor",
+"speedMultiplier": 0.5,
+"variants": 0,
+"cacheLayer": "water",
+"color": "3D0C82FF",
+"albedo": 0.50,
+"isLiquid": true,
+"liquidDrop": "corruptionwater",
+"liquidMultiplier": 1
+}

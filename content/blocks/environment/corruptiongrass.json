@@ -1,0 +1,6 @@
+{
+"name": "Corruption grass",
+"type": "floor",
+"variants": 5,
+"wall": "corruptionwall"
+}

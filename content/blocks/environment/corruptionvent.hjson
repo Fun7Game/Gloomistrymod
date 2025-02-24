@@ -1,0 +1,10 @@
+name: Corruption vent
+type: SteamVent
+blendGroup: corruptiongrass
+parent: corruptiongrass
+effect: ventSteam
+effectColor: 9B8AAFFF
+attributes: {
+   steam: 1,
+   heat: 0.11111111
+}

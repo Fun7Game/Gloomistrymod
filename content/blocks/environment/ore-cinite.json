@@ -1,0 +1,10 @@
+{
+    "name": "Cinite",
+    "type": "OreBlock",
+    "oreDefault": true,	
+    "oreScale": 28.380953,
+    "oreThreshold": 0.882,
+    "itemDrop": "cinite",
+    "wallOre": true,
+    "variants": 3
+    }

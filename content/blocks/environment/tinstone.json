@@ -1,0 +1,6 @@
+{
+"name": "Tin stone",
+"type": "floor",
+"variants": 4,
+"wall": "tinwall"
+}

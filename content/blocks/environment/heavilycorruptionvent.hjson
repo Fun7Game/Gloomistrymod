@@ -1,0 +1,11 @@
+name: Heavily corruption vent
+type: SteamVent
+blendGroup: heavilycorruptiongrass
+parent: heavilycorruptiongrass
+effect: ventSteam
+effectColor: 9F7FC3FF
+attributes: {
+   steam: 1,
+   heat: 0.11111111
+}
+

@@ -1,0 +1,6 @@
+{
+"name": "Heavily corruption grass",
+"type": "floor",
+"variants": 5,
+"wall": "heavilycorruptionwall"
+}

@@ -1,0 +1,6 @@
+{
+"name": "Sand floor",
+"type": "floor",
+"variants": 4,
+"wall": "sandwall"
+}

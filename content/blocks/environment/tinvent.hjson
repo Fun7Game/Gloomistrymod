@@ -1,0 +1,11 @@
+name: Tin vent
+type: SteamVent
+blendGroup: tinstone
+parent: tinstone
+effect: ventSteam
+effectColor: 878773FF
+attributes: {
+   steam: 1,
+   heat: 0.11111111
+}
+

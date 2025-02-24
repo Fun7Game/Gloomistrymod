@@ -1,0 +1,11 @@
+name: Delvanium vent
+type: SteamVent
+blendGroup: delvaniumstone
+parent: delvaniumstone
+effect: ventSteam
+effectColor: 4A915BFF
+attributes: {
+   steam: 1,
+   heat: 0.11111111
+}
+

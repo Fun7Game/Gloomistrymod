@@ -1,0 +1,6 @@
+{
+"name": "Delvanium stone",
+"type": "floor",
+"variants": 6,
+"wall": "delvaniumwall"
+}

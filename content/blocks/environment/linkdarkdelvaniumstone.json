@@ -1,0 +1,6 @@
+{
+"name": "link dark delvanium stone",
+"type": "floor",
+"variants": 5,
+"wall": "darkdelvaniumwall"
+}

@@ -1,0 +1,10 @@
+name: Dark delvanium vent
+type: SteamVent
+blendGroup: darkdelvaniumstone
+parent: darkdelvaniumstone
+effect: ventSteam
+effectColor: 43734EFF
+attributes: {
+   steam: 1,
+   heat: 0.11111111
+}
