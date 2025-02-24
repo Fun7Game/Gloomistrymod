@@ -1,9 +1,0 @@
-{
-"name": "Delvangium",
-"type": "OreBlock",
-"oreDefault": true,	
-"oreScale": 28.380953,
-"oreThreshold": 0.882,
-"itemDrop": "delvangium",
-"variants": 3
-}

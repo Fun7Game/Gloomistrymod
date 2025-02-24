@@ -1,7 +1,0 @@
-{
-"name": "Sand wall",
-"type": "staticWall",
-"color": 1F1D1DFF,
-"variants": 2
-"itemDrop": "sand"
-}
