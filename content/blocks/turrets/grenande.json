@@ -1,0 +1,215 @@
+  "type": "ItemTurret",
+  "name": "Grenande",
+  "description": "Shoots explosive grenades at medium range. [yellow]/IINNTR/ Makes a badum-to!",
+  "health": 2400,
+  "reload": 120,
+  "range": 250,
+  "size": 3,
+  "outlineColor": "292323FF",
+  "rotateSpeed": 2.75,
+  "shootSound": "gloomustrymodgrenadeshoot",
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "recoil": 0.7,
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -part1
+      mirror: false,
+      progress: warmup
+      moveX: 0
+      under: false
+      moveY: 0
+      moves: [
+             {
+          type: PartMove
+          progress: recoil
+          y: -1.4
+}
+]
+}
+{
+      type: RegionPart
+      suffix: -part2
+      mirror: false,
+      progress: warmup
+      moveX: 0
+      under: false
+      moveY: 0
+     moves: [
+             {
+          type: PartMove
+          progress: recoil
+          y: -1.4
+} 
+]
+}
+]
+}
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 0,
+  },
+"consumes": { 
+"coolant": { 
+"amount": 0.3
+  } 
+  },
+ "ammoTypes": {
+    "bullet-I": {
+      "speed": 5.2,
+      "ammoMultiplier": 1,
+      "frontColor": "F0F0F0FF",
+      "backColor": "DBDBDBFF",
+      "hitSize": 17,
+      "type": "BasicBulletType",
+      "width": 12,
+      "damage": 80,
+      "splashDamage": 320,
+      "splashDamageRadius": 45,
+      "lifetime": 49,
+      "height": 17,
+      "hitEffect": {
+              "type": "multiEffect",
+              "effects": [
+              {
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 12,
+              "length": 35,
+              "baseLength": 5,
+              "lifetime": 120,
+              "sizeFrom": 9,
+              "sizeTo": 0,
+              "colorFrom": "DBDBDBFF",
+              "colorTo": "DBDBDBFF"
+}
+{
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 32,
+              "length": 55,
+              "baseLength": 5,
+              "lifetime": 120,
+              "sizeFrom": 5,
+              "sizeTo": 0,
+              "colorFrom": "F0F0F0FF",
+              "colorTo": "F0F0F0FF"
+}
+]
+}
+      "hitSound": "titanExplosion"
+},
+      "bullet-II": {
+      "speed": 5.2,
+      "ammoMultiplier": 2,
+      "frontColor": "FAF5FFFF",
+      "backColor": "D8B3FFFF",
+      "hitSize": 14,
+      "type": "BasicBulletType",
+      "width": 12,
+      "damage": 160,
+      "splashDamage": 480,
+      "splashDamageRadius": 60,
+      "lifetime": 49,
+      "height": 17,
+      "hitEffect": {
+              "type": "multiEffect",
+              "effects": [
+              {
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 12,
+              "length": 35,
+              "baseLength": 5,
+              "lifetime": 120,
+              "sizeFrom": 9,
+              "sizeTo": 0,
+              "colorFrom": "DBDBDBFF",
+              "colorTo": "DBDBDBFF"
+}
+{
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 32,
+              "length": 60,
+              "baseLength": 5,
+              "lifetime": 120,
+              "sizeFrom": 5,
+              "sizeTo": 0,
+              "colorFrom": "F0F0F0FF",
+              "colorTo": "F0F0F0FF"
+}
+]
+}
+      "hitSound": "titanExplosion"
+    },
+    "bullet-III": {
+      "speed": 5.2,
+      "ammoMultiplier": 3,
+      "frontColor": "FFFEF5FF",
+      "backColor": "FFFAB4FF",
+      "hitSize": 14,
+     "lightning": 3,
+     "lightningColor": "FFFEF5FF",
+     "lightningLengthRand": 8,
+     "lightningLength": 18,
+     "lightningDamage": 90,
+      "type": "BasicBulletType",
+      "status": "aggravated",
+      "statusDuration": 600,
+      "width": 12,
+      "damage": 240,
+      "splashDamage": 640,
+      "splashDamageRadius": 75,
+      "lifetime": 49,
+      "height": 17,
+      "hitEffect": {
+              "type": "multiEffect",
+              "effects": [
+              {
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 12,
+              "length": 35,
+              "baseLength": 5,
+              "lifetime": 120,
+              "sizeFrom": 9,
+              "sizeTo": 0,
+              "colorFrom": "DBDBDBFF",
+              "colorTo": "DBDBDBFF"
+}
+{
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 32,
+              "length": 65,
+              "baseLength": 5,
+              "lifetime": 120,
+              "sizeFrom": 5,
+              "sizeTo": 0,
+              "colorFrom": "F0F0F0FF",
+              "colorTo": "F0F0F0FF"
+}
+]
+}
+      "hitSound": "titanExplosion"
+    },
+  },
+
+requirements: [
+kianit/225
+tin/200
+escar/125
+alganite/45
+soulofexcitement/10
+soulofvictory/10
+]
+coolantMultiplier: 2.0835,
+category: turret
+research: sawing
