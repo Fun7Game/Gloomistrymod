@@ -1,0 +1,13 @@
+{
+"name": "Tin processor",
+"description": "Executes a sequence of logical instructions in a loop. It can be used to manage units and buildings.",
+"size": 1,
+"type": "LogicBlock",
+"instructionsPerTick": 4,
+"research": "core-ottite",
+"category": "logic",
+"requirements": [
+tin/50
+escar/25
+]
+}

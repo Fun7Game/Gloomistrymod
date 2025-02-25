@@ -1,0 +1,14 @@
+{
+"name": "Tin canvas",
+"description": "Displays a graphic image with a predefined palette. Editable.",
+"size": 3,
+"type": "CanvasBlock",
+"canvasSize": 18,
+"category": "logic",
+"padding": 4,
+"research": "tinprocessor",
+"requirements": [
+tin/85
+glass/40
+]
+}
