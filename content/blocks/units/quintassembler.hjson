@@ -16,7 +16,7 @@ plans: [
   unit: requesor-t5
   requirements: [
     gloomustry-protype-t2/10
-    gloomustry-metalschemeIII/4
+    gloomustry-metalschemeIII/5
     gloomustry-metalschemeI/20
   ]
   time: 14400
