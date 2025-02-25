@@ -1,6 +1,6 @@
 {
 "name": "Floor damaged",
 "type": "floor",
-"variants": 3,
+"variants": 4,
 "wall": "metalwall"
 }
