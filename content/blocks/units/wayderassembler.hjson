@@ -17,7 +17,7 @@ plans: [
   unit: destroyer-t5
   requirements: [
     gloomustry-streder-t2/10
-    gloomustry-metalschemeIII/2
+    gloomustry-metalschemeIII/4
     gloomustry-metalschemeII/16
   ]
   time: 16200
