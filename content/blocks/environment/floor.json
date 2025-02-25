@@ -1,6 +1,6 @@
 {
-"name": "Es Floor",
+"name": "Floor",
 "type": "floor",
-"variants": 1,
+"variants": 3,
 "wall": "metalwall"
 }
