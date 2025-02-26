@@ -1,5 +1,5 @@
 "name": "Estrackt",
- "description": "Protects the core quantite from enemies. Shoots laser arcs."
+ "description": "Protects the core quantite from enemies. Shoots a piercing laser at short range."
  "type": "flying", 
  "lowAltitude": true,
  "speed": 2.75,
