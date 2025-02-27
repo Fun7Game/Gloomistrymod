@@ -1,6 +1,6 @@
   "type": "ItemTurret",
   "name": "Grenande",
-  "description": "Shoots explosive grenades at medium range. [yellow]/IINNTR/ Makes a badum-to!",
+  "description": "Shoots explosive grenades at medium range.",
   "health": 2400,
   "reload": 120,
   "range": 250,
