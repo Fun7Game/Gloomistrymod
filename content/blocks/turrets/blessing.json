@@ -3,6 +3,7 @@
   "name": "[blue]Blessing",
   "description": "[blue]NOTHING WILL STOP HER!",
   "health": 15500,
+  "details": "A super-powerful unit created by enemies completely by accident. Her powerful projectiles are capable of causing tremendous damage and pose a great threat even to the strongest units.",
   "reload": 600,
   "shootSound": "laserbig",
   "outlineColor": "292323FF",
