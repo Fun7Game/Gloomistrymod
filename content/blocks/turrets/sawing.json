@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Sawing",
-  "description": "Shoots fast small bullets at air targets. [yellow]/IINNTR/ Great for destroying swarms of weak flying units.",
+  "description": "Shoots fast small bullets at air targets.",
   "health": 850,
   "rotateSpeed": 8,
   "reload": 8.5,
