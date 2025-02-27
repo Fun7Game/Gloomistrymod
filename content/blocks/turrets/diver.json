@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "name": "Diver",
-  "description": "Shoots homing bursts at long range. [yellow]/IINNTR/ Copes with 3 tier units without any problems, but kills berserkers less quickly.",
+  "description": "Shoots homing bursts at long range.",
   "health": 2560,
   "reload": 12,
   "shootSound": "shootSmite",
