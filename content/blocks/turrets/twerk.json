@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "name": "Twerk",
-  "description": "Shoots ordinary laser bullets at a short distance. [yellow]/IINNTR/ A small but good turret in large numbers.",
+  "description": "Shoots ordinary laser bullets at a short distance.",
   "health": 375,
   "reload": 15,
   "recoil": 2,
