@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Splaing",
-  "description": "Fires standard projectiles at ground and enemy targets at short range. [yellow]/IINNTR/ pretty good at the initial stage of the game.",
+  "description": "Fires standard projectiles at ground and enemy targets at short range.",
   "health": 850,
   "reload": 30,
   "shootSound": "gloomustrymodsmallshoot",
