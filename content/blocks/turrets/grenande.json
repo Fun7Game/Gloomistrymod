@@ -165,7 +165,7 @@ drawer: {
       "statusDuration": 600,
       "width": 12,
       "damage": 240,
-      "splashDamage": 520q,
+      "splashDamage": 520,
       "splashDamageRadius": 75,
       "lifetime": 49,
       "height": 17,
