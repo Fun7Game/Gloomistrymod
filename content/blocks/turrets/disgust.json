@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Disgust",
-  "description": "Shoots a small cluster of splash projectiles at medium range. [yellow]/IINNTR/ A good splash damage copes well with a lot of units.",
+  "description": "Shoots a small cluster of splash projectiles at medium range.",
   "health": 2250,
   "reload": 150,
   "shootSound": "shockBlast",
