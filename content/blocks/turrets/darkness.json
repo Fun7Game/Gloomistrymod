@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "name": "Darkness",
-  "description": "Shoots a large red laser. [yellow]/IINNTR/ Extremely good.",
+  "description": "Shoots a large red laser.",
   "health": 5750,
   "reload": 180,
   "recoil": 1,
