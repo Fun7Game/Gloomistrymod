@@ -12,7 +12,7 @@
   "ammoPerShot": 2,
   "recoil": 3,
   "moveWhileCharging": false,
-  "range": 815,
+  "range": 740,
   "size": 7,
 "consumes": { 
   "power": 42.5,
@@ -45,7 +45,7 @@
       "absorbable": false,
       "lightColor": "98C9E5FF",
       "width": 24,
-      "lifetime": 105,
+      "lifetime": 92,
       "height": 40,
       "damage": 1850,
       "splashDamage": 4900,
