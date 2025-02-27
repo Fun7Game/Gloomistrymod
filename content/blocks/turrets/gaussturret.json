@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "name": "Gauss turret",
-  "description": "An improved version of PG-4. It has a colossal range and impressive damage. [yellow]/IINNTR/This turret forces you to keep enemy units as far away from you as possible...",
+  "description": "An improved version of PG-4. It has a colossal range and impressive damage.",
   "health": 3950,
   "rotateSpeed": 3.25,
   "outlineColor": "292323FF",
