@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "name": "PG-4",
-  "description": "Shoots piercing lasers at long range. [yellow]/IINNTR/ good for destroying a swarm of weak units due to pierce.",
+  "description": "Shoots piercing lasers at long range.",
   "health": 775,
   "reload": 135,
   "shootSound": "gloomustrymodlasershoot",
