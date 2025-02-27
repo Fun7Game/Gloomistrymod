@@ -22,7 +22,7 @@
     "spread": 0,
     "shotDelay": 0
     },
-  "inaccuracy": 10,
+  "inaccuracy": 9,
   "targetAir": true,
   "targetGround": true,
   "ammoTypes": {
