@@ -1,6 +1,6 @@
   "type": "ItemTurret",
   "name": "Coleidoscope",
-  "description": "Shoots piercing beams at enemies at a short distance. [yellow]/IINNTR/ In a small amount, it can cope with units of 3 tier",
+  "description": "Shoots piercing beams at enemies at a short distance.",
   "health": 1950,
   "reload": 150,
   "range": 180,
