@@ -6,7 +6,7 @@
   "reload": 135,
   "shootSound": "gloomustrymodlasershoot",
   "outlineColor": "292323FF",
-  "range": 480,
+  "range": 440,
   "size": 2,
 "consumes": { 
   "power": 3.5,
@@ -32,7 +32,7 @@
       "backColor": "D4A2A2FF",
       "width": 6,
       "damage": 90,
-      "lifetime": 30,
+      "lifetime": 28,
       "height": 24,
       "pierce": true,
       "pierceBuidung": false,
