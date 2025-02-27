@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Lightning",
-  "description": "It fires three homing projectiles, which explode after being hit. [yellow]/IINNTR/ It illuminates very well.",
+  "description": "It fires three homing projectiles, which explode after being hit.",
   "health": 6075,
   "reload": 120,
   "shootSound": "cannon",
