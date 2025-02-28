@@ -29,6 +29,8 @@
       "bullet-II": {
       "speed": 6.9,
       "ammoMultiplier": 1,
+      "pierceCap": 2,
+      "pierceBuilding": false,
       "frontColor": "FAF5FFFF",
       "backColor": "D8B3FFFF",
       "hitSize": 16,
@@ -83,6 +85,8 @@
     "ammoMultiplier": 2,
     "frontColor": "FFFEF5FF",
     "backColor": "FFFAB4FF",
+    "pierceCap": 4,
+    "pierceBuilding": false,
     "hitSize": 16,
     "damage": 420,
     "type": "BasicBulletType",
