@@ -23,7 +23,7 @@ plans: [
   time: 16200
   }
 ]
-areaSize: 17
+areaSize: 15
 dronesCreated: 4
 consumes: {
 power: 12
