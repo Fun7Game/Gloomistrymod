@@ -161,8 +161,6 @@ drawer: {
      "lightningLength": 18,
      "lightningDamage": 90,
       "type": "BasicBulletType",
-      "status": "aggravated",
-      "statusDuration": 600,
       "width": 12,
       "damage": 240,
       "splashDamage": 520,
