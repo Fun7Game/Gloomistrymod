@@ -60,8 +60,6 @@
      "lightningLength": 7,
      "lightningDamage": 20,
       "type": "BasicBulletType",
-      "status": "aggravated",
-      "statusDuration": 300,
       "width": 12,
       "damage": 105,
       "lifetime": 25.38,
