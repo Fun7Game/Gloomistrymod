@@ -1,0 +1,15 @@
+{
+"name": "Atmospheric air",
+"description": "It is needed to release oxygen.",
+"temperature": 0.5,
+"flammability": 0,
+"gas": true,
+"gasColor": "E0E0E000"
+"lightColor": "E0E0E000",
+"heatCapacity": 0,
+"explosiveness": 0,
+"color": "E0E0E0FF",
+"research": {
+"parent": "escar",
+}
+}
