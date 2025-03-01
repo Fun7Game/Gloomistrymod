@@ -128,8 +128,6 @@ bullet: {
     type: BasicBulletType
     speed: 14
     hitSize: 16
-    status: aggravated
-    statusDuration: 60
     lifetime: 24
     damage: 170
     width: 20
