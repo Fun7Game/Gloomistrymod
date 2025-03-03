@@ -11,7 +11,6 @@
 "requirements": [
   "kianit/100",
   "tin/100",
-  "escar/35",
   "alganite/20"
 ]
 }
