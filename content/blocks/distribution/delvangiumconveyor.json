@@ -1,0 +1,23 @@
+{
+  "type": "ArmoredConveyor",
+  "name": "Delvangium conveyor",
+  "description": "Extremely durable delvangium conveyor. It does not accept entry from the sides.",
+"bridgeReplacement": "amethystbridge",
+"junctionReplacement": "kianitjunction",
+  "health": 260,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "kianit",
+      "amount": 3
+    },
+    {
+      "item": "delvangium",
+      "amount": 2
+    },
+  ],
+  "category": "distribution",
+  "speed": 0.1,
+  "displayedSpeed": 15,
+  "research": "amethystconveyor"
+}
