@@ -37,7 +37,7 @@
   "requirements": [
     kianit/20
     tin/20
-    flint/12
+    flint/10
   ],
   coolantMultiplier: 12.5,
   "category": "turret",
