@@ -1,0 +1,119 @@
+"name": "Atmose",
+"description": "Shoot a volley of homing laser projectiles at enemy targets. Able to restore shields to allied units.",
+"type": "mech",
+	"speed": 0.32,
+	"hitSize": 24,
+	"health": 12600,
+	"drag": 0.23,
+  "outlineColor": "343337FF",
+ "drownTimeMultiplier": 2,
+	"faceTarget": true,
+	"armor": 16,
+  "itemCapacity": 95,
+	"range": 265,
+	"rotateSpeed": 2,
+"mechStepShake": 0.8,
+"mechFrontSway": 0.8,
+"mechSideSway": 0.3,
+"mechStepParticles": true,
+	"allowLegStep": true,
+  "singleTarget": true,
+	"hovering": false,
+targetAir: true
+immunities: [
+blasted
+freezing
+status-corruptionwater
+]
+weapons: [
+{
+name: atmose-weapon
+velocityRnd: 0.15
+x: 18.75
+y: 1.75
+shootY: 12,
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 5
+shotDelay: 5
+}
+inaccuracy: 14
+top: false
+rotate: false
+ejectEffect: none
+shootSound: plasmaboom
+reload: 108
+recoil: 2
+bullet: {
+ type: BasicBulletType 
+ damage: 55
+ width: 18
+ height: 18
+ frontColor: D1F6FFFF
+ backColor: 8AD0E2FF
+ speed: 6.4
+ lifeTime: 50
+ collidesTiles: true
+ hitShake: 0.5
+ trailChance: 1,
+ homingPower: 0.07
+ homingRange: 85
+ homingDelay: 14
+ "trailEffect": {
+ "type": "ParticleEffect",
+ "particles": 1,
+ "length": 0,
+ "lifetime": 15,
+ "region": "gloomustry-star",
+ "lightColor": "D1F6FFFF",
+ "colorFrom": "8AD0E2FF",
+ "colorTo": "D1F6FFFF",
+ "sizeFrom": 7,
+ "sizeTo": 0
+ }
+fragBullets: 1
+fragLifeMin: 1
+fragRandomSpread: 0
+fragBullet: {
+	"type": "LaserBulletType",
+	"damage": 92,
+	"healPercent": 0,
+	"length": 30,
+	"collidesTeam": true,
+	"collidesTiles": true,
+	"collidesAir": true,
+	"colors": ["468798FF", "6FBACDFF", "FFFFFFFF"],
+}
+}
+}
+]
+"parts": [
+{
+	"type": "FlarePart",
+	"x": 0,
+	"y": -4,
+	"color2": "62A2B2FF",
+	"color1": "79B6C5FF",
+	"spinSpeed": 1,
+	"radius": 3,
+	"followRotation": true
+},
+{
+	"type": "FlarePart",
+	"x": 0,
+	"y": -4,
+	"color2": "62A2B2FF",
+	"color1": "79B6C5FF",
+	"spinSpeed": -1,
+	"radius": 2,
+	"followRotation": true
+},
+]
+"abilities": [
+    {
+    "type": "mindustry.entities.abilities.ShieldRegenFieldAbility"
+    }
+]
+research: defose
+researchCostMultiplier: 15

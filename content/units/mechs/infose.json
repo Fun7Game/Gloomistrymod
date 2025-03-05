@@ -1,0 +1,71 @@
+"name": "Infose",
+"description": "Shoot small artillery shells at enemy targets.",
+"type": "mech",
+	"speed": 0.48,
+  "drag": 0.23,
+	"hitSize": 11,
+  "drag": 0.23,
+	"health": 925,
+	"faceTarget": true,
+  "outlineColor": "343337FF",
+	"armor": 3,
+  "itemCapacity": 50,
+ "drownTimeMultiplier": 1.5,
+	"range": 162,
+	"rotateSpeed": 3.9,
+"mechStepShake": 0,
+"mechFrontSway": 0.1,
+"mechSideSway": 0.4,
+"mechStepParticles": true,
+	"allowLegStep": true,
+	"hovering": false,
+targetAir: false
+weapons: [
+{
+name: infose-weapon
+x: 10
+y: 0.25
+shootY: 8,
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 5
+}
+top: false
+rotate: false
+shootSound: bang
+reload: 70
+recoil: 0.75
+bullet: {
+    type: ArtilleryBulletType,
+    speed: 2.6
+    lifetime: 64
+    damage: 12
+    splashDamage: 52
+    splashDamageRadius: 25
+    width: 11
+    height: 13
+    frontColor: D1F6FFFF
+    backColor: 8AD0E2FF
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collides: true
+    collidesTiles: true
+    collidesAir: false
+    hitSound: explosion
+    "hitEffect": {
+    "type": "WaveEffect",
+    "colorFrom": "8AD0E2FF",
+    "colorTo": "D1F6FFFF",
+    "sizeFrom": 0,
+    "sizeTo": 16,
+    "strokeFrom": 2,
+    "strokeTo": 0,
+    "lifetime": 15
+    },
+}
+}
+]
+research: kratose
+researchCostMultiplier: 15

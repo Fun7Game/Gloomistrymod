@@ -1,0 +1,94 @@
+"name": "Defose",
+"description": "Shoots large piercing projectiles at enemy targets.",
+"type": "mech",
+	"speed": 0.346,
+	"hitSize": 18,
+  "outlineColor": "343337FF",
+	"health": 3450,
+	"faceTarget": true,
+  "drownTimeMultiplier": 1.7,
+	"armor": 10,
+  "itemCapacity": 70,
+	"range": 255,
+	"rotateSpeed": 2.3,
+"mechStepShake": 0.4,
+"mechFrontSway": 0.45,
+"mechSideSway": 0.4,
+"mechStepParticles": true,
+	"allowLegStep": true,
+  "singleTarget": true,
+	"hovering": false,
+targetAir: true
+immunities: [
+blasted
+]
+weapons: [
+{
+name: defose-weapon
+x: 14.75
+y: 0.75
+shootY: 9.5,
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 3
+}
+top: false
+rotate: false
+ejectEffect: casing3
+shootSound: mediumCannon
+targetAir: true
+reload: 75
+recoil: 1.25
+bullet: {
+    type: BasicBulletType
+    speed: 5.7
+    lifetime: 45.61
+    damage: 132
+    pierceCap: 2
+    width: 17
+    height: 21
+    frontColor: D1F6FFFF
+    backColor: 8AD0E2FF
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collidesTiles: true
+    trailColor: "8AD0E2FF"
+    trailLength: 4.2
+    trailWidth: 3.5
+    absorbable: false
+    "trailChance": 0.6,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 4,
+    "length": 10,
+    "lifetime": 23,
+    "region": "gloomustry-star",
+    "lightColor": "D1F6FFFF",
+    "colorFrom": "8AD0E2FF",
+    "colorTo": "D1F6FFFF",
+    "sizeFrom": 5,
+    "sizeTo": 0
+    }
+    fragBullets: 6,
+    fragLifeMin: 1,
+    fragRandomSpread: 360
+    fragBullet: {
+      type: BasicBulletType,
+      speed: 2.4
+      lifetime: 15
+      velocityRnd: 0.3
+      damage: 17
+      pierceCap: 1
+      width: 7
+      height: 12
+      frontColor: D1F6FFFF
+      backColor: 8AD0E2FF
+      collidesTiles: true
+}
+}
+}
+]
+research: infose
+researchCostMultiplier: 15

@@ -1,0 +1,57 @@
+"name": "Kratose",
+"description": "Shoot bursts of weak projectiles at enemy targets.",
+"type": "mech",
+	"speed": 0.59,
+  "outlineColor": "343337FF",
+	"hitSize": 8,
+	"health": 250,
+	"faceTarget": true,
+  "drag": 0.23,
+	"armor": 0,
+  "itemCapacity": 20,
+  "drownTimeMultiplier": 1,
+	"range": 106,
+	"rotateSpeed": 4.8,
+"mechStepShake": 0,
+"mechFrontSway": 0.1,
+"mechSideSway": 0.4,
+"mechStepParticles": true,
+	"allowLegStep": true,
+	"hovering": false,
+targetAir: true
+weapons: [
+{
+name: kratose-weapon
+x: 6.25
+y: 0.75
+shootY: 4.25
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 3
+shotDelay: 4
+}
+top: false
+inaccuracy: 4
+rotate: false
+shootSound: shoot
+ejectEffect: casing1,
+reload: 42
+recoil: 0.5
+bullet: {
+    type: BasicBulletType,
+    speed: 4
+    lifetime: 27
+    damage: 11
+    width: 7
+    height: 9
+    frontColor: D1F6FFFF
+    backColor: 8AD0E2FF
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collidesTiles: true
+}
+}
+]
+research: kratosesfactory
+researchCostMultiplier: 25.2
