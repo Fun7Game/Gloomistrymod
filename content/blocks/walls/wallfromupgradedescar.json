@@ -3,7 +3,6 @@
  "description": "protects buildings from enemy projectiles, absorbs lasers and laser beams, reflects projectiles.",
  "type": "Wall",
    "absorbLasers": true,
-    "chanceDeflect": 50,
     "health": 1005,
     "size": 1,
     category: defense
