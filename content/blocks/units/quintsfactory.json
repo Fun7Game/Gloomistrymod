@@ -1,0 +1,34 @@
+{
+"name": "Quints factory",
+"description": "Produces combat units -Quint-",
+"type": "UnitFactory",
+"size": 3,
+"consumes": {
+"power": 2.5
+},
+"plans": [
+{
+    "unit": "quint-t1",
+    	"requirements": [
+		{"item": "escar", "amount": 16}
+     ]
+  "time": 900
+  }
+  ],
+   "requirements": [
+	{"item": "kianit", "amount": 125},
+	{"item": "tin", "amount": 100},
+	{"item": "escar", "amount": 75}
+],
+"category": "units",
+research: {
+    parent: TechTree-UnitsCategory
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "thelandingsite"
+        }
+    ]
+},
+"researchCostMultiplier": 0.5
+}

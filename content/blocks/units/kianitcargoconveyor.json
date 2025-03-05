@@ -1,0 +1,21 @@
+name: Kianit cargo conveyor
+description: Moves units and blocks forward.
+type: PayloadConveyor
+size: 3
+moveTime: 50
+moveForce: 120
+payloadLimit: 3
+category: units
+requirements: [
+  kianit/20
+  tin/15
+]
+research: {
+parent: TechTree-UnitsCategory
+ objectives: [
+        {
+            type: "OnSector",
+            preset: "corruptioncliffs"
+        }
+    ]
+}

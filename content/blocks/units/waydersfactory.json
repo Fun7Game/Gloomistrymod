@@ -1,0 +1,35 @@
+{
+"name": "Wayders factory",
+"description": "Produces combat units -Wayder-",
+"type": "UnitFactory",
+"size": 3,
+"consumes": {
+"power": 3
+},
+"plans": [
+{
+    "unit": "wayder-t1",
+    	"requirements": [
+		{"item": "escar", "amount": 16},
+		{"item": "tin", "amount": 12},
+   {"item": "flint", "amount": 6},
+     ]
+  "time": 1500
+  }
+  ],
+   "requirements": [
+	{"item": "kianit", "amount": 150},
+	{"item": "tin", "amount": 125},
+	{"item": "escar", "amount": 85}
+],
+"category": "units",
+"research": {
+parent: TechTree-UnitsCategory
+ objectives: [
+        {
+            type: "OnSector",
+            preset: "corruptioncliffs"
+        }
+    ]
+}
+}

@@ -1,0 +1,33 @@
+  "name": "Alganite heal point",
+  "description": "Repairs damaged units within range.",
+  "type": "RepairTower",
+  "health": 160,
+  "size": 1,
+  "range": 55,
+  "circleColor": "C02E2EFF",
+  "glowColor": "FF4A4AFF",
+  "circleSpeed": 60
+  "squareRad": 0
+  "hasPower": true,
+  hasLiquids: false
+  healAmount: 1
+  consumes: {
+    power: 0.75
+  }
+  category: units
+requirements: [
+    kianit/50
+    tin/40
+    alganite/15 
+    soulofvictory/5
+    soulofdefeat/5
+]
+research: {
+    parent: "alganitehealler",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "north"
+}
+]
+}
