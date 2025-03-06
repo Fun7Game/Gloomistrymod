@@ -13,7 +13,7 @@
     "flint/10"
   ],
   "tier": 3,
-  "range": 5,
+  "range": 3,
   "drillTime": 120,
   "fogRadius": 2,
   "consumes": {
