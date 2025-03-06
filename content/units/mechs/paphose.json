@@ -207,7 +207,7 @@ fragBullet: {
 		   fragRandomSpread: 75
 		   fragBullet: {
 			   "type": "LaserBulletType",
-			   "damage": 150,
+			   "damage": 135,
 			   "healPercent": 0,
 			   "length": 70,
 			   "collidesTeam": true,
