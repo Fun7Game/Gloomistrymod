@@ -8,6 +8,8 @@
 "baseEfficiency": 0.0000000000001,
 "squareSprite": false,
 "minEfficiency": 1,
+"ambientSound": "electricHum",
+ "ambientSoundVolume": 0.25,
   "attribute": "heat",
 	"hasItems": false,
 	"hasLiquid": true,
