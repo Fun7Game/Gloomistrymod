@@ -1,0 +1,61 @@
+{	
+  "name": "Oxygen concentrator",
+  "description": "When placed on the vent, it releases oxygen from the atmospheric air. It requires water to work.",
+  "type": "AttributeCrafter",
+	"size": 3,
+	"hasPower": true,
+  "displayEfficiencyScale": 1,
+"baseEfficiency": 0.0000000000001,
+"squareSprite": false,
+"minEfficiency": 1,
+  "attribute": "heat",
+	"hasItems": false,
+	"hasLiquid": true,
+	"liquidCapacity": 40,
+	"itemCapacity": 0,
+  "drawer": {
+    "type": "DrawMulti",
+          "drawers": [
+          {
+         "type": "DrawRegion",
+         "suffix": "-bottom"
+           },
+           {
+          "type": "DrawParticles",
+          "color": "74DA5EFF",
+      "alpha": 0.4,
+      "blending": "additive",
+      "particleSize": 2,
+      "reverse": false,
+      "particleRad": 10,
+      "particles": 18,
+      "fadeMargin": 1,
+      "rotateScl": 1,
+      "particleLife": 40
+      },
+      {	
+          "type": "DrawDefault"
+       }
+      ]
+      },
+  "updateEffect": "none",
+	"consumes": {
+    "power": 2,
+		"liquids": {
+			"liquids": [
+               "atmosphericair/1",
+               "water/0.1",
+			]
+	},
+	},
+	"requirements": [
+        "kianit/75",
+        "tin/75",
+        "flint/45",
+        "escar/45",
+        "amethyst/60",
+	],
+	"category": "production",
+	"outputLiquid": "oxygen/0.266667",
+ "research": "chemicalconcentrator"
+}
