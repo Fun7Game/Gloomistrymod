@@ -6,7 +6,7 @@
   "hasItems": false,
   "craftTime": 60,
  "ambientSound": "electricHum",
- "ambientSoundVolume": 0.25,
+ "ambientSoundVolume": 0.2,
   "craftEffect": "none",
   "drawer": {
   "type": "DrawMulti",
