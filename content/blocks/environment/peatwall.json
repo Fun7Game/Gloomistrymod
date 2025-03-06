@@ -1,0 +1,6 @@
+{
+"name": "Peat wall",
+"type": "staticWall",
+"variants": 2,
+"itemDrop": "peat"
+}
