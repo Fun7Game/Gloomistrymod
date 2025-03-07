@@ -37,12 +37,4 @@ requirements: [
   flint/35
   escar/20
 ]
-research: {
-parent: wastesgenerator
-   objectives: [
-        {
-            type: "OnSector",
-            preset: "gingerfield"
-        }
-    ]
-}
+research: wastesgenerator
