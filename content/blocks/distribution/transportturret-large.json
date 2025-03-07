@@ -1,0 +1,33 @@
+  "type": "MassDriver",
+  "name": "Large transport turret",
+  "health": 2250,
+  "description": "It has a much longer firing range than a conventional transport turret, but it requires a little oxygen to work.",
+  "itemCapacity": 320,
+  "reload": 120,
+  "outlineColor": "292323FF",
+  "minDistribute": 50,
+  "range": 1370,
+  "shake": 4,
+  "bulletLifeTime": 80,
+  "bulletSpeed": 17.15,
+  "rotateSpeed": 1.8,
+  "liquidCapacity": 20,
+  "size": 4,
+  "consumes": {
+    "power": 5
+    "liquid": {
+      "liquid": "oxygen",
+      "amount": 0.1
+    }
+  },
+  "requirements": [
+  kianit/200
+  tin/200
+  amethyst/150
+  escar/95
+  upgradedescar/25
+  delvangium/75
+  ],
+  "category": "distribution",
+  "research": "transportturret"
+
