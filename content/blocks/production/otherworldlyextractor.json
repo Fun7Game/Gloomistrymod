@@ -61,13 +61,5 @@
 	],
 	"category": "crafting",
 	"outputItem": "ordinarysoul/1",
-"research": {
-"parent": "chemicalconcentrator"
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "north"
-}
-]
-}
+"research": "chemicalconcentrator"
 }
