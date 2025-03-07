@@ -22,12 +22,4 @@ requirements: [
   glass/75
   amethyst/45
 ]
-"research": {
-  "parent": "electricpump",
-  "objectives": [
-    {
-    "type": "SectorComplete",
-    "preset": "north"
-    }
-  ]
-}
+"research": "electricpump"
