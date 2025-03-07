@@ -9,13 +9,5 @@ requirements: [
   escar/24
   amethyst/24
 ]
-research: {
-  parent: escarwall-large
-   objectives: [
-          {
-              type: "SectorComplete",
-              preset: "enemybasesupportase"
-          }
-      ]
-}
+research: escarwall-large
 }
