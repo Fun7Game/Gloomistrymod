@@ -57,14 +57,6 @@
 	],
 	"category": "crafting",
 	"outputItem": "escar/1",
-"research": {
-"parent": "flintpress"
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "pacification"
-        }
-    ]
-}
+ "research": "flintpress",
  "researchCostMultiplier": 0.6
 }
