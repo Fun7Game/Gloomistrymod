@@ -34,15 +34,7 @@ power: 12
   }
 }
 category: units
-research: {
-    parent: altetiverefabricator
-    objectives: [
-         {
-              type: "SectorComplete",
-              preset: "enemybasesupportase"
-          }
-    ]
-},
+research: altetiverefabricator
 requirements: [
   kianit/1175
   tin/1175
