@@ -9,12 +9,4 @@ requirements: [
   glass/2
 ]
 category: liquid
-research: {
-    parent: kianitliquidrouter
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "thelandingsite"
-        }
-    ]
-},
+research: kianitliquidrouter
