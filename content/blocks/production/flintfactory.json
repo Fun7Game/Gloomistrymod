@@ -58,13 +58,5 @@
 ],
 "category": "crafting",
 "outputItem": "flint/8",
-"research": {
-  "parent": "flintpress",
-  "objectives": [
-    {
-    "type": "SectorComplete",
-    "preset": "north"
-}
-]
-}
+"research": "flintpress"
 }
