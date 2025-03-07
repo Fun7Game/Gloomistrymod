@@ -22,12 +22,4 @@ requirements: [
     soulofvictory/5
     soulofdefeat/5
 ]
-research: {
-    parent: "alganitehealler",
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "north"
-}
-]
-}
+research: alganitehealler
