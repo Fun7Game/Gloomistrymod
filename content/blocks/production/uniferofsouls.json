@@ -107,13 +107,5 @@
 	],
 	"category": "crafting",
 	"outputItem": "soulofeverything/1",
-"research": {
-"parent": "otherworldlyseparator"
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "north"
-}
-]
-}
+"research": "otherworldlyseparator"
 }
