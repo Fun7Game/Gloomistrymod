@@ -12,5 +12,5 @@
 		{"item": "flint", "amount": 15}
 	],
 	"consumes": { "powerBuffered": 2000 },
-	"research": "flintpanel"
+	"research": "energytower"
 }
