@@ -33,12 +33,4 @@ requirements: [
   soulofcriminal/50
 ]
 category: units
-research: {
-parent: forcerefabricator
-objectives: [
-  {
-  type: "OnSector"
-  preset: "enemybaseziraund"
-  }
-]
-}
+research: forcerefabricator
