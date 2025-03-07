@@ -4,15 +4,7 @@ description: Increases the level of the assembler and makes it possible to creat
 health: 1575
 size: 5
 category: units
-research: {
-    parent: "cargomanufacturer",
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "enemybasesupportase"
-        }
-    ]
-},
+research: cargomanufacturer
 requirements: [
 kianit/900
 tin/900
