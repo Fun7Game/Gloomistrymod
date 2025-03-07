@@ -50,13 +50,5 @@
   ],
   "category": "crafting",
   "outputLiquid": "ultragenion/0.35",
-  research: {
-    parent: hallowliquidmixer
-    objectives: [
-      {
-      type: "SectorComplete"
-      preset: "enemybaseziraund"
-      }
-    ]
-    }
+  research: hallowliquidmixer
 }
