@@ -29,12 +29,4 @@
     ]
   }
 category: production
-"research": {
-    "parent": "flint-plasmabore",
-    "objectives": [
-      {
-      "type": "SectorComplete",
-      "preset": "anunfinishedlaunchertemple"
-      }
-    ]
-  }
+"research": "flint-plasmabore"
