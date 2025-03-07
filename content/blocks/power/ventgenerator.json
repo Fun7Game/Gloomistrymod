@@ -31,12 +31,4 @@ requirements: [
   escar/50
   alganite/35
 ]
-research: {
-parent: peatgenerator
-   objectives: [
-        {
-            type: "OnSector",
-            preset: "north"
-        }
-    ]
-}
+research: peatgenerator
