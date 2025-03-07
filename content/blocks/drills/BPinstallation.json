@@ -37,13 +37,5 @@
   upgradedescar/45
   ],
   "category": "production",
-  "research": {
-parent: escardigger
-   objectives: [
-        {
-            type: "SectorComplete",
-            preset: "enemybasesupportase"
-        }
-    ]
-}
+  "research": "escardigger"
 }
