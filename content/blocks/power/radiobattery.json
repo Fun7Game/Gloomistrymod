@@ -12,13 +12,5 @@
 		{"item": "flint", "amount": 15}
 	],
 	"consumes": { "powerBuffered": 2000 },
-	"research": {
- parent: flintpanel
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "pacification"
-        }
-    ]
-}
+	"research": "flintpanel"
 }
