@@ -64,13 +64,5 @@
 	],
 	"category": "crafting",
 	"outputItem": "escar/8",
-"research": {
-"parent": "escarsmelter"
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "north"
- }
-]
-}
+"research": "escarsmelter"
 }
