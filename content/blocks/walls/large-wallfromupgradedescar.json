@@ -1,6 +1,6 @@
 {
  "name": "Large wall from upgraded escar", 
- "description": "protects buildings from enemy projectiles, absorbs lasers and laser beams, reflects projectiles.",
+ "description": "protects buildings from enemy projectiles, absorbs lasers and laser beams.",
  "type": "Wall",
    "absorbLasers": true,
     "health": 4020,
