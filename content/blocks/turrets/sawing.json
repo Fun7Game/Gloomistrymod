@@ -88,14 +88,6 @@
   ],
   coolantMultiplier: 6.25,
   "category": "turret",
-  research: {
-    parent: splaing
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "quietlane"
-        }
-    ]
-},
+  research: splaing
 researchCostMultiplier: 0.5
 }
