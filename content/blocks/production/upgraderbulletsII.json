@@ -50,13 +50,5 @@
 	],
 	"category": "crafting",
 	"outputItem": "bullet-III/1",
-"research": {
-"parent": "upgraderbulletsI"
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "enemybasesupportase"
-        }
-    ]
-}
+"research": "upgraderbulletsI"
 }
