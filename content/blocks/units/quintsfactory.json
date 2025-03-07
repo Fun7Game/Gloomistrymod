@@ -21,14 +21,6 @@
 	{"item": "escar", "amount": 75}
 ],
 "category": "units",
-research: {
-    parent: TechTree-UnitsCategory
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "thelandingsite"
-        }
-    ]
-},
+research: TechTree-UnitsCategory
 "researchCostMultiplier": 0.5
 }
