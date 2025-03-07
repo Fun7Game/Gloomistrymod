@@ -1,0 +1,21 @@
+type: tether
+flying: true
+drag: 0.19
+accel: 0.15
+speed: 2.2
+health: 280
+engineSize: 3
+engineOffset: 8
+payloadCapacity: 0
+targetable: false
+bounded: false
+outlineColor: 343337FF
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
+controller: AssemblerAI
+
