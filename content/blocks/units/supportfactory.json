@@ -31,13 +31,5 @@
 	{"item": "escar", "amount": 85}
 ],
 "category": "units",
-"research": {
-parent: TechTree-UnitsCategory
- objectives: [
-        {
-            type: "SectorComplete",
-            preset: "corruptioncliffs"
-        }
-    ]
-}
+"research": TechTree-UnitsCategory
 }
