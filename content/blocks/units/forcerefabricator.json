@@ -32,12 +32,4 @@ requirements: [
   amethyst/40
 ]
 category: units
-research: {
-parent: TechTree-UnitsCategory
- objectives: [
-        {
-            type: "OnSector",
-            preset: "corruptioncliffs"
-        }
-    ]
-}
+research: TechTree-UnitsCategory
