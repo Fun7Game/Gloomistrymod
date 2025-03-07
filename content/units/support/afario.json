@@ -66,15 +66,7 @@ bullet: {
 }
 }
 ]
-"research": {
-    "parent": "supportfactory",
-    "objectives": [
-      {
-      "type": "SectorComplete",
-      "preset": "anunfinishedlaunchertemple"
-      }
-    ]
-  }
+"research": "supportfactory",
 researchCostMultiplier: 25.2
 abilities: [
   {
