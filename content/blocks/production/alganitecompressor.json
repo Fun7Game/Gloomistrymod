@@ -58,13 +58,5 @@
 	],
 "category": "crafting",
 "outputItem": "alganite/1",
-"research": {
-  "parent": "quasiseparator",
-  "objectives": [
-    {
-    "type": "SectorComplete",
-    "preset": "north"
-    }
-  ]
-}
+"research": "quasiseparator"
 }
