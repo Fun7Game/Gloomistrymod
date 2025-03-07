@@ -67,13 +67,5 @@
     }
   ],
   "category": "crafting",
-  "research": {
-parent: flintpress
- objectives: [
-        {
-            type: "SectorComplete",
-            preset: "corruptioncliffs"
-        }
-    ]
-}
+  "research": "flintpress"
 }
