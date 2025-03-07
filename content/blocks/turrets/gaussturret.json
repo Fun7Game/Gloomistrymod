@@ -73,13 +73,5 @@ drawer: {
   ],
   coolantMultiplier: 1,
  "category": "turret",
-research: {
-    parent: PG-4
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "enemybasesupportase"
-}
-]
-},
+research: PG-4
 }
