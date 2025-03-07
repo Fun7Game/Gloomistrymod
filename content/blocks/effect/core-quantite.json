@@ -18,13 +18,5 @@ requirements: [
   soulofdefeat/125
 ]
   "category": "effect",
-  "research": {
-    "parent": "core-ottite",
-    "objectives": [
-      {
-      "type": "SectorComplete",
-      "preset": "north"
-      }
-    ]
-  }
+  "research": "core-ottite",
    researchCostMultiplier: 0.25
