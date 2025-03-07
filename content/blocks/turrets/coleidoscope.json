@@ -67,12 +67,4 @@ amethyst/75
 ]
 coolantMultiplier: 2.0835,
 category: turret
-research: {
-parent: sawing
-   objectives: [
-        {
-            type: "OnSector",
-            preset: "gingerfield"
-        }
-    ]
-}
+research: sawing
