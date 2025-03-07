@@ -14,12 +14,4 @@ requirements: [
   glass/45
   amethyst/30
 ]
-research: {
-parent: kianitbridgeconduit
-   objectives: [
-        {
-            type: "SectorComplete",
-            preset: "gingerfield"
-        }
-    ]
-}
+research: kianitbridgeconduit
