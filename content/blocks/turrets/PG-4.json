@@ -59,15 +59,7 @@
   ],
   coolantMultiplier: 3.125,
  "category": "turret",
- research: {
-    parent: splaing
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "thelandingsite"
-        }
-    ]
-},
+ research: splaing
   "researchCost": [
   kianit/1200
   tin/700
