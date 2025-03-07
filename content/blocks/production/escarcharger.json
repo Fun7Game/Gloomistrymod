@@ -49,13 +49,5 @@
 	],
 	"category": "crafting",
 	"outputItem": "upgradedescar/1",
-"research": {
-"parent": "escarsmelter"
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "enemybasesupportase"
-}
-]
-}
+"research": "escarsmelter"
 }
