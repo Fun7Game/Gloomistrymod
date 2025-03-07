@@ -53,13 +53,5 @@
   ],
   "category": "crafting",
   "outputLiquid": "atmosphericair/1",
-  "research": {
-    "parent": "escarsmelter",
-    "objectives": [
-      {
-      "type": "OnSector",
-      "preset": "north"
-      }
-    ]
-  }
+  "research": "escarsmelter"
 }
