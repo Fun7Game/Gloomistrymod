@@ -23,13 +23,5 @@
 	],
 	"category": "crafting",
 	"outputLiquid": "water/0.4",
-  "research": {
-    "parent": "filter",
-    "objectives": [
-      {
-      "type": "SectorComplete",
-      "preset": "north"
-      }
-    ]
-}
+  "research": "filter"
 }
