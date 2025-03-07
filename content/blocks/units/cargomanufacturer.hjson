@@ -19,12 +19,4 @@
  alganite/35
   ],
   "category": "units"
-research: {
-    parent: altetiverefabricator
-    objectives: [
-         {
-              type: "SectorComplete",
-              preset: "enemybasesupportase"
-          }
-    ]
-}
+research: altetiverefabricator
