@@ -44,13 +44,5 @@
   ],
   "category": "crafting",
   "outputLiquid": "hallowliquid/0.20",
-  "research": {
-parent: glassklin
- objectives: [
-        {
-            type: "OnSector",
-            preset: "corruptioncliffs"
-        }
-    ]
-}
+  "research": "glassklin"
 }
