@@ -41,12 +41,4 @@ requirements: [
   soulofvictory/12
   soulofdefeat/12
 ]
-research: {
-  parent: peatgenerator
-     objectives: [
-          {
-              type: "SectorComplete",
-              preset: "enemybaseziraund"
-          }
-      ]
-  }
+research: peatgenerator
