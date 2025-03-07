@@ -7,15 +7,7 @@ requirements: [
   tin/2
 ] 
 category: distribution
-research: {
-    parent: kianitrouter
-    objectives: [
-        {
-            type: "SectorComplete",
-            preset: "quietlane"
-        }
-    ]
-},
+research: kianitrouter
 researchCost: [
 kianit/100
 tin/25
