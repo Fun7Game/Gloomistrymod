@@ -47,13 +47,5 @@
 	],
 	"category": "crafting",
 	"outputItem": "bullet-II/1",
-"research": {
-"parent": "manufacturerbulletsI"
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "north"
-        }
-    ]
-}
+"research": "manufacturerbulletsI"
 }
