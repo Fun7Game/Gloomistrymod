@@ -47,13 +47,5 @@
     }
   ],
   "category": "production",
-  "research": {
-parent: kianitdrill
-   objectives: [
-        {
-            type: "OnSector",
-            preset: "gingerfield"
-        }
-    ]
-}
+  "research": "kianitdrill"
 }
