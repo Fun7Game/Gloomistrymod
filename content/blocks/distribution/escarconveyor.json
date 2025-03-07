@@ -10,13 +10,5 @@
     "escar/2"
   ],
   "category": "distribution",
-  "research": {
-    "parent": "amethystconveyor",
-    "objectives": [
-      {
-      "type": "SectorComplete",
-      "preset": "north"
-      }
-    ]
-}
+  "research": "amethystconveyor"
 }
