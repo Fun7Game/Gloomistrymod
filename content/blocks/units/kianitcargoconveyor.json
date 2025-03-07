@@ -10,12 +10,4 @@ requirements: [
   kianit/20
   tin/15
 ]
-research: {
-parent: TechTree-UnitsCategory
- objectives: [
-        {
-            type: "OnSector",
-            preset: "corruptioncliffs"
-        }
-    ]
-}
+research: TechTree-UnitsCategory
