@@ -1,0 +1,41 @@
+{
+  "name": "BP-Installation",
+  "description": "It extracts resources faster than a escar digger, but it consumes more energy and also consumes oxygen. It is capable of extracting delvangium.",
+  "type": "BurstDrill",
+  "size": 4,
+  "tier": 5,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hardnessDrillMultiplier": 0,
+  "itemCapacity": 75,
+  "shake": 7,
+  "drillTime": 101,
+  "drawMineItem": true,
+  "consumes": {
+    "power": 6.6666666666666667,
+    "liquid": {
+      "liquid": "oxygen",
+      "amount": 0.2
+  }
+  }
+      drillEffect: {
+        type: WaveEffect
+        sizeFrom: 0.1
+        sizeTo: 48
+        strokeFrom: 6
+        strokeTo: 0
+        colorFrom: C895FFFF
+        colorTo: EEDEFFFF
+        lifetime: 90
+      }
+ "requirements": [
+  kianit/175
+  tin/175
+  escar/100
+  amethyst/85
+  alganite/45
+  upgradedescar/45
+  ],
+  "category": "production",
+  "research": "12-escardigger"
+}

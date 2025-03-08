@@ -1,0 +1,50 @@
+{	
+  "name": "Combustible condensator",
+  "description": "Produces ultragenion from peat when placed on a vent. It requires energy to work as well.",
+  "type": "AttributeCrafter",
+	"size": 3,
+	"hasPower": true,
+  "displayEfficiencyScale": 1,
+"baseEfficiency": 0.0000000000001,
+"squareSprite": false,
+"minEfficiency": 1,
+  "attribute": "heat",
+	"hasItems": true,
+	"hasLiquid": true,
+	"liquidCapacity": 40,
+	"itemCapacity": 10,
+	"craftTime": 180,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 3
+      }
+    ]
+  }
+  "updateEffect": "none",
+	"consumes": {
+    "power": 3,
+		"items": {
+			"items": [
+               "peat/1",
+			]
+	},
+	},
+	"requirements": [
+        "kianit/95",
+        "tin/95",
+        "flint/55",
+        "escar/45",
+        "soulofdefeat/15",
+        "soulofexcitement/15"
+	],
+	"category": "production",
+	"outputLiquid": "ultragenion/0.05",
+ "research": "ultragenionmixer"
+}
