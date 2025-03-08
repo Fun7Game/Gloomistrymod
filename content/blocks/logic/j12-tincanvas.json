@@ -6,7 +6,7 @@
 "canvasSize": 18,
 "category": "logic",
 "padding": 4,
-"research": "tinprocessor",
+"research": "j11-tinprocessor",
 "requirements": [
 tin/85
 glass/40
