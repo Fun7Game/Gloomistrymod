@@ -1,0 +1,17 @@
+{
+	"type": "battery",
+	"name": "Hyperbattery",
+  "description": "A large and expensive battery, stores a huge amount of energy.",
+	"size": 4,
+  "fullLightColor": "A0514BFF",
+	"emptyLightColor": "613B39FF",
+	"category": "power",
+	"requirements": [
+		{"item": "kianit", "amount": 225},
+		{"item": "tin", "amount": 225},
+		{"item": "flint", "amount": 175},
+		{"item": "soulofeverything", "amount": 20}
+	],
+	"consumes": { "powerBuffered": 450000 },
+	research: f14-radiobattery
+}

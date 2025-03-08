@@ -1,0 +1,35 @@
+type: ConsumeGenerator
+name: Wastes generator
+description: Generates energy from some of the waste of corruption water.
+size: 1
+hasLiquids: true
+hasItems: false
+liquidCapacity: 10
+baseExplosiveness: 0
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawWarmupRegion",
+        "sinMag": 1,
+        "sinScl": 9,
+        "color": "B288DFFF"
+      },
+      ]
+      }
+consumes: {
+    "liquids": [
+    corruptionwater/0.1
+    ]
+}
+powerProduction: 0.8333333335
+category: power
+requirements: [
+  tin/25
+  kianit/10
+  flint/10
+]
+research: f11-energytower
