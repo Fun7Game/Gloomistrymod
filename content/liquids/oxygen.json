@@ -10,6 +10,6 @@
 "explosiveness": 0,
 "color": "63EA4EFF",
 "research": {
-"parent": "escar",
+"parent": "atmosphericair",
 }
 }
