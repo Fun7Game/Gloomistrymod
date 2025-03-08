@@ -1,0 +1,23 @@
+{
+  "type": "Conveyor",
+  "name": "Amethyst conveyor",
+  "description": "Transports items forward, faster than a kianit conveyor.",
+"bridgeReplacement": "c17-amethystbridge",
+"junctionReplacement": "c15-kianitjunction",
+  "health": 80,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "tin",
+      "amount": 1
+    },
+    {
+      "item": "amethyst",
+      "amount": 1
+    },
+  ],
+  "category": "distribution",
+  "speed": 0.1,
+  "displayedSpeed": 15,
+  "research": "c11-kianitconveyor"
+}

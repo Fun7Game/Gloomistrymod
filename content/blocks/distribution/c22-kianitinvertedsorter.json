@@ -1,0 +1,15 @@
+type: Sorter
+name: Kianit inverted sorter
+description: It works the same way as the kianit sorter, but displays the selected item on the sides, not forward.
+health: 40
+invert: true
+requirements: [
+  kianit/3
+  tin/1
+] 
+category: distribution
+research: c21-kianitsorter
+researchCost: [
+kianit/100
+tin/25
+]

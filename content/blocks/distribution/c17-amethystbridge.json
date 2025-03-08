@@ -1,0 +1,14 @@
+"type": "ItemBridge",
+  "name": "Amethyst bridge",
+  "description": "Carries items over buildings or areas, faster and further than a kianit bridge.",
+  "health": 80,
+  "range": 6,
+  "transportTime": 6,
+  "hasPower": false,
+requirements: [
+  tin/10
+  escar/6
+  amethyst/3
+] 
+category: distribution
+research: c12-amethystconveyor

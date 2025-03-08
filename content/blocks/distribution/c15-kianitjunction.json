@@ -1,0 +1,14 @@
+type: Junction
+name: Kianit junction
+description: It acts as a bridge for two intersecting conveyors.
+health: 30
+speed: 11
+capacity: 8
+requirements: [
+  kianit/2
+] 
+category: distribution
+research: c11-kianitconveyor
+researchCost: [
+kianit/50
+]
