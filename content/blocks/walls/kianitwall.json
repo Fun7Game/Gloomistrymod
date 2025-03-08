@@ -8,5 +8,8 @@
 requirements: [
   kianit/6
 ]
-"research": "core-ottite"
+"research": "core-ottite",
+  "researchCost": [
+   kianit/20
+ ]
 }
