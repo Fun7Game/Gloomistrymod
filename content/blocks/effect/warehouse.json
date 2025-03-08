@@ -1,0 +1,16 @@
+{
+"name": "Warehouse",
+"description": "Stores items. does not increase the capacity of the core.",
+"type": "StorageBlock",
+"size": 2,
+"health": 280,
+"coreMerge": false,
+"itemCapacity": 150,
+"research": "itemunload",
+"category": "effect",
+"requirements": [
+  "kianit/100",
+  "tin/100",
+  "alganite/20"
+]
+}
