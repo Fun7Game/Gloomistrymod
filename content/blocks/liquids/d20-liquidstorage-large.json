@@ -1,0 +1,18 @@
+name: Large liquid storage
+description: Stores even more liquid.
+type: LiquidRouter
+size: 3
+solid: true
+liquidPadding: 2
+health: 480
+liquidCapacity: 3750
+category: liquid
+placeableLiquid: false
+hasPower: false
+requirements: [
+  tin/175
+  glass/100
+  amethyst/120
+  alganite/15
+]
+research: d19-liquidstorage

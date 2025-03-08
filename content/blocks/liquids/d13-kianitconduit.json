@@ -1,0 +1,22 @@
+{
+  "type": "conduit",
+  "name": "Kianit conduit",
+  "description": "Moves liquids forward.",
+ "junctionReplacement": "d15-kianitliquidjunction",
+"bridgeReplacement": "d17-kianitbridgeconduit",
+  "health": 45,
+  "liquidCapacity": 10,
+  "liquidPressure": 4,
+  "requirements": [
+    {
+      "item": "kianit",
+      "amount": 1
+    },
+    {
+      "item": "glass",
+      "amount": 1
+    }
+  ],
+  "category": "liquid",
+  "research": "d11-electricpump"
+}

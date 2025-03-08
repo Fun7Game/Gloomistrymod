@@ -1,0 +1,25 @@
+name: Quantum pump
+description: It pumps out more liquid, but requires more energy and atmospheric air to work.
+type: Pump
+size: 3
+health: 540
+pumpAmount: 0.388888889
+squareSprite: false
+liquidCapacity: 80
+category: liquid
+hasPower: true
+consumes: {
+power: 3
+  "liquid": {
+      "liquid": "atmosphericair",
+      "amount": 1
+  }
+  }
+requirements: [
+  kianit/120
+  tin/120
+  escar/65
+  glass/75
+  amethyst/45
+]
+"research": "d11-electricpump"
