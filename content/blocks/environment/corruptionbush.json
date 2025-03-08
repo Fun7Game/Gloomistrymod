@@ -1,4 +1,8 @@
 {
 "name": "Corruption bush",
-"type": "SeaBush"
+"type": "SeaBush",
+"lobesMin": 3,
+"lobesMax": 7,
+"sclMin": 50,
+"sclMax": 80
 }
