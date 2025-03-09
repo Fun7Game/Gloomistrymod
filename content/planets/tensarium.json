@@ -83,7 +83,7 @@ allowWaveSimulation: false
 allowLaunchToNumbered: false
 clearSectorOnLose: true
 allowWaves: true
-defaultCore: "core-ottite"
+defaultCore: "i11-core-ottite"
 parent: sun
 solarSystem: sun
 showSpawns: true
