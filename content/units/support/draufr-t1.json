@@ -22,5 +22,5 @@ mineItems: [
   tin
 ]
     isEnemy: false
-    "research": "supportfactory"
+    "research": "h14-supportfactory"
     "researchCostMultiplier": 25.2
