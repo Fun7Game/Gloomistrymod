@@ -8,7 +8,7 @@
 	"hasLiquid": false,
 	"liquidCapacity": 0,
  "ambientSound": "grinding",
- "ambientSoundVolume": 0.25,
+ "ambientSoundVolume": 0.15,
 	"itemCapacity": 10,
 	"craftTime": 60,
  "craftEffect": {
