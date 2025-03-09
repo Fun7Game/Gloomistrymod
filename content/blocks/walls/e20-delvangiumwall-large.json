@@ -1,0 +1,13 @@
+{
+ "name": "Delvangium wall large", 
+ "description": "protects buildings from enemy projectiles.",
+ "type": "Wall",
+    "health": 5800,
+    "size": 2,
+  "buildCostMultiplier": 4.5,
+    category: defense
+requirements: [
+  delvangium/32
+]
+"research": "e19-delvangiumwall"
+}

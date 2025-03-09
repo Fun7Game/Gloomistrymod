@@ -1,0 +1,15 @@
+{
+ "name": "Kianit wall", 
+ "description": "protects buildings from enemy projectiles.",
+ "type": "Wall",
+    "health": 350,
+    "size": 1,
+    category: defense
+requirements: [
+  kianit/6
+]
+"research": "core-ottite",
+"researchCost": [
+  kianit/20
+]
+}

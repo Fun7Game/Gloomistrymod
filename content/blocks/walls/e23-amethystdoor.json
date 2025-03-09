@@ -1,0 +1,12 @@
+ "name": "Amethyst door", 
+ "description": "protects buildings from enemy projectiles. It works like a door and opens automatically if a unit passes by.",
+ "type": "AutoDoor",
+    "health": 1800,
+    "size": 2,
+    category: defense
+requirements: [
+  amethyst/16
+  kianit/16
+  tin/4
+]
+"research": "e16-amethystwall-large"

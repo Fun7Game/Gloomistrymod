@@ -1,0 +1,13 @@
+{
+ "name": "Large wall from upgraded escar", 
+ "description": "protects buildings from enemy projectiles, absorbs lasers and laser beams.",
+ "type": "Wall",
+   "absorbLasers": true,
+    "health": 4020,
+    "size": 2,
+    category: defense
+requirements: [
+  upgradedescar/16
+]
+"research": "e17-wallfromupgradedescar"
+}
