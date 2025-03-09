@@ -79,7 +79,7 @@
   ],
   coolantMultiplier: 6.25,
   "category": "turret",
-  "research": "core-ottite",
+  "research": "i11-core-ottite",
   "researchCost": [
    kianit/100
    tin/50
