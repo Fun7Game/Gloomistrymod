@@ -1,0 +1,45 @@
+Type: UnitAssembler
+name: Wayder assembler
+description: It builds from small spiders and metal schemes of spider 4 and 5 tier. Requires an ultragenion to work.
+health: 2750
+droneType: yellowdrone
+size: 5
+plans: [
+  {
+  unit: ripper-t4
+  requirements: [
+    gloomustry-wayder-t1/12
+    gloomustry-h26-metalschemeII/4
+    gloomustry-h25-metalschemeI/8
+  ]
+  time: 7200
+  }
+  {
+  unit: destroyer-t5
+  requirements: [
+    gloomustry-streder-t2/10
+    gloomustry-h27-metalschemeIII/4
+    gloomustry-h26-metalschemeII/16
+  ]
+  time: 16200
+  }
+]
+areaSize: 15
+dronesCreated: 4
+consumes: {
+power: 12
+  liquid: {
+    liquid: ultragenion
+    amount: 0.7
+  }
+}
+category: units
+research: h16-altetiverefabricator
+requirements: [
+  kianit/1175
+  tin/1175
+  escar/550
+  alganite/200
+  upgradedescar/125
+  delvangium/250
+]

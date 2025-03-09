@@ -1,0 +1,45 @@
+Type: UnitAssembler
+name: Kratose assembler
+description: It builds from small mechs and metal schemes of mechs 4 and 5 tier. Requires an ultragenion to work.
+health: 2750
+size: 5
+droneType: bluedrone
+plans: [
+  {
+  unit: atmose
+  requirements: [
+    gloomustry-kratose/12
+    gloomustry-h25-metalschemeI/12
+    gloomustry-h26-metalschemeII/2
+  ]
+  time: 6300
+  }
+  {
+  unit: paphose
+  requirements: [
+    gloomustry-infose/10
+    gloomustry-h26-metalschemeII/10
+    gloomustry-h27-metalschemeIII/4
+  ]
+  time: 14400
+  }
+]
+areaSize: 15
+dronesCreated: 4
+consumes: {
+power: 10
+  liquid: {
+    liquid: ultragenion
+    amount: 0.7
+  }
+}
+category: units
+research: h16-altetiverefabricator
+requirements: [
+  kianit/1050
+  tin/1050
+  escar/550
+  alganite/175
+  upgradedescar/125
+  delvangium/200
+]
