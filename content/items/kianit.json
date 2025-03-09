@@ -9,7 +9,7 @@ details: Although kyanite is a semi-precious stone in life, like amethyst, and n
   "radioactivity": 0,
   "charge": 0,
   "hardness": 1
-  "research": "core-ottite"
+  "research": "i11-core-ottite"
       hiddenOnPlanets: [
         "serpulo",
         "erekir"
