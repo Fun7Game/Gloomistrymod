@@ -1,0 +1,62 @@
+{
+"name": "Escar smelter",
+"description": "It produces escar from cinite and kianit.",
+"type": "GenericCrafter",
+"hasItems": true,
+"hasLiquid": false,
+"hasPower": true,
+"itemCapacity": 10,
+"liquidCapacity": 0,
+ "ambientSound": "smelter",
+ "ambientSoundVolume": 0.2,
+"size": 2,
+"craftTime": 60,
+"updateEffect": "none",
+"craftEffect": {
+              type: ParticleEffect
+              particles: 4
+              lifetime: 45
+              baseLength: 5
+              length: 8
+              sizeFrom: 4
+              sizeTo: 0
+              colorFrom: 8D8DE5FF
+              colorTo: D3D3FFFF
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: gloomustry-star
+},
+"drawer": {
+"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+  "type": "DrawFlame",
+  "flameRadius": 1.5,
+  "flameRadiusIn": 1,
+  "flameRadiusScl": 4,
+  "flameRadiusMag": 1,
+  "flameRadiusInMag": 0.66,
+	"flameColor": "9F9FF6FF"
+	  },
+   ],
+   },
+	"consumes": {
+  "power": 0.75,
+			"items": [
+               "kianit/1",
+               "cinite/2",
+     ]
+	},
+	"requirements": [
+        "kianit/85",
+        "tin/60",
+	],
+	"category": "crafting",
+	"outputItem": "escar/1",
+  "research": "g12-flintpress",
+ "researchCostMultiplier": 0.6
+}

@@ -1,0 +1,45 @@
+{
+"name": "Sand shredder",
+"description": "It splits large soils of sand and extracts pieces of cinite from them.",
+"type": "GenericCrafter",
+"hasItems": true,
+"hasLiquid": true,
+"hasPower": true,
+"itemCapacity": 10,
+"liquidCapacity": 20,
+"size": 2,
+"craftTime": 30,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 2
+      }
+    ]
+  },
+	"consumes": {
+  "power": 1.5,
+			"items": [
+               "sand/10"
+              ],
+     "liquids": [
+               "water/0.2"
+                ]
+	},
+	"requirements": [
+        "kianit/75",
+        "tin/50",
+        "escar/25",
+        "amethyst/45"
+	],
+"category": "crafting",
+outputItems: [
+cinite/2
+]
+"research": "g13-glassklin"
+}
