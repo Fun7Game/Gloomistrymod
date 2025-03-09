@@ -16,10 +16,6 @@
 "drawer": {
 	"type": "DrawMulti",
         "drawers": [
-      {
-       "type": "DrawRegion",
-       "suffix": "-bottom"
-     },
         {
          "type": "DrawFlame",
     "flameRadius": 1.8,
