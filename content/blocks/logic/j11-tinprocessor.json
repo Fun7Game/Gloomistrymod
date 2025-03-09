@@ -4,7 +4,7 @@
 "size": 1,
 "type": "LogicBlock",
 "instructionsPerTick": 4,
-"research": "core-ottite",
+"research": "i11-core-ottite",
 "category": "logic",
 "requirements": [
 tin/50
