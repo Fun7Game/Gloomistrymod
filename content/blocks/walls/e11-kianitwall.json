@@ -7,8 +7,8 @@
     category: defense
 requirements: [
   kianit/6
-]
-"research": "core-ottite",
+],
+"research": "i11-core-ottite",
 "researchCost": [
   kianit/20
 ]
