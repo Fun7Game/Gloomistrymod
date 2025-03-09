@@ -1,0 +1,14 @@
+name: Item unload
+description: Unloads the selected item from the rear block. It cannot unload from the cores.
+type: DirectionalUnloader
+health: 90
+speed: 3
+regionRotated: 1
+itemCapacity: 10
+requirements: [
+  kianit/12
+  escar/4
+  alganite/6
+] 
+category: effect
+research: c16-kianitbridge

@@ -1,0 +1,17 @@
+{
+"name": "Large warehouse",
+"description": "Stores a huge number of items. Does not increase the core capacity.",
+"type": "StorageBlock",
+"size": 3,
+"health": 1120,
+"coreMerge": false,
+"itemCapacity": 750,
+"research": "i14-warehouse",
+"category": "effect",
+"requirements": [
+  "kianit/250",
+  "tin/250",
+  "alganite/95",
+  "escar/45"
+]
+}

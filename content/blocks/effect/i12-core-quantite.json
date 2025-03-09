@@ -1,0 +1,22 @@
+"name": "Core: «Quantite»",
+  "description": "The second tier of the core. It is more armored and accommodates more resources.",
+ "type": "CoreBlock",
+	"health": 13500,
+	"size": 5,
+	"absorbLasers": true,
+  "armor": 4,
+	"itemCapacity": 6000,
+  "thrusterLength": 10.5,
+	"unitCapModifier": 16,
+    "unitType": "estrackt",
+requirements: [
+  kianit/3000
+  tin/3000
+  escar/1250
+  amethyst/250
+  soulofvictory/125
+  soulofdefeat/125
+]
+  "category": "effect",
+  "research": "i11-core-ottite",
+   researchCostMultiplier: 0.25

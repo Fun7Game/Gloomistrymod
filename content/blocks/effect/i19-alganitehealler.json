@@ -1,0 +1,66 @@
+{
+  "name": "Alganite healler",
+  "description": "Periodically repairs blocks in the immediate vicinity. A small amount of hallow liquid increases efficiency.",
+  "type": "RegenProjector",
+    "size": 2,
+    "health": 320,
+    "hasPower": true,
+    "baseColor": "C02E2EFF",
+    "phaseColor": "771818FF",
+    "healPercent": 0.08,
+    "phaseBoost": 6,
+    "range": 18,
+    optionalUseTime: 180,
+    optionalMultiplier: 2,
+    "reload": 250,
+    "phaseRangeBoost": 50,
+    "itemCapacity": 20,
+    "useTime": 500,
+    drawer: {
+      type: DrawMulti
+      drawers: [
+        {
+          type: DrawDefault
+        }
+        {
+          type: DrawPulseShape
+          square: true
+          color: B31111FF
+          layer: 110
+        }
+      ]
+    }
+    effect: {
+      type: ParticleEffect
+      colorFrom: FFC2C2FF
+      colorTo: FFC2C2FF
+      particles: 3
+      circle: true
+      length: 3
+      baseLength: 2
+      strokeFrom: 0.6
+      strokeTo: 1.6
+      lifetime: 90
+      cone: 360
+      interp: pow2
+      sizeInterp: pow2Out
+    } 
+    "consumes": {
+		"power": 4,
+		"liquids": {
+			"liquids": [
+				{"liquid": "hallowliquid", "amount": 0.2}
+			],
+			"booster": true,
+			"optional": true
+		}
+    },
+    "requirements": [
+		{"item": "kianit", "amount": 100},
+		{"item": "tin", "amount": 100},
+		{"item": "escar", "amount": 70},
+		{"item": "alganite", "amount": 40}
+    ],
+    "category": "effect",
+    "research": "i11-core-ottite"
+}
