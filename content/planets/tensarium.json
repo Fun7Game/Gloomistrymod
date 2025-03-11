@@ -1,0 +1,123 @@
+mesh: [
+  {
+      type: NoiseMesh
+      divisions: 6
+      radius: 0.85
+      seed: 246
+      color1: 26442DFF
+      color2: 26442DFF
+      octaves: 3.8
+      persistence: 2
+      scale: 3
+      mag: 0.95
+      thresh: 0.5
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.845
+    seed: 507
+    color1: 347544FF
+    color2: 347544FF
+    octaves: 1.6
+    persistence: 1
+    scale: 3
+    mag: 1.09
+    thresh: 0.2
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.758
+    seed: 435
+    color1: 4A5245FF
+    color2: 4A5245FF
+    octaves: 1.3
+    persistence: 1
+    scale: 2
+    mag: 1.6
+    thresh: 0.4
+  }
+  ]
+  cloudMesh: {
+    type: HexSkyMesh
+    planet: tensarium
+    seed: 472
+    speed: 2.8
+    radius: 0.1
+    divisions: 5
+    color: 629970B0
+    octaves: 1
+    persistence: 1
+    scl: 1
+    thresh: 0.55
+  }
+  generator: {
+    type: SerpuloPlanetGenerator
+    min: 2
+    max: 17
+    octaves: 1
+    persistence: 0.8
+    scale: 92.31
+    mag: 1.4
+    thresh: 0.79
+    foct: 3
+    fmag: 0.5
+    fscl: 50
+    fper: 0.6
+    radMin: 135
+    radMax: 380
+    stoneChance: 1
+    iceChance: 0
+  }
+  alwaysUnlocked: true
+  sectorSize: 2
+  orbitSpacing: 1
+  radius: 0.92
+  minZoom: 0.5
+  drawOrbit: true
+  prebuildBase: false
+  atmosphereRadIn: 0.0166666667
+  atmosphereRadOut: 0.25
+  accessible: true
+  startSector: 6
+  updateLighting: true
+  sectorSeed: 26
+  bloom: true
+  visible: true
+  atmosphereColor: 3E6146FF
+  allowSectorInvasion: false
+  iconColor: 347544FF
+  hasAtmosphere: true
+  allowWaveSimulation: false
+  allowLaunchToNumbered: false
+  clearSectorOnLose: true
+  allowWaves: true
+  defaultCore: i11-core-ottite
+  parent: sun
+  solarSystem: sun
+  showSpawns: true
+  hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+  ]
+  
