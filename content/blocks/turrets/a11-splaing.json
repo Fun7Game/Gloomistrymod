@@ -1,0 +1,87 @@
+{
+  "type": "ItemTurret",
+  "name": "Splaing",
+  "description": "Fires standard projectiles at ground and enemy targets at short range.",
+  "health": 850,
+  "reload": 30,
+  "shootSound": "gloomustrymodsmallshoot",
+  "outlineColor": "292323FF",
+  "range": 150,
+  "size": 2,
+"consumes": { 
+    "coolant": { 
+       "amount": 0.1 
+    } 
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 7.5
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "bullet-I": {
+      "speed": 4.5,
+      "ammoMultiplier": 1,
+      "ejectEffect": "casing1",
+      "frontColor": "F0F0F0FF",
+      "backColor": "DBDBDBFF",
+      "hitSize": 10,
+      "type": "BasicBulletType",
+      "width": 12,
+      "damage": 20,
+      "lifetime": 33,
+      "height": 12
+    },
+      "bullet-II": {
+      "speed": 5.85,
+      "ammoMultiplier": 3,
+      "frontColor": "FAF5FFFF",
+      "backColor": "D8B3FFFF",
+      "hitSize": 10,
+      "type": "BasicBulletType",
+      "width": 12,
+      "damage": 65,
+      "lifetime": 25.38,
+      "height": 12
+    },
+    "bullet-III": {
+      "speed": 5.85,
+      "ammoMultiplier": 4,
+      "frontColor": "FFFEF5FF",
+      "backColor": "FFFAB4FF",
+      "hitSize": 10,
+     "lightning": 4,
+     "lightningColor": "FFFEF5FF",
+     "lightningLengthRand": 1.8,
+     "lightningLength": 7,
+     "lightningDamage": 20,
+      "type": "BasicBulletType",
+      "width": 12,
+      "damage": 105,
+      "lifetime": 25.38,
+      "height": 12,
+      "hitSound": "spark"
+    },
+  },
+  "requirements": [
+    {
+      "item": "kianit",
+      "amount": 50
+    },
+    {
+      "item": "tin",
+      "amount": 25
+    }
+  ],
+  coolantMultiplier: 6.25,
+  "category": "turret",
+  "research": "i11-core-ottite",
+  "researchCost": [
+   kianit/100
+   tin/50
+]
+}

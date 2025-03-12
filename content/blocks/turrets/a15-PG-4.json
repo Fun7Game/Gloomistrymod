@@ -1,0 +1,69 @@
+{
+  "type": "PowerTurret",
+  "name": "PG-4",
+  "description": "Shoots piercing lasers at long range.",
+  "health": 775,
+  "reload": 135,
+  "shootSound": "gloomustrymodlasershoot",
+  "outlineColor": "292323FF",
+  "range": 440,
+  "size": 2,
+"consumes": { 
+  "power": 3.5,
+    "coolant": { 
+       "amount": 0.2
+    } 
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "firstShotDelay": 40,
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 7.5
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+ "shootType": {
+ "speed": 16,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "frontColor": "FFF0F0FF",
+      "backColor": "D4A2A2FF",
+      "width": 6,
+      "damage": 90,
+      "lifetime": 28,
+      "height": 24,
+      "pierce": true,
+      "pierceBuidung": false,
+      "pierceCap": 4,
+      "buildingDamageMultiplier": 0.15
+}
+  "requirements": [
+    {
+      "item": "kianit",
+      "amount": 95
+    },
+    {
+      "item": "tin",
+      "amount": 75
+    },
+    {
+      "item": "escar",
+      "amount": 50
+    },
+    {
+      "item": "flint",
+      "amount": 40
+    }
+  ],
+  coolantMultiplier: 3.125,
+ "category": "turret",
+ research: a11-splaing
+  "researchCost": [
+  kianit/1200
+  tin/700
+  escar/600
+  flint/300
+]
+}
