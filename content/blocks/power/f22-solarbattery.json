@@ -18,5 +18,9 @@
     },
   ],
   "category": "power",
-  "research": "i11-core-ottite"
+  "research": "i11-core-ottite",
+   "researchCost": [
+    tin/150
+    flint/100
+]
 }
