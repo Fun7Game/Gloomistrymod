@@ -54,7 +54,7 @@ bullet: {
  splashDamage: 162
  splashDamageRadius: 41
  width: 24
- pierceCap: 3
+ pierceCap: 4
  height: 24
  frontColor: D1F6FFFF
  backColor: 8AD0E2FF
