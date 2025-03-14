@@ -1,0 +1,139 @@
+{
+  "type": "ItemTurret",
+  "name": "Clafier",
+  "description": "Shoots two branching piercing projectiles at enemies at long range.",
+  "health": 3850,
+  "reload": 98,
+  "shootSound": "railgun",
+  "outlineColor": "292323FF",
+  "recoil": 1.5,
+  "rotateSpeed": 2.7,
+  "range": 395,
+  "size": 4,
+"consumes": { 
+    "coolant": { 
+       "amount": 0.5
+    } 
+    },
+  "shoot": {
+    "type": "ShootHelix",
+    "firstShotDelay": 30,
+    "shots": 2,
+    "scl": 1,
+    "mag": 4
+    },
+  "targetAir": true,
+  "targetGround": true,
+  "shake": 3,
+  "ammoTypes": {
+      "bullet-II": {
+      "speed": 12.27,
+      "ammoMultiplier": 2,
+      "frontColor": "FAF5FFFF",
+      "backColor": "D8B3FFFF",
+      "type": "BasicBulletType",
+      "width": 18,
+      "lifetime": 33,
+      "height": 18,
+      "damage": 190,
+      "pierceCap": 3,
+      "buildingDamageMultiplier": 0.5,
+      "trailChance": 1,
+      "trailEffect": {
+      "type": "ParticleEffect",
+      "particles": 1,
+      "length": 0,
+      "lifetime": 16,
+      "lightColor": "FAF5FFFF",
+      "colorFrom": "D8B3FFFF",
+      "colorTo": "FAF5FFFF",
+      "sizeFrom": 4,
+      "sizeTo": 0
+      },
+      "trailColor": "D8B3FFFF",
+      "trailLength": 6,
+      "trailWidth": 3,
+      "absorbable": false,
+      "fragBullets": 3,
+      "fragRandomSpread": 120,
+      "fragBullet": {
+      "type": "lightningBulletType",
+      "damage": 20,
+      "lightningLength": 5,
+      "lightningLengthRand": 4,
+      "lightningColor": "D8B3FFFF"
+      }
+    },
+    "bullet-III": {
+      "speed": 15.57,
+      "ammoMultiplier": 3,
+      "frontColor": "FFFEF5FF",
+      "backColor": "FFFAB4FF",
+      "type": "BasicBulletType",
+      "width": 18,
+      "lifetime": 26,
+      "height": 18,
+      "damage": 300,
+      "pierceCap": 5,
+      "buildingDamageMultiplier": 0.5,
+      "trailChance": 1,
+      "trailEffect": {
+      "type": "ParticleEffect",
+      "particles": 1,
+      "length": 0,
+      "lifetime": 16,
+      "lightColor": "FFFEF5FF",
+      "colorFrom": "FFFAB4FF",
+      "colorTo": "FFFEF5FF",
+      "sizeFrom": 5,
+      "sizeTo": 0
+  },
+  "trailColor": "FFFAB4FF",
+  "trailLength": 8,
+  "trailWidth": 3,
+  "absorbable": false,
+  "fragBullets": 3,
+      "fragRandomSpread": 120,
+      "fragBullet": {
+      "type": "lightningBulletType",
+      "damage": 30,
+      "lightningLength": 7,
+      "lightningLengthRand": 4,
+      "lightningColor": "FFFAB4FF"
+      }
+  }
+  },
+  drawer: {
+    type: DrawTurret
+    parts: [
+      {
+        type: RegionPart
+        suffix: -part1
+        mirror: false,
+        progress: warmup
+        moveX: 0
+        under: false
+        moveY: 0
+        moves: [
+               {
+            type: PartMove
+            progress: recoil
+            y: -2
+}
+]
+}
+]
+}
+  "requirements": [
+    kianit/625
+    tin/550
+    escar/225
+    amethyst/300
+    upgradedescar/50
+    soulofexcitement/35
+    soulofvictory/35
+  ],
+  "coolantMultiplier": 1,
+  "category": "turret",
+  "research": "a17-disgust"
+}
