@@ -3,7 +3,7 @@
   "description": "Shoots explosive grenades at medium range.",
   "health": 2400,
   "reload": 120,
-  "range": 250,
+  "range": 245,
   "size": 3,
   "outlineColor": "292323FF",
   "rotateSpeed": 2.75,
