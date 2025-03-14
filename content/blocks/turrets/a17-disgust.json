@@ -8,7 +8,7 @@
   "outlineColor": "292323FF",
   "rotateSpeed": 3.2,
   "velocityRnd": 0.15,
-  "range": 270,
+  "range": 278,
   "size": 3,
 "consumes": { 
     "coolant": { 
@@ -34,7 +34,7 @@
       "hitSize": 12,
       "type": "ArtilleryBulletType",
       "width": 12,
-      "lifetime": 90,
+      "lifetime": 96,
       "height": 14,
       "splashDamage": 105,
       "splashDamageRadius": 45,
@@ -67,7 +67,7 @@
       "hitSize": 12,
       "type": "ArtilleryBulletType",
       "width": 12,
-      "lifetime": 90,
+      "lifetime": 96,
       "height": 14,
       "splashDamage": 170,
       "splashDamageRadius": 52,
