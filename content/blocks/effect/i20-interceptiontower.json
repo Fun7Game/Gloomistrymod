@@ -1,0 +1,51 @@
+{
+  "type": "LaserTurret",
+  "name": "Interception tower",
+  "description": "Destroys enemy incoming missiles with his laser beam. It is also effective for destroying kamikazes.",
+  "health": 640,
+  "shootSound": "laserbig",
+  "shootY": 5,
+  "reload": 26,
+  "rotateSpeed": 9.5,
+  "firingMoveFract": 0.5,
+  "playerControllable": false,
+  "range": 105,
+  "shake": 0.1,
+  "size": 2,
+"consumes": { 
+  power: 2.67,
+"liquid": {
+	"liquid": "hallowliquid",
+	"optional": false,
+	"update": false,
+	"amount": 0.1
+	}
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": false,
+  "shootDuration": 150,
+  "shootType": {
+  "type": "ContinuousLaserBulletType",
+  "damage": 22,
+  "width": 4,
+  "length": 110,
+  "drawSize": 470,
+  "lifetime": 105,
+  "despawnEffect": "smokeCloud",
+  "smokeEffect": "smokeCloud",
+  "largeHit": true,
+  "collidesGround": false,
+  "colors":["3D6882FF", "6195B3FF", "7DB5D5FF", "FFFFFFFF"]
+}
+"requirements": [
+kianit/90
+tin/90
+escar/60
+alganite/20
+soulofcriminal/10
+soulofdefeat/10
+],
+  "category": "effect",
+  "research": "i19-alganitehealler",
+}
