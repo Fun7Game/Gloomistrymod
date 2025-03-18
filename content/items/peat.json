@@ -3,7 +3,7 @@ name: Peat
 description: It is used to create flint and Alganite.
   "cost": 0.6,
   "color": "362312",
-  "flammability": 0.8,
+  "flammability": 1,
   "explosiveness": 0,
   "radioactivity": 0,
   "charge": 0,
