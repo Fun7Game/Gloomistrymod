@@ -112,7 +112,11 @@ fragBullet: {
 ]
 "abilities": [
     {
-    "type": "mindustry.entities.abilities.ShieldRegenFieldAbility"
+    "type": "mindustry.entities.abilities.ShieldRegenFieldAbility",
+    reload: 300
+    range: 100
+    amount: 20
+    max: 200
     }
 ]
 research: defose
