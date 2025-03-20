@@ -16,7 +16,7 @@
   },
   "shoot": {
     "type": "ShootAlternate",
-    "firstShotDelay": 40,
+    "firstShotDelay": 35,
     "shots": 1,
     "spread": 0,
     "shotDelay": 7.5
@@ -37,7 +37,17 @@
       "pierce": true,
       "pierceBuidung": false,
       "pierceCap": 4,
-      "buildingDamageMultiplier": 0.15
+      "buildingDamageMultiplier": 0.15,
+     "chargeEffect": {
+        "type": "WaveEffect",
+        "colorFrom": "FFF0F0FF",
+        "colorTo": "D4A2A2FF",
+        "sizeFrom": 25,
+        "sizeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 1,
+        "lifetime": 36
+}
 }
   "requirements": [
     {
