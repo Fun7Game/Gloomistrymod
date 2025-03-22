@@ -1,0 +1,176 @@
+{
+  "type": "ItemTurret",
+  "name": "Spreader",
+  "description": "Shoot pieces of items at enemies.",
+  "health": 975,
+  "reload": 8.56,
+  "shootSound": "shootAltLong",
+  "outlineColor": "292323FF",
+  "range": 210,
+  "size": 2,
+"consumes": { 
+    "coolant": { 
+       "amount": 0.2
+    } 
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 1,
+    "spread": 0,
+    "shotDelay": 7.5
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "sand": {
+      "speed": 5.9,
+      "ammoMultiplier": 2,
+      "frontColor": "E8CEAEFF",
+      "backColor": "E8CEAEFF",
+      "type": "BasicBulletType",
+      "width": 8,
+      "damage": 12,
+      "lifetime": 37,
+      "height": 8,
+      "trailColor": "E8CEAEFF",
+      "trailLength": 3,
+      "trailWidth": 1.8,
+      "absorbable": false
+  },
+  "kianit": {
+    "speed": 5.9,
+    "ammoMultiplier": 4,
+    "frontColor": "8F8F8FFF",
+    "backColor": "8F8F8FFF",
+    "type": "BasicBulletType",
+    "width": 10,
+    "damage": 16,
+    "lifetime": 37,
+    "height": 10,
+    "trailColor": "8F8F8FFF",
+    "trailLength": 3,
+    "trailWidth": 2,
+    "absorbable": false
+},
+"tin": {
+  "speed": 5.9,
+  "ammoMultiplier": 4,
+  "frontColor": "B2B29EFF",
+  "backColor": "B2B29EFF",
+  "type": "BasicBulletType",
+  "width": 10,
+  "damage": 22,
+  "reloadMultiplier": 0.8,
+  "lifetime": 37,
+  "height": 10,
+  "trailColor": "B2B29EFF",
+  "trailLength": 3,
+  "trailWidth": 2,
+  "absorbable": false
+},
+"cinite": {
+  "speed": 6.6,
+  "ammoMultiplier": 7,
+  "frontColor": "9393E2FF",
+  "backColor": "9393E2FF",
+  "type": "BasicBulletType",
+  "width": 10,
+  "damage": 25,
+  "lifetime": 33.07,
+  "height": 10,
+  "trailColor": "9393E2FF",
+  "trailLength": 3,
+  "trailWidth": 2,
+  "absorbable": false
+},
+"amethyst": {
+  "speed": 5.9,
+  "ammoMultiplier": 6,
+  "frontColor": "B28FD8FF",
+  "backColor": "B28FD8FF",
+  "type": "BasicBulletType",
+  "width": 10,
+  "damage": 26,
+  "lifetime": 37,
+  "height": 10,
+  "trailColor": "B28FD8FF",
+  "trailLength": 3,
+  "trailWidth": 2,
+  "absorbable": false,
+  "fragBullets": 3,
+  "fragLifeMin": 0.75,
+  "fragRandomSpread": 360,
+  "fragBullet": {
+    "speed": 3,
+    "frontColor": "B28FD8FF",
+    "backColor": "B28FD8FF",
+    "type": "BasicBulletType",
+    "width": 6,
+    "damage": 12,
+    "lifetime": 12,
+    "height": 6,
+    "trailColor": "B28FD8FF",
+    "trailLength": 2.3,
+    "trailWidth": 1.5,
+    "absorbable": false
+}
+}
+}
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -part1
+      mirror: false,
+      progress: warmup
+      moveX: 0
+      under: true
+      moveY: 0
+      moveRot: 5
+      moves: [
+             {
+          type: PartMove
+          progress: recoil
+          y: -2 
+}
+]
+}
+{
+  type: RegionPart
+  suffix: -part2
+  mirror: false,
+  progress: warmup
+  moveX: 0
+  under: true
+  moveY: 0
+  moveRot: -5
+  moves: [
+         {
+      type: PartMove
+      progress: recoil
+      y: -2
+}
+]
+}
+]
+}
+  "requirements": [
+    {
+      "item": "kianit",
+      "amount": 60
+    },
+    {
+      "item": "tin",
+      "amount": 45
+    }
+    {
+      "item": "flint",
+      "amount": 20
+    }
+  ],
+  coolantMultiplier: 1.5625,
+  "category": "turret",
+  "research": "a11-splaing",
+}

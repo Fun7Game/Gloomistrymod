@@ -1,0 +1,70 @@
+  "type": "ItemTurret",
+  "name": "Coleidoscope",
+  "description": "Shoots piercing beams at enemies at a short distance.",
+  "health": 1950,
+  "reload": 150,
+  "range": 180,
+  "size": 3,
+  "rotateSpeed": 6.6,
+  "outlineColor": "292323FF",
+  "shake": 1,
+  "shootSound": "shotgun",
+  "ammoPerShot": 2,
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "shootCone": 334,
+  "recoil": 1
+  "shoot": {
+    "type": "ShootAlternate",
+    "firstShotDelay": 30,
+    "shots": 3,
+    "spread": 0,
+    "shotDelay": 8,
+  },
+  "ammoTypes": {
+  "amethyst": {
+            "type": "shrapnelBulletType",
+            "ammoMultiplier": 1,
+            "lifetime": 19,
+            "damage": 120,
+            "hitLarge": true,
+            "fromColor": "F6BAFFFF",
+            "toColor": "FAD8FFFF",
+            "length": 155,
+            "width": 14,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig"
+        }
+  "delvangium": {
+            "type": "shrapnelBulletType",
+            "ammoMultiplier": 1,
+            "lifetime": 19,
+            "damage": 200,
+            "hitLarge": true,
+            "fromColor": "9BD8AAFF",
+            "toColor": "D4F9DDFF",
+            "length": 170,
+            "width": 16,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig"
+        }
+        }
+"consumes": { 
+    "coolant": { 
+       "amount": 0.3
+    } 
+  },
+requirements: [
+kianit/175
+tin/175
+escar/100
+amethyst/75
+]
+coolantMultiplier: 1.5625
+category: turret
+research: a12-sawing
