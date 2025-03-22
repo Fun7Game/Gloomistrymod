@@ -34,7 +34,7 @@
 	"consumes": {
   "power": 5,
 			"items": [
-               "escar/2",
+               "escar/1",
                "soulofexcitement/1",
                "soulofdefeat/1"
      ]
