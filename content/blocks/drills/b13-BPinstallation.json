@@ -6,6 +6,7 @@
   "tier": 5,
   "hasPower": true,
   "hasLiquids": true,
+  "health": 1200,
   "hardnessDrillMultiplier": 0,
   "itemCapacity": 75,
   "shake": 7,
