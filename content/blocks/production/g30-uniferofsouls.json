@@ -4,7 +4,7 @@
 "type": "GenericCrafter",
 "hasItems": true,
 "hasLiquid": false,
-"health": 860,
+"health": 1600,
 "hasPower": true,
 "itemCapacity": 30,
 "liquidCapacity": 0,
