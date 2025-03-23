@@ -48,7 +48,7 @@
       "height": 40,
       "damage": 1850,
       "splashDamage": 4900,
-      "splashDamageRadius": 132,
+      "splashDamageRadius": 125,
       "buildingDamageMultiplier": 0.25,
       "explodeRange": 8.5,
       "hitSound": "plasmaboom",
