@@ -7,6 +7,7 @@
   "heatColor": 919191FF,
   "sparkColor": 919191FF,
   "hasLiquid": true,
+  "health": 950,
   "itemCapacity": 30,
   "hasPower": true,
   "heatPulse": 1
