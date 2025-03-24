@@ -1,0 +1,111 @@
+{
+  "type": "PowerTurret",
+  "name": "Darkness",
+  "description": "Shoots a large red laser.",
+  "health": 5750,
+  "reload": 180,
+  "recoil": 3,
+  "shootSound": "largeCannon",
+  "outlineColor": "292323FF",
+  "rotateSpeed": 2.4,
+  "range": 345,
+  "moveWhileCharging": false,
+  "size": 5,
+"consumes": { 
+    "power": 26,
+    "coolant": { 
+       "amount": 0.75
+    } 
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 1,
+    "spread": 0,
+    "firstShotDelay": 36,
+    "shootDelay": 0
+  },
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "shake": 5,
+  "chargeSound": "lasercharge2",
+  "shootType": {
+    "type": "LaserBulletType",
+   "damage": 1750,
+   "healPercent": 0,
+   "length": 330,
+   "collidesTeam": true,
+   "collidesTiles": true,
+   "collidesAir": true,
+   "colors": ["D4A2A2FF", "E9CECEFF", "FFFFFF"],
+   "chargeEffect": {
+    "type": "MultiEffect",
+  "effects": [
+  {
+    "type": "ParticleEffect",
+    "colorFrom": "D4A2A2FF",
+    "colorTo": "E9CECEFF",
+    "sizeFrom": 1,
+    "particles": 1,
+    "length": 0,
+    "sizeTo": 3,
+    "strokeFrom": 0,
+    "strokeTo": 3,
+    "lifetime": 36,
+    "interp": "pow4In",
+    "sizeInterp": "pow2Out" 
+  },
+  {
+    "type": "ParticleEffect",
+    "particles": 14,
+    "colorFrom": "D4A2A2FF",
+    "colorTo": "E9CECEFF",
+    "line": true,
+    "baseLength": -15,
+    "length": 15,
+    "sizeFrom": 4,
+    "sizeTo": 2,
+    "strokeFrom": 3,
+    "strokeTo": 1,
+    "lifetime": 36,
+    "interp": "pow4In",
+    "sizeInterp": "pow2Out" 
+}
+]
+}
+}
+"drawer": {
+  "type": "DrawTurret",
+  "parts": [
+    {
+      "type": "HaloPart",
+      "y": -21,
+      "x": 0,
+      "hollow": true,
+      "tringle": true,
+      "mirror": false,
+      "color": "D4A2A2FF",
+      "stroke": 0,
+      "strokeTo": 1.2,
+      "layer": 100,
+      "haloRotateSpeed": 0.8,
+      "haloRadius": 0,
+      "haloRadiusTo": 3
+}
+]
+}
+  "requirements": [
+    kianit/1200
+    tin/1200
+    flint/450
+    escar/350
+    alganite/175
+    upgradedescar/125
+    soulofcriminal/50
+    soulofvictory/50
+    delvangium/75
+  ],
+  coolantMultiplier: 0.375,
+  "category": "turret",
+  "research": "a19-diver"
+}
