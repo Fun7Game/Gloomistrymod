@@ -1,0 +1,53 @@
+{
+"name": "Escar charger",
+"description": "Combines escar with amethyst and charges it with soul.",
+"type": "GenericCrafter",
+"health": 560,
+"hasItems": true,
+"hasLiquid": false,
+"hasPower": true,
+"itemCapacity": 20,
+"liquidCapacity": 0,
+ "ambientSound": "smelter",
+ "ambientSoundVolume": 0.25,
+"size": 3,
+"craftTime": 120,
+"updateEffect": "none",
+"craftEffect": "none",
+"drawer": {
+"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+  "type": "DrawFlame",
+  "flameRadius": 2.5,
+  "flameRadiusIn": 1.6,
+  "flameRadiusScl": 7,
+  "flameRadiusMag": 1.6,
+  "flameRadiusInMag": 1.2,
+	"flameColor": "EEE891FF"
+        }
+],
+},
+	"consumes": {
+  "power": 5,
+			"items": [
+               "escar/1",
+               "amethyst/1",
+               "soulofexcitement/1"
+     ]
+	},
+	"requirements": [
+        "kianit/225",
+        "tin/200",
+        "escar/115",
+        "flint/95",
+        "soulofvictory/25",
+        "soulofexcitement/25"
+	],
+	"category": "crafting",
+	"outputItem": "upgradedescar/1",
+"research": "g14-escarsmelter"
+}
