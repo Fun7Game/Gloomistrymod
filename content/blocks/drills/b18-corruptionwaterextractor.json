@@ -1,0 +1,28 @@
+{	
+  "name": "Corruption water extractor",
+  "description": "Pumps corruption water out of the ground. It requires energy to work.",
+  "type": "Fracker",
+"size": 2,
+"hasPower": true,
+"displayEfficiencyScale": 4,
+"baseEfficiency": 0,
+"squareSprite": false,
+"minEfficiency": 1,
+"attribute": "corruption",
+"result": "corruptionwater",
+"hasItems": false,
+"hasLiquid": true,
+"liquidCapacity": 60,
+"updateEffect": "none",
+"consumes": {
+"power": 1
+	},
+	"requirements": [
+        "kianit/60",
+        "tin/60",
+        "escar/35",
+        "glass/45"
+	],
+	"category": "production",
+ "research": "g15-filter"
+}
