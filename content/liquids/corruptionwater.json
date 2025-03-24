@@ -4,7 +4,6 @@
 "temperature": 0.3,
 "flammability": 0,
 "viscosity": 0.5,
-"lightColor": "B288DFFF",
 "heatCapacity": 0,
 "explosiveness": 0.1,
 "effect": "status-corruptionwater",
