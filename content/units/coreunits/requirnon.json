@@ -6,7 +6,7 @@
  "accel": 0.1,
     "drag": 0.045,
     "flying": true,
-    "health": 725,
+    "health": 800,
     "hitSize": 16,
     "armor": 5,
     "itemCapacity": 70,
