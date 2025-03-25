@@ -6,6 +6,8 @@
   "tier": 2,
   "itemCapacity": 10,
   "liquidBoostIntensity": 1.4,
+  "ambientSound": "drill",
+  "ambientSoundVolume": 0.07,
   "drillTime": 310,
   "drawMineItem": true,
   "consumes": {
