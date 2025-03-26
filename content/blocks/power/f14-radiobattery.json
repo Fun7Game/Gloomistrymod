@@ -12,5 +12,13 @@
 		{"item": "flint", "amount": 15}
 	],
 	"consumes": { "powerBuffered": 2000 },
-	"research": "f11-energytower"
+"research": {
+"parent": "f11-energytower",
+"objectives": [
+{
+"type": "SectorComplete",
+"preset": "pacification"
+}
+]
+}
 }
