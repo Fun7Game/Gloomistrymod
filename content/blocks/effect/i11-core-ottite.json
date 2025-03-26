@@ -12,8 +12,8 @@
 	"unitCapModifier": 12,
     "unitType": "loto",
 requirements: [
-  kianit/1250
-  tin/1250
+  kianit/1750
+  tin/1750
 ]
   "category": "effect",
   research: {
