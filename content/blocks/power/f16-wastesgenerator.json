@@ -32,4 +32,12 @@ requirements: [
   kianit/10
   flint/10
 ]
-research: f11-energytower
+"research": {
+"parent": "f11-energytower",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "pacification"
+}
+]
+}
