@@ -1,7 +1,7 @@
 	"name": "Core: «Ottite»",
   "description": "The standard kernel stores a small amount of resources.",
   "type": "CoreBlock",
-	"health": 7500,
+	"health": 5000,
 	"size": 4,
 	"absorbLasers": false,
  "thrusterLength": 9.5,
