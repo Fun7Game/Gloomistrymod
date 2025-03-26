@@ -1,0 +1,10 @@
+"name": "Plan: lvl 3",
+"description": "It is used to land on certain campaign sectors. It contains information that is useful for completing the campaign. Just look at it!",
+"research": "plan2",
+"researchCost": [
+kianit/7250
+tin/7250
+escar/1250
+amethyst/900
+flint/900
+]

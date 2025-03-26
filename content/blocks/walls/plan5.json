@@ -1,0 +1,9 @@
+"name": "Plan: lvl 5",
+"description": "It is used to land on certain campaign sectors. It contains information that is useful for completing the campaign. Just look at it!",
+"research": "plan4",
+"researchCost": [
+escar/10750
+alganite/1750
+soulofexcitement/300
+soulofcriminal/300
+]
