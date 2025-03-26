@@ -56,5 +56,13 @@
 	],
 	"category": "crafting",
 	"outputItem": "glass/1",
- "research": "g12-flintpress"
+"research": {
+"parent": "g12-flintpress",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "pacification"
+}
+]
+}
 }
