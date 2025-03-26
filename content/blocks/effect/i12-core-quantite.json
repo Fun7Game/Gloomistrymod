@@ -1,7 +1,7 @@
 "name": "Core: «Quantite»",
   "description": "The second tier of the core. It is more armored and accommodates more resources.",
  "type": "CoreBlock",
-	"health": 13500,
+	"health": 11500,
 	"size": 5,
 	"absorbLasers": true,
   "armor": 4,
