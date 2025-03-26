@@ -4,7 +4,7 @@
 "parent": "i11-core-ottite",
 "objectives": [
 {
-"type": "OnSector",
+"type": "SectorComplete",
 "preset": "quietlane"
 }
 ]
