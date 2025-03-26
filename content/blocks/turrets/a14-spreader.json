@@ -159,7 +159,7 @@ drawer: {
   "requirements": [
     {
       "item": "kianit",
-      "amount": 60
+      "amount": 75
     },
     {
       "item": "tin",
