@@ -1,7 +1,7 @@
 "name": "Core: «Pirceptite»",
   "description": "The third tier of the core. It is very armored and stores quite a lot of resources in itself.",
  "type": "CoreBlock",
-	"health": 19500,
+	"health": 16000,
 	"size": 6,
 	"absorbLasers": true,
   "armor": 10,
