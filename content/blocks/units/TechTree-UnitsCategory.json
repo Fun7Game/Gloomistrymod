@@ -1,2 +1,10 @@
 name: Tech tree - Units
-research: i11-core-ottite
+"research": {
+"parent": "i11-core-ottite",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "quietlane"
+}
+]
+}
