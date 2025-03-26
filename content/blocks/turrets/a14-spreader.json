@@ -172,5 +172,14 @@ drawer: {
   ],
   coolantMultiplier: 1.5625,
   "category": "turret",
-  "research": "a11-splaing",
+"research": {
+"parent": "a11-splaing",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "pacification"
+}
+]
+}
+}
 }
