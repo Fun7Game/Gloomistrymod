@@ -167,7 +167,7 @@ drawer: {
     }
     {
       "item": "flint",
-      "amount": 20
+      "amount": 25
     }
   ],
   coolantMultiplier: 1.5625,
