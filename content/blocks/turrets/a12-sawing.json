@@ -88,6 +88,14 @@
   ],
   coolantMultiplier: 5,
   "category": "turret",
-  research: a11-splaing
+  "research": {
+"parent": "a11-splaing",
+"objectives": [
+{
+"type": "SectorComplete",
+"preset": "quietlane"
+}
+]
+}
 researchCostMultiplier: 0.5
 }
