@@ -57,6 +57,14 @@
 	],
 	"category": "crafting",
 	"outputItem": "escar/1",
-  "research": "g12-flintpress",
+"research": {
+"parent": "g12-flintpress",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "thelandingsite"
+}
+]
+},
  "researchCostMultiplier": 0.6
 }
