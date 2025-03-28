@@ -21,5 +21,13 @@
 	],
 	"category": "crafting",
 	"outputLiquid": "water/0.05",
- "research": "g13-glassklin"
+"research": {
+"parent": "g13-glassklin",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "thelandingsite"
+}
+]
+}
 }
