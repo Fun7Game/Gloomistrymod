@@ -23,5 +23,9 @@
 ],
 "category": "units",
 research: TechTree-UnitsCategory
-"researchCostMultiplier": 0.5
+"researchCost": [
+kianit/250
+tin/250
+escar/100
+]
 }
