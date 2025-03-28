@@ -69,7 +69,15 @@
   ],
   coolantMultiplier: 2.34375,
  "category": "turret",
- research: a11-splaing
+"research": {
+"parent": "a11-splaing",
+"objectives": [
+{
+"type": "SectorComplete",
+"preset": "thelandingsite"
+}
+]
+}
   "researchCost": [
   kianit/1200
   tin/700
