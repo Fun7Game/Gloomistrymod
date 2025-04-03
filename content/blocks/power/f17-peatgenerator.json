@@ -37,4 +37,12 @@ requirements: [
   flint/35
   escar/20
 ]
-research: f16-wastesgenerator
+"research": {
+"parent": "f16-wastesgenerator",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "tinfields"
+}
+]
+}
