@@ -48,5 +48,13 @@
     }
   ],
   "category": "production",
-  "research": "b11-kianitdrill"
+"research": {
+"parent": "b11-kianitdrill",
+"objectives": [
+{
+"type": "OnSector",
+"preset": "tinfields"
+}
+]
+}
 }
