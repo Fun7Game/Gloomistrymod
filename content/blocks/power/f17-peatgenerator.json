@@ -8,7 +8,7 @@ liquidCapacity: 0
 itemCapacity: 10
 ambientSound: smelter
 ambientSoundVolume: 0.25
-itemDuration: 150,
+itemDuration: 120,
 baseExplosiveness: 0
 "drawer": {
     "type": "DrawMulti",
