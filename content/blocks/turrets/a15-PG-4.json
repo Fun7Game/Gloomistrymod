@@ -6,7 +6,7 @@
   "reload": 135,
   "shootSound": "gloomustrymodlasershoot",
   "outlineColor": "292323FF",
-  "range": 440,
+  "range": 390,
   "size": 2,
 "consumes": { 
   "power": 3.5,
@@ -25,7 +25,7 @@
   "targetAir": true,
   "targetGround": true,
  "shootType": {
- "speed": 16,
+ "speed": 14.2,
       "hitSize": 8,
       "type": "BasicBulletType",
       "frontColor": "FFF0F0FF",
