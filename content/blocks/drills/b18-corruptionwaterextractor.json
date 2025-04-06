@@ -24,5 +24,13 @@
         "glass/45"
 	],
 	"category": "production",
- "research": "g15-filter"
+"research": {
+"parent": "g15-filter",
+"objectives": [
+{
+"type": "SectorComplete",
+"preset": "corruptioncliffs"
+}
+]
+}
 }
