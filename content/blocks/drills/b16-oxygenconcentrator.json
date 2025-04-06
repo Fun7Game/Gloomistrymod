@@ -46,7 +46,7 @@
 		"liquids": {
 			"liquids": [
                "atmosphericair/1",
-               "water/0.1",
+               "water/0.2",
 			]
 	},
 	},
