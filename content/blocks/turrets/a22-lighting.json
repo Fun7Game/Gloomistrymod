@@ -1,0 +1,252 @@
+{
+  "type": "ItemTurret",
+  "name": "Lightning",
+  "description": "Shoots three pulsating projectiles at a very long range, emitting a laser after a collision.",
+  "health": 5400,
+  "reload": 120,
+  "shootSound": "plasmaboom",
+  "outlineColor": "292323FF",
+  "rotateSpeed": 2.6,
+  "range": 540,
+  "recoil": 1.5,
+  "size": 5,
+"consumes": { 
+    "coolant": { 
+       "amount": 0.75
+  } 
+  },
+  "shoot": {
+    "type": "ShootPattern",
+    "firstShotDelay": 90,
+    "shots": 3,
+    "spread": 0,
+    "shotDelay": 10
+    },
+  "inaccuracy": 13,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+      "bullet-II": {
+      "speed": 10.42,
+      "weaveMag": 1,
+      "weaveScale": 6,
+      "ammoMultiplier": 1,
+      "frontColor": "FAF5FFFF",
+      "backColor": "D8B3FFFF",
+      "type": "BasicBulletType",
+      "width": 20,
+      "lifetime": 52,
+      "height": 20,
+      "hitSound": "laser",
+      "buildingDamageMultiplier": 0.5,
+        "trailColor": "D8B3FFFF",
+        "damage": 275,
+        "trailLength": 7,
+        "trailWidth": 5,
+        "absorbable": false,
+        "lightColor": "FAF5FFFF",
+        "homingRange": 150,
+        "homingPower": 0.13,
+        "homingDelay": 16,
+        "fragBullets": 1,
+        "fragRandomSpread": 0,
+        "fragBullet": {
+  "type": "LaserBulletType",
+	"damage": 175,
+	"length": 210,
+	"collidesTeam": true,
+	"collidesTiles": true,
+	"collidesAir": true,
+  "buildingDamageMultiplier": 0.25,
+	"colors": ["D8B3FFFF", "FAF5FFFF", "FFFFFFFF"],
+    },
+    "intervalBullets": 1,
+    "bulletInterval": 2,
+    "intervalBullet": {
+"type": "ArtilleryBulletType",
+"width": 10,
+"height": 10,
+"splashDamage": 40,
+"splashDamageRadius": 21,
+"speed": 0,
+"lifetime": 1,
+"frontColor": "FAF5FFFF",
+"backColor": "D8B3FFFF",
+"hitSound": "explosion",
+"collides": false,
+"collidesTiles": false,
+"explodeRange": 1,
+"buildingDamageMultiplier": 0.5
+}
+},
+  "bullet-III": {
+    "speed": 15.05,
+    "weaveMag": 1,
+    "weaveScale": 6,
+    "ammoMultiplier": 2,
+    "frontColor": "FFFEF5FF",
+    "backColor": "FFFAB4FF",
+    "type": "BasicBulletType",
+    "width": 20,
+    "lifetime": 36,
+    "height": 20,
+    "hitSound": "laser",
+    "buildingDamageMultiplier": 0.5,
+      "trailColor": "FFFAB4FF",
+      "damage": 450,
+      "trailLength": 8,
+      "trailWidth": 5,
+      "absorbable": false,
+      "lightColor": "FFFEF5FF",
+      "homingRange": 170,
+      "homingPower": 0.13,
+      "homingDelay": 11,
+      "fragBullets": 1,
+      "fragRandomSpread": 0,
+      "fragBullet": {
+"type": "LaserBulletType",
+"damage": 245,
+"length": 230,
+"collidesTeam": true,
+"collidesTiles": true,
+"collidesAir": true,
+"buildingDamageMultiplier": 0.25,
+"colors": ["FFFAB4FF", "FFFEF5FF", "FFFFFFFF"],
+  },
+  "intervalBullets": 1,
+  "bulletInterval": 2,
+  "intervalBullet": {
+"type": "ArtilleryBulletType",
+"width": 10,
+"height": 10,
+"splashDamage": 65,
+"splashDamageRadius": 26,
+"speed": 0,
+"lifetime": 1,
+"frontColor": "FFFEF5FF",
+"backColor": "FFFAB4FF",
+"hitSound": "explosion",
+"collides": false,
+"collidesTiles": false,
+"explodeRange": 1,
+"buildingDamageMultiplier": 0.5
+}
+}
+}
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      "type": "RegionPart",
+      "suffix": "-part1",
+      "mirror": false,
+      "progress": "warmup",
+      "moveX": -3.75,
+      "under": false,
+      "moveY": 0,
+      "moves": [
+             {
+          "type": "PartMove",
+          "progress": "recoil",
+          "y": -4
+}
+]
+}
+{
+  "type": "RegionPart",
+  "suffix": "-part2",
+  "mirror": false,
+  "progress": "warmup",
+  "moveX": 3.75,
+  "under": false,
+  "moveY": 0,
+  "moves": [
+         {
+      "type": "PartMove",
+      "progress": "recoil",
+      "y": -4
+}
+]
+}
+{
+  "type": "ShapePart",
+  "y": -2.25,
+  "x": 0,
+  "sides": 4,
+  "hollow": true,
+  "stroke": 0,
+  "strokeTo": 0.5,
+  "color": "FFFAB4FF",
+  "radius": 2.7,
+  "rotateSpeed": 0.5,
+  "layer": 100
+}
+{
+  "type": "ShapePart",
+  "y": -2.25,
+  "x": 0,
+  "sides": 4,
+  "hollow": true,
+  "stroke": 0,
+  "strokeTo": 0.3,
+  "color": "FFFAB4FF",
+  "radius": 1.65,
+  "rotateSpeed": -0.5,
+  "layer": 100
+}
+{
+  "type": "ShapePart",
+  "y": -25,
+  "x": 0,
+  "sides": 6,
+  "hollow": true,
+  "rotateSpeed": 0,
+  "stroke": 0,
+  "strokeTo": 0.5,
+  "color": "FFFAB4FF",
+  "radius": 4.5,
+  "layer": 100
+}
+{
+  "type": "ShapePart",
+  "y": -25,
+  "x": 0,
+  "sides": 3,
+  "hollow": true,
+  "rotateSpeed": -1,
+  "stroke": 0,
+  "strokeTo": 0.3,
+  "color": "FFFAB4FF",
+  "radius": 4,
+  "layer": 100
+}
+{
+  "type": "ShapePart",
+  "y": -25,
+  "x": 0,
+  "sides": 3,
+  "hollow": true,
+  "rotateSpeed": 1,
+  "stroke": 0,
+  "strokeTo": 0.3,
+  "color": "FFFAB4FF",
+  "radius": 4,
+  "layer": 100
+}
+]
+}
+  "requirements": [
+    kianit/1250
+    tin/1250
+    flint/450
+    escar/350
+    amethyst/350
+    upgradedescar/125
+    soulofexcitement/50
+    soulofdefeat/50
+    delvangium/75
+  ],
+ coolantMultiplier: 0.375,
+ category: turret
+ research: a18-grenande
+}
