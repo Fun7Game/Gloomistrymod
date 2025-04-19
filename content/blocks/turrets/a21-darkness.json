@@ -37,6 +37,7 @@
    "collidesTeam": true,
    "collidesTiles": true,
    "collidesAir": true,
+   "buildingDamageMultiplier": 0.25,
    "colors": ["D4A2A2FF", "E9CECEFF", "FFFFFF"],
    "chargeEffect": {
     "type": "MultiEffect",
